@@ -1,20 +1,22 @@
 ## READ IN DATA ####
-# Initial data
+# Get file names
 names = sub(".TextGrid", "", list.files("data/textgrids"))
-  
+
+# Read in data and add names  
 data = list.files("data/textfiles", full.names = T) %>%
   map(read.table, header = T, sep = "\t", quote = "", fileEncoding = "utf-16be") %>%
   map2(names, function(df, names) df %>%
          mutate(file = names)) %>%
   bind_rows()
 
-# Clean up data
+
+## CLEAN DATA ####
 data_clean = data %>%
   separate(tier, into = c("pair", "speaker", "language")) %>%
   mutate(conversation = substr(file, 4, 6))
 
 
-## SPLIT DATA BY LANGAUGE AND GET WORDS ####
+## GET WORD COUNTS FOR EACH LANGUAGE ####
 # English
 data_eng_clean = data_clean %>%
   filter(language == "eng") %>%

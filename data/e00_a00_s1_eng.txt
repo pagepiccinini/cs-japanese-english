@@ -1,0 +1,91 @@
+tier	utterance	duration_s
+e00_a00_s1_eng	but you know all these things <laugh> already <laugh>	3.3594297390663392
+e00_a00_s1_eng	talk to each other about your experiences abroad in Japan and in Japan	4.874736527901099
+e00_a00_s1_eng	okay	0.6641270535128996
+e00_a00_s1_eng	should I talk louder	0.8500826284965086
+e00_a00_s1_eng	okay	0.7749550132251102
+e00_a00_s1_eng	okay I'll just ask you questions then	2.072076385898548
+e00_a00_s1_eng	at what age and for how long	1.9658160584165714
+e00_a00_s1_eng	you lived abroad	1.0626032748197716
+e00_a00_s1_eng	you moved back	0.8500826025744246
+e00_a00_s1_eng	and you came back in like	1.354819147852993
+e00_a00_s1_eng	when you were ten	0.8766476839048707
+e00_a00_s1_eng	twelve	0.610996870600367
+e00_a00_s1_eng	I went there when I was three and I came back in	2.87965800800049
+e00_a00_s1_eng	I was in New Jersey the whole time	1.5407746701823726
+e00_a00_s1_eng	I didn't know you were in Kentucky	1.341536566279487
+e00_a00_s1_eng	I only knew that you were in Indiana	1.9193269115253173
+e00_a00_s1_eng	okay that's interesting <laugh>	2.8363309170799766
+e00_a00_s1_eng	<cough>	0.42504127968547323
+e00_a00_s1_eng	because of my dad	0.6641269590053014
+e00_a00_s1_eng	he lived in Manhattan	1.2485586829299535
+e00_a00_s1_eng	you know like we didn't really wanna live in the urban places	3.1878094032254296
+e00_a00_s1_eng	so we just stayed	1.1821459870294433
+e00_a00_s1_eng	in like a very suburb	1.1461378043140371
+e00_a00_s1_eng	place	0.44496506253354084
+e00_a00_s1_eng	in New Jersey	0.7706044759071773
+e00_a00_s1_eng	okay	0.6109690279848792
+e00_a00_s1_eng	experience you think are unique to living abroad	3.3030385487528235
+e00_a00_s1_eng	SAT prep	0.8220133849946762
+e00_a00_s1_eng	so you	0.5925765848602111
+e00_a00_s1_eng	AP calculus	1.1351360943526174
+e00_a00_s1_eng	can we talk about Jinjin's hair <laugh>	1.5208503032773422
+e00_a00_s1_eng	<laugh>	0.2258031339292188
+e00_a00_s1_eng	mm	0.6043553606910166
+e00_a00_s1_eng	um things you prefer abroad in Japan	2.445439312490322
+e00_a00_s1_eng	are they looking at the context of what we're talking about	2.571615517351205
+e00_a00_s1_eng	oh they probably heard they- n-	1.4411295184304436
+e00_a00_s1_eng	then can we talk about Jinjin's hair	1.2817647703092803
+e00_a00_s1_eng	I don't know	0.5180189227156689
+e00_a00_s1_eng	cool <laugh>	0.815595112276668
+e00_a00_s1_eng	<laugh>	0.2855745343175897
+e00_a00_s1_eng	I went to	0.579518312101925
+e00_a00_s1_eng	like just for a year and a half	1.514209158707331
+e00_a00_s1_eng	in Japan	0.6184714961480609
+e00_a00_s1_eng	experiences you think are unique to coming back to	3.247610022544876
+e00_a00_s1_eng	the scrimidge room	0.9839379056255098
+e00_a00_s1_eng	when coming back	1.0521595466959752
+e00_a00_s1_eng	like	0.33767265132848934
+e00_a00_s1_eng	what is that what is that in English	1.514208481492858
+e00_a00_s1_eng	oh like physics	1.5482496121139775
+e00_a00_s1_eng	I don't know	0.6375614658917357
+e00_a00_s1_eng	like	0.2523680802488002
+e00_a00_s1_eng	I don't much about theories and i- I feel so dumb talking about how I don't know all these things in front of like <breath> graduate students <breath> okay <laugh>	8.882678980468484
+e00_a00_s1_eng	<breath> um experience	2.2978777833181425
+e00_a00_s1_eng	things you prefer abroad	2.4322981696173542
+e00_a00_s1_eng	the food	1.0626337354990483
+e00_a00_s1_eng	I like poptarts	1.0739087059665735
+e00_a00_s1_eng	I don't like Japan	1.093351766705041
+e00_a00_s1_eng	can you actually cook in your house	1.3813831760987796
+e00_a00_s1_eng	right now	0.4513432898916676
+e00_a00_s1_eng	do you want to make rainbow ca- cakes real soon	2.55066204487224
+e00_a00_s1_eng	the oven broke	1.2364699097072958
+e00_a00_s1_eng	microwave	0.6733786848072327
+e00_a00_s1_eng	and I also have a toaster	1.4323791157169126
+e00_a00_s1_eng	mm	0.41018363002308433
+e00_a00_s1_eng	things I prefer about Japan	1.9316013019349043
+e00_a00_s1_eng	the transportation's easy you don't have to get your mom to be driving you around places	4.386261287623768
+e00_a00_s1_eng	mm	0.29221561246225747
+e00_a00_s1_eng	I miss your mom	1.2117913832199179
+e00_a00_s1_eng	I know I heard	1.0173204858114104
+e00_a00_s1_eng	your brother's in Indiana now	1.4212304787938024
+e00_a00_s1_eng	hey can I go visit your grandma	1.4212304787937455
+e00_a00_s1_eng	<laugh> I was gonna say something inappropriate sorry <laugh>	2.1777785120156636
+e00_a00_s1_eng	everything's safe	1.1711475966808962
+e00_a00_s1_eng	everything's legal not legal I mean like	4.047530295955369
+e00_a00_s1_eng	there are rules to everything and rules makes everything easier	3.2914335112784556
+e00_a00_s1_eng	I want to talk about Jinjin's hair	1.3016877282410064
+e00_a00_s1_eng	she looks like a guy she's so buff right now	3.4278398270574826
+e00_a00_s1_eng	and she thought she was a guy	1.4193197278912066
+e00_a00_s1_eng	for which which country	1.5341316535518672
+e00_a00_s1_eng	it's like a rental and you have to like get like a book sock	2.923206568886485
+e00_a00_s1_eng	staples	0.5241504838354558
+e00_a00_s1_eng	well like that's a waste of money	1.8909695732763794
+e00_a00_s1_eng	a- and taxes and shit	2.255242780505341
+e00_a00_s1_eng	how's your boyfriend	0.7703864580606705
+e00_a00_s1_eng	how's your boyfriend <laugh>	0.8766466591724793
+e00_a00_s1_eng	oh <laugh>	0.292215553057531
+e00_a00_s1_eng	<gasp>	0.7305388826437138
+e00_a00_s1_eng	why	0.7267566938918435
+e00_a00_s1_eng	the star spangled banner	1.391744590363146
+e00_a00_s1_eng	okay	0.3453456536134354

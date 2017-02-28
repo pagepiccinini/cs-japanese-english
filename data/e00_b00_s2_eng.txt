@@ -1,0 +1,55 @@
+tier	utterance	duration_s
+e00_b00_s2_eng	talk to each other about your favorite TV show	2.221863412055763
+e00_b00_s2_eng	I watch the news everyday	1.3119230718320187
+e00_b00_s2_eng	<laugh>	0.37298056250852696
+e00_b00_s2_eng	you actually walk around	1.213248704152221
+e00_b00_s2_eng	oh	0.3387045883593345
+e00_b00_s2_eng	uhuh	0.3387045883593345
+e00_b00_s2_eng	ahh	0.47152991712769676
+e00_b00_s2_eng	that's pretty dumb	1.1726182476648859
+e00_b00_s2_eng	you have Netflix	1.049320055161985
+e00_b00_s2_eng	yeah	0.2656506468764519
+e00_b00_s2_eng	you know Family Guy	0.7969519406293557
+e00_b00_s2_eng	<laugh>	0.557866358440549
+e00_b00_s2_eng	you know how I like	1.1277400811436848
+e00_b00_s2_eng	<laugh> I went I w- you know how I went to the United States like back last year and I stayed at my friend's house and they had Net- Netflix	7.40485803914612
+e00_b00_s2_eng	and we were watching Family Guy and I didn't know what it was at first but then it was like	4.25360376104905
+e00_b00_s2_eng	it was inappropriate and there was like blood everywhere and they talk about sex all the time	6.596831634729455
+e00_b00_s2_eng	<laugh>	0.5379425599248293
+e00_b00_s2_eng	<gasp>	0.38519343797085526
+e00_b00_s2_eng	probably <laugh>	1.1622215800844629
+e00_b00_s2_eng	really	0.39183470414278077
+e00_b00_s2_eng	<laugh>	0.2457268483607038
+e00_b00_s2_eng	<gasp>	0.17267292046969374
+e00_b00_s2_eng	Cartoon Network	0.9708843537414964
+e00_b00_s2_eng	oh I watched the Food Network Food Channel	2.0317448587857143
+e00_b00_s2_eng	I loved the Food Network Food Channel	1.5513763753500598
+e00_b00_s2_eng	extreme	0.6907946393852171
+e00_b00_s2_eng	extreme	0.43827664399088917
+e00_b00_s2_eng	uhuh what's the g- what's the point	1.6558735261961033
+e00_b00_s2_eng	scream	0.3519870364869462
+e00_b00_s2_eng	<laugh>	0.44496474423817745
+e00_b00_s2_eng	superbowl	0.44882704691815434
+e00_b00_s2_eng	we had no idea what football was but yeah we watched it anyway and we were like woo everything	5.265521165416203
+e00_b00_s2_eng	Payton Manning	0.7314183087808033
+e00_b00_s2_eng	n-	0.2191617396994161
+e00_b00_s2_eng	oh yeah	0.6922402903885541
+e00_b00_s2_eng	Fruit Loops	0.5777900410257644
+e00_b00_s2_eng	Fruit Loops and Lucky Charms	1.4512365138131713
+e00_b00_s2_eng	<laugh>	0.5047361277926257
+e00_b00_s2_eng	commercials	0.7343310657596476
+e00_b00_s2_eng	studying	0.7854473321067417
+e00_b00_s2_eng	what	0.7637454565282837
+e00_b00_s2_eng	staff	0.36467197562092224
+e00_b00_s2_eng	TV show	0.6516050199491019
+e00_b00_s2_eng	yeah	0.35862825815218
+e00_b00_s2_eng	favorite TV show	1.2523380543773328
+e00_b00_s2_eng	the Weather Channel	0.5755247306633464
+e00_b00_s2_eng	yeah we would keep it on when it snowed	2.378593725762812
+e00_b00_s2_eng	we would we kept it on	1.3917501564059194
+e00_b00_s2_eng	when it snowed	0.8518846705176202
+e00_b00_s2_eng	like all the closed schools	1.8314742250627205
+e00_b00_s2_eng	would come across the screen and when we found our school we were like yay we have we don't have school tomorrow yeah	5.839120312912428
+e00_b00_s2_eng	you know Totally Spies	1.6703838087435088
+e00_b00_s2_eng	I loved that show	1.1711460517713022
+e00_b00_s2_eng	Alex	0.48481227490947276

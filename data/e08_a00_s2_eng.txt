@@ -1,0 +1,10 @@
+tier	utterance	duration_s
+e08_a00_s2_eng	mmhm	0.49171250723798465
+e08_a00_s2_eng	hm hm hm	0.9483026925304046
+e08_a00_s2_eng	okay <laugh>	1.2468424290677547
+e08_a00_s2_eng	<laugh>	1.475137521713961
+e08_a00_s2_eng	it's a good thing okay	1.2819647510133194
+e08_a00_s2_eng	for way	0.40390670237405857
+e08_a00_s2_eng	why does Japanese people have backpacks on their kimonos	2.757102272727309
+e08_a00_s2_eng	backpack	0.44780960480602516
+e08_a00_s2_eng	no actually	0.6761046974522174

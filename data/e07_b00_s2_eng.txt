@@ -1,0 +1,20 @@
+tier	utterance	duration_s
+e07_b00_s2_eng	Andrew	0.49671099085207615
+e07_b00_s2_eng	hey hey you what are you doing here	1.8252829119393965
+e07_b00_s2_eng	wh- what are yo- what are you doing in our country	2.178563475540578
+e07_b00_s2_eng	it's it's like	1.177601878670579
+e07_b00_s2_eng	what brings you here	0.9579048991336236
+e07_b00_s2_eng	what brings you here um	0.990376251646623
+e07_b00_s2_eng	it's just like I can't picture I can't picture American TV shows doing that doing the same thing you know what I'm saying	6.114528643619792
+e07_b00_s2_eng	or like not just not just American but like any other	3.221046339049707
+e07_b00_s2_eng	TV shows	1.0918801149321098
+e07_b00_s2_eng	uh	0.5459400574660549
+e07_b00_s2_eng	they might have something like that but like not not as	2.8128782560206957
+e07_b00_s2_eng	obvious	0.38006620937022717
+e07_b00_s2_eng	what did you come here for	0.964415402064219
+e07_b00_s2_eng	what are you doing here	1.0849673273222322
+e07_b00_s2_eng	how do you like it	0.7634955266341592
+e07_b00_s2_eng	that guy's something else	1.167863974876468
+e07_b00_s2_eng	he's a little off	0.7583776195608607
+e07_b00_s2_eng	a little	0.5526499166825829
+e07_b00_s2_eng	a little off	0.8446159104017283

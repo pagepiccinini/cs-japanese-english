@@ -1,0 +1,79 @@
+tier	utterance	duration_s
+e00_a00_s2_eng	you you lived in New Jersey	1.7763250196124112
+e00_a00_s2_eng	sure	0.5570349317349326
+e00_a00_s2_eng	<laugh> okay	1.967231331397386
+e00_a00_s2_eng	I moved to the United States when I was six years old	4.569193988837533
+e00_a00_s2_eng	I moved to	1.0094730905571296
+e00_a00_s2_eng	no twelve	0.6375619519308202
+e00_a00_s2_eng	you were in New Jersey	1.4610794286212183
+e00_a00_s2_eng	oh	0.557866690928094
+e00_a00_s2_eng	I was in Kentucky and Indiana	1.7400127740852724
+e00_a00_s2_eng	really <breath>	0.7924292847242498
+e00_a00_s2_eng	I was in Kentucky for three years	1.8130665980844753
+e00_a00_s2_eng	that's where my dad was sent first	2.9221589166471915
+e00_a00_s2_eng	<laugh>	1.593904701612729
+e00_a00_s2_eng	and why'd you why'd you go to New Jersey	2.108573404182451
+e00_a00_s2_eng	ah	0.26565078360212624
+e00_a00_s2_eng	oh	0.3719110970429682
+e00_a00_s2_eng	oh	0.30549840114242954
+e00_a00_s2_eng	oh <laugh>	0.8645216251376411
+e00_a00_s2_eng	uh I think the school system's different	2.623301488070936
+e00_a00_s2_eng	really	0.4183999331392272
+e00_a00_s2_eng	I- I really wanted to experience like	2.2049010556615656
+e00_a00_s2_eng	the middle school	0.8562275117349429
+e00_a00_s2_eng	and high school there	1.0161139580848442
+e00_a00_s2_eng	because I grew up watching Disney movies and like	2.6299420091608
+e00_a00_s2_eng	Nickelodeon channel and like oh they have lockers in the hallways	4.2039224540373255
+e00_a00_s2_eng	no	0.41839986509376104
+e00_a00_s2_eng	no no no	0.650844234590295
+e00_a00_s2_eng	oh	0.504736386235777
+e00_a00_s2_eng	I wanted to go to the prom <laugh>	2.3178024272654625
+e00_a00_s2_eng	<gasp>	0.5445840288881243
+e00_a00_s2_eng	right	0.23908563719643894
+e00_a00_s2_eng	aww	1.1157329735833628
+e00_a00_s2_eng	<laugh> that has nothing to do with living abroad	3.1912826729166284
+e00_a00_s2_eng	probably not	1.0559616501511755
+e00_a00_s2_eng	no <laugh> no experiences you think are unique to coming back to Japan	4.987943497991353
+e00_a00_s2_eng	uhh	0.7706137247213576
+e00_a00_s2_eng	<laugh> what experiences you think are unique to coming back to Japan	3.808064205048254
+e00_a00_s2_eng	ohh	0.7438220428737736
+e00_a00_s2_eng	like the school	0.6574853418973134
+e00_a00_s2_eng	curriculum's different what	2.512105338494109
+e00_a00_s2_eng	what okay	1.1223738305802726
+e00_a00_s2_eng	hmm	0.23908554970938667
+e00_a00_s2_eng	the school curriculum's different	1.6677920820325767
+e00_a00_s2_eng	like the order they d-	1.3946657066381931
+e00_a00_s2_eng	the order they teach is different	2.025585907260222
+e00_a00_s2_eng	in the United States and Japan	1.2219928096258172
+e00_a00_s2_eng	<laugh>	3.503313241615956
+e00_a00_s2_eng	what did you like	0.751750794598081
+e00_a00_s2_eng	oh me too <laugh>	1.3548181150199525
+e00_a00_s2_eng	I like the cereal	1.5760565873106884
+e00_a00_s2_eng	I liked all the junk food	1.1914715145591686
+e00_a00_s2_eng	I hate cleaning up	1.1319704886707314
+e00_a00_s2_eng	uh yea	1.3337068331333626
+e00_a00_s2_eng	I wanna make cookies at your house	1.6965018657332394
+e00_a00_s2_eng	what	0.6167736712915826
+e00_a00_s2_eng	<laugh> first we have to find where it is	3.031661781433286
+e00_a00_s2_eng	what do you prefer about	1.3779094106741354
+e00_a00_s2_eng	uh Japan	1.1929332200834324
+e00_a00_s2_eng	yes	0.5512249053265919
+e00_a00_s2_eng	oh	0.5313011135677925
+e00_a00_s2_eng	true that's because it's expensive	2.5121016473005398
+e00_a00_s2_eng	like where I live	0.7885746137054639
+e00_a00_s2_eng	back in Shizuoka I have to help my mom drive	2.6823385947699308
+e00_a00_s2_eng	<laugh>	0.29885687638181935
+e00_a00_s2_eng	I'll tell her that	0.8367992538692306
+e00_a00_s2_eng	she's alone though	1.0630970885074476
+e00_a00_s2_eng	yup	0.25236802894471566
+e00_a00_s2_eng	she works part time	1.152290249433122
+e00_a00_s2_eng	uhh	0.8459052102102191
+e00_a00_s2_eng	yeah uhuh	1.0891672828139463
+e00_a00_s2_eng	you're gonna visit my	0.7909303614908367
+e00_a00_s2_eng	you can drink out of the faucet	2.433747261022063
+e00_a00_s2_eng	no it has nothing to do with the talk	2.6345481953855483
+e00_a00_s2_eng	ah the text books are	1.8111657053181034
+e00_a00_s2_eng	lighter	0.5113772178505087
+e00_a00_s2_eng	in elementary school	1.278541657354026
+e00_a00_s2_eng	Japan	0.41175827930828746
+e00_a00_s2_eng	yup	0.29885681562700483

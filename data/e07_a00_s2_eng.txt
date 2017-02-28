@@ -1,0 +1,138 @@
+tier	utterance	duration_s
+e07_a00_s2_eng	oh back in Japan	0.760651397397227
+e07_a00_s2_eng	you know how we went to you know when we went to um	2.170283584783462
+e07_a00_s2_eng	restaurant	0.5347075498741862
+e07_a00_s2_eng	we did we did	0.8177880174546388
+e07_a00_s2_eng	it's kinda i- it's kinda like that you know yo- you know how it how I was born in Japan then I c-	3.880694758161404
+e07_a00_s2_eng	my family	0.6290677057343377
+e07_a00_s2_eng	went to the States	0.849241402741356
+e07_a00_s2_eng	and then we talked about like	1.0164536832788578
+e07_a00_s2_eng	how you learned English and how how how how I learned English and stuff like that	3.365126428993893
+e07_a00_s2_eng	yeah yeah yeah yeah yeah yeah sure	1.1648007470971748
+e07_a00_s2_eng	um	0.20405268562286238
+e07_a00_s2_eng	<laugh>	0.2805724427314331
+e07_a00_s2_eng	oh	0.23806146656000493
+e07_a00_s2_eng	<click>	0.036506545215551967
+e07_a00_s2_eng	first question at what age and for how long did you live abroad at what age	3.6871610667706634
+e07_a00_s2_eng	oh you	0.35476667553736263
+e07_a00_s2_eng	oh I didn't know that	0.6118938362685711
+e07_a00_s2_eng	okay	0.37150697202020666
+e07_a00_s2_eng	that's like you were like ten	1.416111404466811
+e07_a00_s2_eng	ten eleven k-	1.212424147659938
+e07_a00_s2_eng	okay	0.3920239774609513
+e07_a00_s2_eng	okay	0.45010160375147734
+e07_a00_s2_eng	so you liked it	0.5952956694777498
+e07_a00_s2_eng	wait am I gonna just talk about like	1.8185944094489486
+e07_a00_s2_eng	the first one the first one um	1.58138644299909
+e07_a00_s2_eng	well um	1.1267378406368493
+e07_a00_s2_eng	as I	0.3755792802122926
+e07_a00_s2_eng	already told you uh I was born in Japan and then	2.2139410201987175
+e07_a00_s2_eng	um	0.4546486023622407
+e07_a00_s2_eng	<click> I think my dad was doing his masters um	2.7081242836359394
+e07_a00_s2_eng	<click>	0.11860398322492927
+e07_a00_s2_eng	in like nn nineteen ninety one or nineteen ninety two so like I was like	4.01276809911019
+e07_a00_s2_eng	six months old	1.3965507640283477
+e07_a00_s2_eng	one	0.9077579966184288
+e07_a00_s2_eng	year old	0.9775855348198519
+e07_a00_s2_eng	I think um	1.4663783022297707
+e07_a00_s2_eng	<click> so I used to live in Chicago	3.0724116808623734
+e07_a00_s2_eng	but that was only like	2.3043087606467765
+e07_a00_s2_eng	half a year six months	1.7456884550354346
+e07_a00_s2_eng	so	0.7331891511148854
+e07_a00_s2_eng	I was living in the States up until I was um	3.8405146010779703
+e07_a00_s2_eng	one or two years old I don't I don't I- I forget I forget when it is what um	5.37672044150915
+e07_a00_s2_eng	I think that was the first time I've ever	2.5836189134524545
+e07_a00_s2_eng	been abroad	0.9426717657191261
+e07_a00_s2_eng	and	1.571119609531877
+e07_a00_s2_eng	um	1.0124993039205492
+e07_a00_s2_eng	every now and then uh I came um going back to the States like I've been going like back and forth back and forth between Japan and United States	8.344390815069403
+e07_a00_s2_eng	sin- um	1.3818543396832865
+e07_a00_s2_eng	and like you um my family uh	2.8570772158316515
+e07_a00_s2_eng	we would	0.5041900969114579
+e07_a00_s2_eng	go on a trip	0.7096008771346476
+e07_a00_s2_eng	so	0.7842957063067217
+e07_a00_s2_eng	um	0.7469482917207131
+e07_a00_s2_eng	<click> I actually been to Hawaii a couple of times before I um	4.631079408668285
+e07_a00_s2_eng	before I started this study	1.4005280469762909
+e07_a00_s2_eng	uh this doctorate study	1.4819592399683188
+e07_a00_s2_eng	uh I've been here um	1.3985990327200852
+e07_a00_s2_eng	I think twice	0.8984377892307975
+e07_a00_s2_eng	the first time was uh when I was s-	4.232846079159486
+e07_a00_s2_eng	five years old	1.369710381627641
+e07_a00_s2_eng	I think I was grade one	1.3567885855745487
+e07_a00_s2_eng	and the second time was when I was grade	3.1529182369541786
+e07_a00_s2_eng	three I think	1.563537322423997
+e07_a00_s2_eng	so	0.9820565000349006
+e07_a00_s2_eng	um yeah that's pretty much it uh	3.2588870133068326
+e07_a00_s2_eng	and I- I- and I al- and I also went to Australia for vacation and that was really fun	4.155305353877736
+e07_a00_s2_eng	so you know I've been in places	1.6942232129544266
+e07_a00_s2_eng	right	0.44584821393536345
+e07_a00_s2_eng	right	0.4101803568205469
+e07_a00_s2_eng	it's like ten months	0.8810699508530888
+e07_a00_s2_eng	what do you mean did- what do you mean didn't	1.6414068867658216
+e07_a00_s2_eng	okay	0.4689733962188143
+e07_a00_s2_eng	<breath>	0.43966255895514905
+e07_a00_s2_eng	right	0.3312448431748862
+e07_a00_s2_eng	okay so you see UH more more as a um	3.572230470694649
+e07_a00_s2_eng	the place where you	1.9187089427747992
+e07_a00_s2_eng	um	0.6863674266836597
+e07_a00_s2_eng	build your skills	0.9671541012360763
+e07_a00_s2_eng	like	0.18719111636829666
+e07_a00_s2_eng	build your skills as a scholar not just	2.4334845127876292
+e07_a00_s2_eng	not the place where you learned English	1.5835931285189986
+e07_a00_s2_eng	oh	0.43124226408781396
+e07_a00_s2_eng	that's interesting	0.8820864492705027
+e07_a00_s2_eng	it's to me it was it was it was more like	1.783774819635994
+e07_a00_s2_eng	um	0.646863396131721
+e07_a00_s2_eng	<click>	0.6664653172266526
+e07_a00_s2_eng	unlike you I think I think um <click>	2.9010843220453353
+e07_a00_s2_eng	when I went to the States	1.1565061825253338
+e07_a00_s2_eng	uh when I did my	0.9604941336501156
+e07_a00_s2_eng	first exchange program	1.842580582920732
+e07_a00_s2_eng	I think that was	1.3597111730751408
+e07_a00_s2_eng	uh	0.3090252666079891
+e07_a00_s2_eng	from two thousand	1.091889275348251
+e07_a00_s2_eng	eleven to two thousand twelve	1.2361010664320133
+e07_a00_s2_eng	of fall semester so um	1.4627195952778607
+e07_a00_s2_eng	that was ten months exchange program as well <click>	1.8541515996479916
+e07_a00_s2_eng	um	1.0094825375861092
+e07_a00_s2_eng	I'm gonna be straight up I didn't speak English	2.2661852884586438
+e07_a00_s2_eng	very well	0.7416606398592194
+e07_a00_s2_eng	I mean I kinda had like a basic	1.6275330708020874
+e07_a00_s2_eng	knowledge about like how how that how language works and like	3.481684670450079
+e07_a00_s2_eng	you know how to say hi and like	1.4985645361612114
+e07_a00_s2_eng	be friendly and stuff like that but like I didn't really know how to	2.86490278972002
+e07_a00_s2_eng	actually interact with people using the language using the culture and stuff like <breath> you know	5.0025610251265675
+e07_a00_s2_eng	<breath>	0.37464113404030286
+e07_a00_s2_eng	so um	1.1239234021209654
+e07_a00_s2_eng	for me um that	1.696903960064958
+e07_a00_s2_eng	exchange um that	1.451248929877238
+e07_a00_s2_eng	first studying abroad really helped me uh	3.335780891432421
+e07_a00_s2_eng	cul-	0.5168111240247413
+e07_a00_s2_eng	yeah	1.0101308333211136
+e07_a00_s2_eng	some- something like that <laugh> something like that um <click>	3.171340988333668
+e07_a00_s2_eng	but b- uh at the same time like you I I learned how to write uh papers and like of course I'm not I'm not as good as you but like <laugh>	7.705184030914381
+e07_a00_s2_eng	but um	0.9266820381277512
+e07_a00_s2_eng	yeah I learn I learned how to write I I learned how to speak I learned how to	3.830285757594652
+e07_a00_s2_eng	um	0.6054322649101209
+e07_a00_s2_eng	you know basically um	1.5657075925617505
+e07_a00_s2_eng	engage myself in that	1.7934468787525475
+e07_a00_s2_eng	cultural specif- I don't know particular cultural community	2.989078131254189
+e07_a00_s2_eng	um	0.4981796885423364
+e07_a00_s2_eng	<breath>	0.3558426346730812
+e07_a00_s2_eng	so that was a ne- uh that was the a really interesting uh experience for me	3.6438285790526947
+e07_a00_s2_eng	and I think that helped me	1.9927187541694593
+e07_a00_s2_eng	a lot	0.6262830370246775
+e07_a00_s2_eng	in um becoming who I am now	2.44819732655111
+e07_a00_s2_eng	what I am today	1.245752031325594
+e07_a00_s2_eng	oh y- there's a lot of it there's a lot of it um	2.7612281990353154
+e07_a00_s2_eng	for example like partying I didn't know that culture	3.313473838842299
+e07_a00_s2_eng	before I before I came to the States I didn't know that culture that's I was like	3.7736785386815086
+e07_a00_s2_eng	what are these people doing in the dorm like you know blasting music and like	6.9644311242334425
+e07_a00_s2_eng	getting f- you know	2.33170381251864
+e07_a00_s2_eng	getting hammered and like you know just being crazy and stuff like I didn't know well this is new so I was like	7.332594884104765
+e07_a00_s2_eng	yeah that was really surprising to me	2.515785692454301
+e07_a00_s2_eng	but uh eventually I got used to it and then um	3.6202769720684955
+e07_a00_s2_eng	of course you know like I- I don't I'm not a party party person but um you know now I embrace it I	8.297621618761127
+e07_a00_s2_eng	I acknowledge that there are some people who	2.5096051286577676
+e07_a00_s2_eng	like doing that	0.7012131719208128

@@ -1,0 +1,15 @@
+tier	utterance	duration_s
+e08_a00_s1_eng	okay	0.5347075498741862
+e08_a00_s1_eng	and also in Hong Kong when I was young like zero to four years old	4.653707657788072
+e08_a00_s1_eng	that's all mm	0.9658638535031834
+e08_a00_s1_eng	mm	0.8253745657209031
+e08_a00_s1_eng	what about you	0.7551299218297629
+e08_a00_s1_eng	<laugh>	2.9853973653734798
+e08_a00_s1_eng	<sniff>	0.49171250723798465
+e08_a00_s1_eng	what's what's about unique	1.5805044875506695
+e08_a00_s1_eng	uh the experiences do you think are unique to living abroad <breath>	3.3541817458019665
+e08_a00_s1_eng	but you're not real Japanese like a pure Japanese	2.642859836956532
+e08_a00_s1_eng	i- in a good meaning s- yeah it's okay I think	2.9598992566076276
+e08_a00_s1_eng	th- n- do you like	1.6244073899826503
+e08_a00_s1_eng	too unique <laugh>	2.581490662999414
+e08_a00_s1_eng	<laugh> oh that's a bit? <gasp>	2.1249004777070013

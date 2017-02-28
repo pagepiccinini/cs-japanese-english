@@ -24,14 +24,8 @@ data_jap_clean = data_jap %>%
 ## GET SUMMARY INFORMATION OF WORDS ####
 # English
 data_eng_sum = data_eng_clean %>%
-  group_by(word) %>%
-  summarise(count = n()) %>%
-  ungroup() %>%
-  arrange(desc(count))
+  count(word, sort = T)
 
 # Japanese
 data_jap_sum = data_jap_clean %>%
-  group_by(word) %>%
-  summarise(count = n()) %>%
-  ungroup() %>%
-  arrange(desc(count))
+  count(word, sort = T)

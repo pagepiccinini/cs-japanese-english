@@ -1,24 +1,29 @@
-test = read.table("data/japanese/e07_b00_s1_jap.txt", header = T, sep = "\t")
-
-
 ## READ IN DATA ####
 # Initial data
-data_eng = list.files("data/english", full.names = T) %>%
-  map(read.table, header = T, sep = "\t", quote = "") %>%
-  bind_rows()
-
-data_jap = list.files("data/japanese", full.names = T) %>%
-  map(read.table, header = T, sep = "\t", quote = "") %>%
+names = sub(".TextGrid", "", list.files("data/textgrids"))
+  
+data = list.files("data/textfiles", full.names = T) %>%
+  map(read.table, header = T, sep = "\t", quote = "", fileEncoding = "utf-16be") %>%
+  map2(names, function(df, names) df %>%
+         mutate(file = names)) %>%
   bind_rows()
 
 # Clean up data
-data_eng_clean = data_eng %>%
-  separate(tier, into = c("pair", "conversation", "speaker", "language")) %>%
-  unnest_tokens(word, utterance)
+data_clean = data %>%
+  separate(tier, into = c("pair", "speaker", "language")) %>%
+  mutate(conversation = substr(file, 4, 6))
 
-data_jap_clean = data_jap %>%
-  separate(tier, into = c("pair", "conversation", "speaker", "language")) %>%
-  unnest_tokens(word, utterance, token = stringr::str_split, pattern = "　")
+
+## SPLIT DATA BY LANGAUGE AND GET WORDS ####
+# English
+data_eng_clean = data_clean %>%
+  filter(language == "eng") %>%
+  unnest_tokens(word, text)
+
+# Japanese
+data_jap_clean = data_clean %>%
+  filter(language == "jap") %>%
+  unnest_tokens(word, text, token = stringr::str_split, pattern = "　")
 
 
 ## GET SUMMARY INFORMATION OF WORDS ####

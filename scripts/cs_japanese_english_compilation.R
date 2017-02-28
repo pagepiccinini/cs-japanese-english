@@ -12,3 +12,4 @@ source("scripts/cs_japanese_english_extraction.R")
 
 ## MAIN ANALYSIS SCRIPTS ####
 source("scripts/cs_japanese_english_cleaning.R")
+source("scripts/cs_japanese_english_figures.R")

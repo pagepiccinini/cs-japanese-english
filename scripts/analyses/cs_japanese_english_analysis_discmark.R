@@ -1,5 +1,3 @@
-## Notes, look at [n] durations and vowel quality for "nanka"
-
 ## ORGANIZE DATA ####
 # Focus on "like"s for English
 data_eng_like = data_eng_clean %>%

@@ -36,7 +36,7 @@ data_eng_clean = data_clean %>%
   mutate(number_words_utt = n()) %>%
   ungroup() %>%
   # Note if first, last, or medial
-  mutate(first_word = if_else(word_number == 1, "first",
+  mutate(word_position = if_else(word_number == 1, "first",
                       if_else(word_number == number_words_utt, "last", "medial")))
 
 # Japanese
@@ -53,7 +53,7 @@ data_jap_clean = data_clean %>%
   mutate(number_words_utt = n()) %>%
   ungroup() %>%
   # Note if first, last, or medial
-  mutate(first_word = if_else(word_number == 1, "first",
+  mutate(word_position = if_else(word_number == 1, "first",
                       if_else(word_number == number_words_utt, "last", "medial")))
 
 

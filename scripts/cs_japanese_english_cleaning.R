@@ -35,9 +35,9 @@ data_eng_clean = data_clean %>%
   mutate(word_number = row_number()) %>%
   mutate(number_words_utt = n()) %>%
   ungroup() %>%
-  # Note if first or last word or not
-  mutate(first_word = if_else(word_number == 1, "yes", "no")) %>%
-  mutate(last_word = if_else(word_number == number_words_utt, "yes", "no"))
+  # Note if first, last, or medial
+  mutate(first_word = if_else(word_number == 1, "first",
+                      if_else(word_number == number_words_utt, "last", "medial")))
 
 # Japanese
 data_jap_clean = data_clean %>%
@@ -52,9 +52,9 @@ data_jap_clean = data_clean %>%
   mutate(word_number = row_number()) %>%
   mutate(number_words_utt = n()) %>%
   ungroup() %>%
-  # Note if first or last word or not
-  mutate(first_word = if_else(word_number == 1, "yes", "no")) %>%
-  mutate(last_word = if_else(word_number == number_words_utt, "yes", "no"))
+  # Note if first, last, or medial
+  mutate(first_word = if_else(word_number == 1, "first",
+                      if_else(word_number == number_words_utt, "last", "medial")))
 
 
 ## GET SUMMARY INFORMATION OF WORDS ####

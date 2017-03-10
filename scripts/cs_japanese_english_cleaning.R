@@ -29,7 +29,15 @@ data_eng_clean = data_clean %>%
   # Drop non-word vocalizations
   mutate(text_clean = gsub("<.*?>", "", text)) %>%
   # Expand to one row per word
-  unnest_tokens(word, text_clean)
+  unnest_tokens(word, text_clean) %>%
+  # Add word number within utterance
+  group_by(prompt, pair, speaker, tmin, text) %>%
+  mutate(word_number = row_number()) %>%
+  mutate(number_words_utt = n()) %>%
+  ungroup() %>%
+  # Note if first or last word or not
+  mutate(first_word = if_else(word_number == 1, "yes", "no")) %>%
+  mutate(last_word = if_else(word_number == number_words_utt, "yes", "no"))
 
 # Japanese
 data_jap_clean = data_clean %>%
@@ -38,7 +46,15 @@ data_jap_clean = data_clean %>%
   # Drop non-word vocalizations
   mutate(text_clean = gsub("<.*?>", "", text)) %>%
   # Expand to one row per word
-  unnest_tokens(word, text_clean, token = stringr::str_split, pattern = "　")
+  unnest_tokens(word, text_clean, token = stringr::str_split, pattern = "　") %>%
+  # Add word number within utterance
+  group_by(prompt, pair, speaker, tmin, text) %>%
+  mutate(word_number = row_number()) %>%
+  mutate(number_words_utt = n()) %>%
+  ungroup() %>%
+  # Note if first or last word or not
+  mutate(first_word = if_else(word_number == 1, "yes", "no")) %>%
+  mutate(last_word = if_else(word_number == number_words_utt, "yes", "no"))
 
 
 ## GET SUMMARY INFORMATION OF WORDS ####

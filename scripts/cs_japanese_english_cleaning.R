@@ -58,7 +58,11 @@ data_eng_clean = data_clean %>%
   ungroup() %>%
   # Note if first, last, or medial
   mutate(word_position = if_else(word_number == 1, "first",
-                      if_else(word_number == number_words_utt, "last", "medial")))
+                      if_else(word_number == number_words_utt, "last", "medial"))) %>%
+  # Add in phonetic and frequency information
+  left_join(clearpond_english) %>%
+  # Make column for first phoneme
+  mutate(first_phoneme = gsub("\\..*$", "", phonemes))
 
 # Japanese
 data_jap_clean = data_clean %>%
@@ -81,20 +85,16 @@ data_jap_clean = data_clean %>%
 ## GET SUMMARY INFORMATION OF WORDS ####
 # English
 data_eng_sum = data_eng_clean %>%
-  count(word, sort = T) %>%
-  # Add in phonetic and frequency information
-  left_join(clearpond_english) %>%
-  # Make column for first phoneme
-  mutate(first_phoneme = gsub("\\..*$", "", phonemes))
+  count(word, sort = T)
 
-data_eng_firstphone = data_eng_sum %>%
+data_eng_firstphone = data_eng_clean %>%
   # Get type and token counts for initial phonemes
-  group_by(first_phoneme) %>%
-  summarise(types = n(),
-            tokens = sum(n, na.rm = T)) %>%
+  group_by(first_phoneme, utt_type) %>%
+  summarise(types = length(unique(word)),
+            tokens = n()) %>%
   ungroup() %>%
   # Sort by number of tokens
-  arrange(desc(tokens))
+  arrange(utt_type, desc(tokens))
 
 # Japanese
 data_jap_sum = data_jap_clean %>%

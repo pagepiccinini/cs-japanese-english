@@ -1,17 +1,23 @@
 ## ORGANIZE DATA ####
-# Focus on "like"s for English
-data_eng_like = data_eng_clean %>%
-  # Only look at tokens of the word like
-  filter(word == "like")
+# English
+data_eng_discmark = data_eng_clean %>%
+  # Only look at tokens of the words "like", "yeah", and "so"
+  filter(word == "like" | word == "yeah" | word == "so")
 
-# Focus on "nanka"s for Japanese
-data_jap_nanka = data_jap_clean %>%
-  # Only look at tokens of the word nanka
-  filter(word == "ナンカ")
+# Japanese
+data_jap_discmark = data_jap_clean %>%
+  # Only look at tokens of the words "ナンカ" (nanka) and "ソー" (saw)
+  filter(word == "ナンカ" | word == "ソー")
 
-# Get position counts
-data_eng_like_sum = data_eng_like %>%
-  count(word_position)
-  
-data_jap_nanka_sum = data_jap_nanka %>%
-  count(word_position)
+
+## GET POSITION AND UTTERANCE TYPE COUNTS ####
+# English
+data_eng_discmark_sum = data_eng_discmark %>%
+  count(word, utt_type, word_position)
+
+# Japanese
+data_jap_discmark_sum = data_jap_discmark %>%
+  count(word, utt_type, word_position)
+
+
+

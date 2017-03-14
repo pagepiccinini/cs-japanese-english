@@ -12,6 +12,11 @@ data = list.files("data/textfiles", full.names = T) %>%
   # Combine into one data frame
   bind_rows()
 
+# Read in Clearpond English database
+clearpond_english = read.table("data/clearpond_english.txt", header = T, sep = "\t") %>%
+  # Make all words lowercase
+  mutate(word = tolower(word))
+
 
 ## CLEAN DATA ####
 data_clean = data %>%
@@ -60,7 +65,20 @@ data_jap_clean = data_clean %>%
 ## GET SUMMARY INFORMATION OF WORDS ####
 # English
 data_eng_sum = data_eng_clean %>%
-  count(word, sort = T)
+  count(word, sort = T) %>%
+  # Add in phonetic and frequency information
+  left_join(clearpond_english) %>%
+  # Make column for first phoneme
+  mutate(first_phoneme = gsub("\\..*$", "", phonemes))
+
+data_eng_firstphone = data_eng_sum %>%
+  # Get type and token counts for initial phonemes
+  group_by(first_phoneme) %>%
+  summarise(types = n(),
+            tokens = sum(n, na.rm = T)) %>%
+  ungroup() %>%
+  # Sort by number of tokens
+  arrange(desc(tokens))
 
 # Japanese
 data_jap_sum = data_jap_clean %>%

@@ -23,7 +23,23 @@ data_clean = data %>%
   # Make separte columns for pair, speaker, and language information
   separate(tier, into = c("pair", "speaker", "language")) %>%
   # Add a column for prompt
-  mutate(prompt = substr(file, 4, 6))
+  mutate(prompt = substr(file, 4, 6)) %>%
+  # Get distance from previous / following utterance by for a given speaker
+  group_by(prompt, pair, speaker) %>%
+  arrange(tmin) %>%
+  mutate(prev_utt_end = lag(tmax)) %>%
+  mutate(follow_utt_begin = lead(tmin)) %>%
+  # Code if utterance is pre-, post-, or dual-switch, or monolingual
+  mutate(cs_pre = ifelse(is.na(follow_utt_begin), "no",
+                  ifelse(abs(follow_utt_begin - tmax) < 0.3 & language != lead(language), "yes", "no"))) %>%
+  mutate(cs_post = ifelse(is.na(prev_utt_end), "no",
+                   ifelse(abs(prev_utt_end - tmin) < 0.3 & language != lag(language), "yes", "no"))) %>%
+  mutate(cs_dual = ifelse(cs_pre == "yes" & cs_post == "yes", "yes", "no")) %>%
+  mutate(utt_type = ifelse(cs_pre == "yes" | cs_post == "yes", "cs", "ml")) %>%
+  mutate(cs_type = ifelse(utt_type == "cs" & cs_dual == "yes", "dual",
+                   ifelse(utt_type == "cs" & cs_pre == "yes", "pre",
+                   ifelse(utt_type == "cs" & cs_post == "yes", "post", NA)))) %>%
+  ungroup()
 
 
 ## GET WORD COUNTS FOR EACH LANGUAGE ####

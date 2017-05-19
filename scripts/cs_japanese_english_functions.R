@@ -1,4 +1,4 @@
-# Make table from TextGrid
+# Make table from TextGrid for words
 table_to_textgrid = function(inputfile, outputfile) {
   praat( "Down to Table...",
          arguments = list( TRUE, # Include line number
@@ -7,7 +7,7 @@ table_to_textgrid = function(inputfile, outputfile) {
                            FALSE  # Include empty intervals
                           ), # End list()
          input = inputfile,
-         output = paste(getwd(), "/data/textfiles/", outputfile, ".txt", sep = ""),
+         output = paste(getwd(), "/data/words/textfiles_words/", outputfile, ".txt", sep = ""),
          filetype = "tab-separated"
          )
 }

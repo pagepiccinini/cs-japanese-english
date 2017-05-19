@@ -6,17 +6,18 @@ source("scripts/cs_japanese_english_packages.R")
 source("scripts/cs_japanese_english_functions.R")
 
 
-## EXTRACT TEXTGRIDS TO TEXTFILES ####
-source("scripts/cs_japanese_english_extraction.R")
+## GET AND ANALYZE WORD TOKEN DATA ####
+# Extract TextGrids to textfile
+source("scripts/words/cs_japanese_english_words_extraction.R")
 
+# Clean textfiles of words
+source("scripts/words/cs_japanese_english_words_cleaning.R")
 
-## MAIN ANALYSIS SCRIPTS ####
-source("scripts/cs_japanese_english_cleaning.R")
-source("scripts/cs_japanese_english_figures.R")
+# Make figures of word token data
+source("scripts/words/cs_japanese_english_words_figures.R")
 
-
-## RUN EXTRA ANALYSIS SCRIPTS ####
-source("scripts/analyses/cs_japanese_english_analysis_discmark.R")
+# Run analysis on counts for specific disourse markers
+source("scripts/words/cs_japanese_english_words_discmark.R")
 
 
 ## GET DATA FOR SPECIFIC SPEAKER ####

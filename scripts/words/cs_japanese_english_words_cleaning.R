@@ -1,9 +1,9 @@
 ## READ IN DATA ####
 # Get file names
-names = sub(".TextGrid", "", list.files("data/textgrids"))
+names = sub(".TextGrid", "", list.files("data/words/textgrids_words"))
 
 # Read in data and add names  
-data = list.files("data/textfiles", full.names = T) %>%
+data = list.files("data/words/textfiles_words", full.names = T) %>%
   # Read in data to table
   map(read.table, header = T, sep = "\t", quote = "", fileEncoding = "utf-16be") %>%
   # Add column for file names
@@ -13,7 +13,7 @@ data = list.files("data/textfiles", full.names = T) %>%
   bind_rows()
 
 # Read in Clearpond English database
-clearpond_english = read.table("data/clearpond_english.txt", header = T, sep = "\t") %>%
+clearpond_english = read.table("data/dictionaries/clearpond_english.txt", header = T, sep = "\t") %>%
   # Make all words lowercase
   mutate(word = tolower(word))
 
@@ -88,14 +88,18 @@ data_eng_sum = data_eng_clean %>%
   count(word, sort = T)
 
 data_eng_firstphone = data_eng_clean %>%
+  # Drop NAs
+  filter(!is.na(first_phoneme)) %>%
   # Get type and token counts for initial phonemes
-  group_by(first_phoneme, utt_type) %>%
+  group_by(first_phoneme) %>%
   summarise(types = length(unique(word)),
             tokens = n()) %>%
   ungroup() %>%
   # Sort by number of tokens
-  arrange(utt_type, desc(tokens))
+  arrange(desc(tokens))
 
 # Japanese
 data_jap_sum = data_jap_clean %>%
   count(word, sort = T)
+
+# [Japanese first phoneme information will go here]

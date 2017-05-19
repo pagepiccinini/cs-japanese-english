@@ -6,3 +6,7 @@ library(PraatR)
 
 # Text analysis
 library(tidytext)
+
+# Sound manipulation
+library(seewave)
+library(tuneR)

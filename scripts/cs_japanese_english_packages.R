@@ -10,3 +10,6 @@ library(tidytext)
 # Sound manipulation
 library(seewave)
 library(tuneR)
+
+# Specific color choices
+library(RColorBrewer)

@@ -21,6 +21,8 @@ data_phonetics = read.table(paste("data/textfiles/phonetics/", file, ".txt", sep
            sep = "_",
            remove = FALSE) %>%
   # Update presence column for sounds that are present
-  mutate(presence = if_else(is.na(presence), 1, 0))
+  mutate(presence = if_else(is.na(presence), 1, 0)) %>%
+  # Compute duration of segments
+  mutate(duration = tmax - tmin)
   
 

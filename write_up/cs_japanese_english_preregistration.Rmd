@@ -16,7 +16,7 @@ The specific goals of this subproject is to look at how the phonetics of discour
 Four words will be segmented for this analysis, 'like', 'yeah', 'so', and '*nanka*'. For each word the following phonemes will be segmented:
 
 * 'like': /l/, /ai/, /k/-closure (if present), /k/-burst (if present)
-* 'yeah': /y/, /a/
+* 'yeah': /j/, /a/
 * 'so': /s/, /ow/
 * '*nanka*': /na/, /n/, /ka/
 
@@ -26,7 +26,7 @@ For all sounds, or couplet of sounds, segmented the duration will be taken. For 
 
 ## 'like'
 
-For the word 'like' several different analyses will be conducted. On the /lai/ portition we will examine both duration and formant (F1 and F2) values. 
+For the word 'like' several different analyses will be conducted. On the /lai/ portition we will examine both duration and formant (F1 and F2) values.
 
 ## 'yeah'
 

@@ -14,7 +14,6 @@ data_phonetics_like_i = data_phonetics_like %>%
   filter(sound == "i")
 
 
-
 ## MAKE FIGURE OF FORMANTS ####
 # /l/
 like_l_formants.plot = ggplot(data_phonetics_like_l, aes(x = time, y = f1, col = lang_pre)) + 

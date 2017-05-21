@@ -1,0 +1,37 @@
+---
+title: 'Japanese-English Code-switching Discourse Markers: Pre-registration'
+author: "Sho Tsuji & Page Piccinini"
+date: "May 21, 2017"
+output: html_document
+---
+
+# Introduction
+
+# Research Questions
+
+The specific goals of this subproject is to look at how the phonetics of discourse markers (originally English and Japanese) change according to the context in which they are produced. We want to see if a discourse marker, e.g. 'like', is: 1) produced differently in a monolingual-English versus monolingual-Japanese context, and there is a difference between the two monolingual contexts, if it is 2) produced intermediate to the two languages in code-switching contexts.
+
+# Methods
+
+Four words will be segmented for this analysis, 'like', 'yeah', 'so', and '*nanka*'. For each word the following phonemes will be segmented:
+
+* 'like': /l/, /ai/, /k/-closure (if present), /k/-burst (if present)
+* 'yeah': /y/, /a/
+* 'so': /s/, /ow/
+* '*nanka*': /na/, /n/, /ka/
+
+For all sounds, or couplet of sounds, segmented the duration will be taken. For some formant values will be taken as well, the /l/ and /ai/ from 'like', the /y/ and /a/ from 'yeah', and the /ow/ from 'so'. Formant values will be taken at several points within the phoneme to allow to look at time coure effects, e.g. for the diphthon /ai/; if a stead vowel is examined the mean or median will be used for analysis, e.g. the /a/ in 'yeah'. Additionally, the /k/ closure and burst in 'like' may not present at all times, this will be noted.
+
+# Analyses and predictions
+
+## 'like'
+
+For the word 'like' several different analyses will be conducted. On the /lai/ portition we will examine both duration and formant (F1 and F2) values. 
+
+## 'yeah'
+
+## 'so'
+
+## '*nanka*'
+
+# Conclusion

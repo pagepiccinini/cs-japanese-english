@@ -1,5 +1,5 @@
 ---
-title: 'Japanese-English Code-switching Discourse Markers: Pre-registration'
+title: 'Code-switching in Japanese-English bilinguals. Sub-project Discourse Markers: Pre-registration'
 author: "Sho Tsuji & Page Piccinini"
 date: "May 21, 2017"
 output: html_document
@@ -7,31 +7,77 @@ output: html_document
 
 # Introduction
 
+Please refer to document "Code-switching in Japanese-English bilinguals: Preregistration document" for the general motivation and design of this project.
+In this sub-project, we analyze discourse markers identified in the recordings based on the following first two prompts of the recording session:
+1."Talk to each other about your experience living abroad and in Japan.""
+2."Talk to each other about your favorite US or English TV shows, for instance xxx".
+The previous preregistration document included several target words for phonetic analysis, one of them, the discourse marker "like" relevant to the first two prompts of the recording session. We had left open the possibility to identify and include other emergent frequently used discourse markers in the analysis. Having identified these markers, we will preregister this sub-project with a detailed analysis plan. 
+
+
 # Research Questions
 
 The specific goals of this subproject is to look at how the phonetics of discourse markers (originally English and Japanese) change according to the context in which they are produced. We want to see if a discourse marker, e.g. 'like', is: 1) produced differently in a monolingual-English versus monolingual-Japanese context, and there is a difference between the two monolingual contexts, if it is 2) produced intermediate to the two languages in code-switching contexts.
 
+# Data pre-processing
+
+After data collection, we have conducted the following pre-processing steps in order to identify additional discourse markers.
+
+1. Selection of adequate conversations
+The conversation for each prompt was recorded in an individual soundfile, and speakers were separately recorded on the right and left channels. Thus, for each dyad, this subproject was based on 4 individual soundfiles (2 prompts x two speakers).
+A total of nine dyads was recorded. Of these, we excluded three dyads, since they did not know each other before the session - one of the prerequisites we had set in order to ensure a natural conversation. In the included 6 dyads, one speaker of one dyad was not succcesfully recorded in one of the sequences. Thus, our analysis is based on 23 (6 dyads x 2 prompts x 2 speakers - 1) individual soundfiles.
+
+2. Annotation
+Conversations were transcribed in Praat in standard orthography appropriate for each language (using alphabet for English, katakana for Japanese). Separate segmentation tiers were be used for each speaker for each language so that there are four in total (Speaker #1 English, Speaker #1 Japanese, Speaker #2 English, Speaker #2 Japanese). Transcriptions were done by native speakers of each language. 
+
+3. Extraction of word and frequency count
+Based on orthographic transcriptions, we counted token frequency of individual lexical items. This frequency count showed that "like" was the most frequently used lexical item in English, confirming the adequacy of including this discourse marker in the analysis. In addition, based on inspection of the most frequent words used, we decided to additionaly include the words 'yeah', 'so'/'*so*'(??????) (which occurred both in English and Japanese), and '*nanka*'(?????????). These words were chosen based on their high frequency, their role as discourse marker, and their phonetic characteristics.
+
+
 # Methods
 
-Four words will be segmented for this analysis, 'like', 'yeah', 'so', and '*nanka*'. For each word the following phonemes will be segmented:
+Four words will be segmented for this analysis, 'like', 'yeah', 'so'/'*so*'(??????), and '*nanka*'(?????????). For each word the following phonemes will be segmented:
 
 * 'like': /l/, /ai/, /k/-closure (if present), /k/-burst (if present)
 * 'yeah': /j/, /a/
 * 'so': /s/, /ow/
 * '*nanka*': /na/, /n/, /ka/
 
-For all sounds, or couplet of sounds, segmented the duration will be taken. For some formant values will be taken as well, the /l/ and /ai/ from 'like', the /y/ and /a/ from 'yeah', and the /ow/ from 'so'. Formant values will be taken at several points within the phoneme to allow to look at time coure effects, e.g. for the diphthon /ai/; if a stead vowel is examined the mean or median will be used for analysis, e.g. the /a/ in 'yeah'. Additionally, the /k/ closure and burst in 'like' may not present at all times, this will be noted.
+For all sounds, or couplet of sounds, segmented the duration will be taken. For some formant values will be taken as well, the /l/ and /ai/ from 'like', the /y/ and /a/ from 'yeah', and the /ow/ from 'so'. Formant values will be taken at several points within the phoneme to allow to look at time coure effects, e.g. for the diphthong /ai/; if a steady vowel is examined the mean or median will be used for analysis, e.g. the /a/ in 'yeah'. Additionally, the /k/ closure and burst in 'like' may not present at all times, this will be noted.
 
 # Analyses and predictions
 
+In all analyses, we will comparefor the acoustic characteristics of the sounds as described below whether they are
+1) produced differently in a monolingual-English versus monolingual-Japanese context
+2) produced intermediate to the two languages in code-switching contexts.
+
 ## 'like'
 
-For the word 'like' several different analyses will be conducted. On the /lai/ portition we will examine both duration and formant (F1 and F2) values.
+For the word 'like' several different analyses will be conducted.
+- On the /lai/ portition we will examine both duration and formant (F1 and F2) values. [comment Sho: original prereg says F1, F2, and F3 measurements at 5% increments throughout the [lai])]
+For /l/, we predict quality differences such that it is produced as a postalveolar flap in Japanese contexts, and as a alveolar lateral approximant in English contexts.
+- /ai/
+- On the /k/ burst, we will check for its presence. We predict that the /k/ burst is present more often in Japanese than English contexts. 
+- On the /k/ burst, if present, we will measure the mean/median F1, F2, and F3 values to examine whether there are qualitative differences depending on context.
+
 
 ## 'yeah'
 
-## 'so'
+-On the /a/ portion, we will take F1, F2,and F3 mean/median measurements. We expect quality differences such that the vowel is an open central unrounded vowel in Japanese contexts, and a open back unrounded vowel in English contexts.
+- Duration?
+
+## 'so'/'*so*'
+
+- On /o/, we will take F1, F2, and F3 measurements at 5% increments throughout the vowel sound to examine differences in quality and diphtongization. We expect a flat vowel sound in Japanese context, and a diphtongized vowel in English contexts.
+- Duration?
+
 
 ## '*nanka*'
+
+- We will examine the absolute duration of /n/. Based on the languages' rhythmic structures, we predict that the moraic nasal /n/ will be longer in Japanese than in English contexts.
+- Rhythmic structure should also be evident in relative length. We will examine the relative duration of the three portions /na/ /n/ /ka/ (moraic partition), and /nan/ /ka/ (syllabic partition). We predict that the difference between the three elements of the moraic partition will be smaller in Japanese contexts compared to English contexts, while the difference between the two elements of the English partition will be smaller in English compared to Japanese contexts.
+- anything quality-based?
+
+Statistical analyses will be conducted as described in the main preregistration document.
+
 
 # Conclusion

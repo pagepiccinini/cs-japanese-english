@@ -1,83 +1,205 @@
 ---
-title: 'Code-switching in Japanese-English bilinguals. Sub-project Discourse Markers: Pre-registration'
+title: 'Code-switching in Japanese-English bilinguals. Sub-project Discourse Markers:
+  Pre-registration'
 author: "Sho Tsuji & Page Piccinini"
 date: "May 21, 2017"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 # Introduction
 
 Please refer to document "Code-switching in Japanese-English bilinguals: Preregistration document" for the general motivation and design of this project.
 In this sub-project, we analyze discourse markers identified in the recordings based on the following first two prompts of the recording session:
-1."Talk to each other about your experience living abroad and in Japan.""
-2."Talk to each other about your favorite US or English TV shows, for instance xxx".
-The previous preregistration document included several target words for phonetic analysis, one of them, the discourse marker "like" relevant to the first two prompts of the recording session. We had left open the possibility to identify and include other emergent frequently used discourse markers in the analysis. Having identified these markers, we will preregister this sub-project with a detailed analysis plan. 
+
+1. Talk to each other about your experience living abroad and in Japan.
+2. Talk to each other about your favorite US or English TV shows, for instance XXX.
+
+The previous preregistration document included several target words for phonetic analysis, one of them, the discourse marker 'like', relevant to the first two prompts of the recording session. We had left open the possibility to identify and include other emergent frequently used discourse markers in the analysis. Having identified these markers, we will preregister this sub-project with a detailed analysis plan. 
 
 
 # Research Questions
 
-The specific goals of this subproject is to look at how the phonetics of discourse markers (originally English and Japanese) change according to the context in which they are produced. We want to see if a discourse marker, e.g. 'like', is: 1) produced differently in a monolingual-English versus monolingual-Japanese context, and there is a difference between the two monolingual contexts, if it is 2) produced intermediate to the two languages in code-switching contexts.
+The specific goals of this subproject is to look at how the phonetics of discourse markers (originally English and Japanese) change according to the context in which they are produced. We want to see if a discourse marker, e.g. 'like', is: 1) produced differently in a monolingual-English versus monolingual-Japanese context; and if there is a difference between the two monolingual contexts, if it is 2) produced intermediate to the two languages in code-switching contexts.
 
 # Data pre-processing
 
 After data collection, we have conducted the following pre-processing steps in order to identify additional discourse markers.
 
-1. Selection of adequate conversations
+**1. Selection of adequate conversations**
+
 The conversation for each prompt was recorded in an individual soundfile, and speakers were separately recorded on the right and left channels. Thus, for each dyad, this subproject was based on 4 individual soundfiles (2 prompts x two speakers).
-A total of nine dyads was recorded. Of these, we excluded three dyads, since they did not know each other before the session - one of the prerequisites we had set in order to ensure a natural conversation. In the included 6 dyads, one speaker of one dyad was not succcesfully recorded in one of the sequences. Thus, our analysis is based on 23 (6 dyads x 2 prompts x 2 speakers - 1) individual soundfiles.
 
-2. Annotation
-Conversations were transcribed in Praat in standard orthography appropriate for each language (using alphabet for English, katakana for Japanese). Separate segmentation tiers were be used for each speaker for each language so that there are four in total (Speaker #1 English, Speaker #1 Japanese, Speaker #2 English, Speaker #2 Japanese). Transcriptions were done by native speakers of each language. 
+A total of nine dyads were recorded. Of these, we excluded three dyads, since they did not know each other before the session - one of the prerequisites we had set in order to ensure a natural conversation. In the included 6 dyads, one speaker of one dyad was not successfully recorded in one of the sequences. Thus, our analysis is based on 23 (6 dyads x 2 prompts x 2 speakers - 1) individual soundfiles.
 
-3. Extraction of word and frequency count
-Based on orthographic transcriptions, we counted token frequency of individual lexical items. This frequency count showed that "like" was the most frequently used lexical item in English, confirming the adequacy of including this discourse marker in the analysis. In addition, based on inspection of the most frequent words used, we decided to additionaly include the words 'yeah', 'so'/'*so*'(??????) (which occurred both in English and Japanese), and '*nanka*'(?????????). These words were chosen based on their high frequency, their role as discourse marker, and their phonetic characteristics.
+**2. Annotation**
+
+Conversations were transcribed in Praat in standard orthography appropriate for each language (using alphabet for English, katakana for Japanese). Separate segmentation tiers were used for each speaker for each language, resulting in four in total (Speaker #1 English, Speaker #1 Japanese, Speaker #2 English, Speaker #2 Japanese). Transcriptions were done by native speakers of each language. 
+
+**3. Extraction of word and frequency count**
+
+Based on orthographic transcriptions, we counted token frequency of individual lexical items. This frequency count showed that 'like' was the most frequently used lexical item in English, confirming the adequacy of including this discourse marker in the analysis. In addition, based on inspection of the most frequent words used, we decided to additionally include the words 'yeah', 'so'/'*so*'["yes" *particle*; "so/really" *adverb*] (which occurred both in English and Japanese), and '*nanka*' (["something/somehow"*adverb*]). These words were chosen based on their high frequency, their role as discourse markers, and their phonetic characteristics.
 
 
 # Methods
 
-Four words will be segmented for this analysis, 'like', 'yeah', 'so'/'*so*'(??????), and '*nanka*'(?????????). For each word the following phonemes will be segmented:
+Four words will be segmented for this analysis, 'like', 'yeah', 'so'/'*so*', and '*nanka*'. For each word the following phonemes will be segmented:
 
-* 'like': /l/, /ai/, /k/-closure (if present), /k/-burst (if present)
-* 'yeah': /j/, /a/
-* 'so': /s/, /ow/
-* '*nanka*': /na/, /n/, /ka/
+* 'like': [l], [aI], [k]-closure (if present), [k]-burst (if present) [*PAGE NOTE: I DON'T THINK WE'RE CURRENTLY SEGMENTING THE FOLLOWING VOWEL.* *SHO: That is true - left it out; I guess if that is present it should just be refected in a long burst*]
+* 'yeah': [j], [a]
+* 'so'/'*so*/: [s], [oU]
+* '*nanka*': [na], [n], [ka]
 
-For all sounds, or couplet of sounds, segmented the duration will be taken. For some formant values will be taken as well, the /l/ and /ai/ from 'like', the /y/ and /a/ from 'yeah', and the /ow/ from 'so'. Formant values will be taken at several points within the phoneme to allow to look at time coure effects, e.g. for the diphthong /ai/; if a steady vowel is examined the mean or median will be used for analysis, e.g. the /a/ in 'yeah'. Additionally, the /k/ closure and burst in 'like' may not present at all times, this will be noted.
+Both duration and format values will be analyzed. For some sounds, formant values will be taken at several time points to see changes over time. For steady state vowels, formant values will be taken at the midpoint of the sound. See the "Analyses and predictions" section for more details.
+
 
 # Analyses and predictions
 
-In all analyses, we will comparefor the acoustic characteristics of the sounds as described below whether they are
-1) produced differently in a monolingual-English versus monolingual-Japanese context
+In all analyses, we will compare the acoustic characteristics of the sounds as described below to determine whether they are:
+
+1) produced differently in a monolingual-English versus monolingual-Japanese context, and
 2) produced intermediate to the two languages in code-switching contexts.
+
+For all analyses we will use linear mixed effects regression models (LMEMs). The summary of all models are provided below. A few general comments apply to the various analyses. One, we will only look at words directly at boundaries and thus are not predicted to be tagged to a specific language [*PAGE NOTE: THIS IS FROM THE PRE-REGISTRATION, WE NEED TO CHECK IF THIS POSSIBLE WITH OUR TOKENS.* *Sho note: agree - let's keep it like that, and we can always say that post hoc we needed to change it bc of token number*], so the fixed effects will be the language preceding and following the switch. Random effects structures below are maximal, but may need to change depending on what structure will result in a model that converges. Statistical testing will be done with model comparison and an alpha of 0.05.
 
 ## 'like'
 
-For the word 'like' several different analyses will be conducted.
-- On the /lai/ portition we will examine both duration and formant (F1 and F2) values. [comment Sho: original prereg says F1, F2, and F3 measurements at 5% increments throughout the [lai])]
-For /l/, we predict quality differences such that it is produced as a postalveolar flap in Japanese contexts, and as a alveolar lateral approximant in English contexts.
-- /ai/
-- On the /k/ burst, we will check for its presence. We predict that the /k/ burst is present more often in Japanese than English contexts. 
-- On the /k/ burst, if present, we will measure the mean/median F1, F2, and F3 values to examine whether there are qualitative differences depending on context.
+* **[laI] duration**
+    + Measurement: Duration in milliseconds of [laI] portion of the token.
+    + Prediction: The duration is expected to be longer in Japanese contexts than English contexts, as English is expect to have a shorter diphthong, and in Japanese there may be two fully produced vowels.
+    + Statistical analysis:
+```
+lmer(lai_duration ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
 
+* **[laI] formants**
+    + Measurement: F1, F2, and F3 measurements taken at 5% increments throughout the token.
+    + Prediction: We predict quality differences early on (during the [l]) as a postalveolar flap will be used in Japanese contexts, and an alveolar lateral approximant in English contexts. There will also be differences later on in the production, as English uses the lower and more central [I] vowel while Japanese will use the higher and more fronted [i] vowel.
+    + Statistical analyses (F3 used to normalize F1 and F2):
+```
+lmer(lai_F1_normalized ~ language_proceeding * language_following * percentage + (1 + langauge_proceeding * language_following_percentage | dyad/speaker))
+```
+```
+lmer(lai_F2_normalized ~ language_proceeding * language_following * percentage + (1 + langauge_proceeding * language_following_percentage | dyad/speaker))
+```
+
+* **[k]-closure presence **
+    + Measurement: Each token will be coded for whether the closure for the [k] is present or not.
+    + Prediction: The closure is predicted to be more likely in Japanese contexts than English contexts, as the final [k] is more fully pronounced in Japanese contexts.
+    + Statistical analysis:
+```
+glmer(k_closure_presence ~ language_proceeding * language_following + (1 + langauge_proceeding * language_following | dyad/speaker), family = “binomial”)
+```
+
+* **[k]-burst presence **
+    + Measurement: Each token will be coded for whether the burst for the [k] is present or not.
+    + Prediction: The burst is predicted to be more likely in Japanese contexts than English contexts, as the final [k] is more fully pronounced in Japanese contexts.
+    + Statistical analysis:
+```
+glmer(k_burst_presence ~ language_proceeding * language_following + (1 + langauge_proceeding * language_following | dyad/speaker), family = “binomial”)
+```
+
+* **[k]-burst duration **
+    + Measurement: If a burst is present, its position voice onset time (VOT) duration will be measured in milliseconds.
+    + Prediction: Japanese tokens are predicted to have a shorter duration, as the VOT of Japanese voiceless stops tend to be shorter than English voiceless stops (Riney et al., 2007).
+    + Statistical analysis:
+```
+lmer(k_burst_duration ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
+
+* **Vowel following [k] presence**
+    + Measurement: Each token will be coded for whether a vowel following the [k], deemed to still be a part of the 'like' token, is present or not.
+    + Prediction: No vowel is predicted in the English contexts, however it is possible that a vowel will be produced in Japanese contexts to conform to Japanese phonotactics.
+    + Statistical analysis:
+```
+glmer(vowel_following_k_presence ~ language_proceeding * language_following + (1 + langauge_proceeding * language_following | dyad/speaker), family = “binomial”)
+```
 
 ## 'yeah'
 
--On the /a/ portion, we will take F1, F2,and F3 mean/median measurements. We expect quality differences such that the vowel is an open central unrounded vowel in Japanese contexts, and a open back unrounded vowel in English contexts.
-- Duration?
+* **[ja] duration**
+    + Measurement: Duration in milliseconds of entire [ja] token.
+    + Prediction: [*PAGE NOTE: I CAN'T THINK OF ANY GOOD PREDICTION HERE.*]
+    + Statistical analysis:
+```
+lmer(ja_duration ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
+
+* **[a] formants**
+    + Measurement: F1, F2, and F3 measurements at midpoint of [a].
+    + Prediction: We expect quality differences such that the vowel is an open central unrounded vowel in Japanese contexts, and a open back unrounded vowel in English contexts.
+    + Statistical analyses (F3 used to normalize F1 and F2):
+```
+lmer(a_F1_midpoint_normalized ~ language_proceeding * language_following + (1 + langauge_proceeding * language_following_percentage | dyad/speaker))
+```
+```
+lmer(a_F2_midpoint_normalized ~ language_proceeding * language_following + (1 + langauge_proceeding * language_following_percentage | dyad/speaker))
+```
 
 ## 'so'/'*so*'
 
-- On /o/, we will take F1, F2, and F3 measurements at 5% increments throughout the vowel sound to examine differences in quality and diphtongization. We expect a flat vowel sound in Japanese context, and a diphtongized vowel in English contexts.
-- Duration?
+* **[soU] duration**
+    + Measurement: Duration in milliseconds of entire [soU] token.
+    + Prediction: [*PAGE NOTE: I CAN'T THINK OF ANY GOOD PREDICTION HERE.*]
+    + Statistical analysis:
+```
+lmer(sou_duration ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
 
+* **[oU] formants**
+    + Measurement: F1, F2, and F3 measurements taken at 5% increments throughout the token.
+    + Prediction:  We expect a flat vowel sound in Japanese context, and a diphthongized vowel in English contexts.
+    + Statistical analyses (F3 used to normalize F1 and F2):
+```
+lmer(ow_F1_normalized ~ language_proceeding * language_following * percentage + (1 + langauge_proceeding * language_following_percentage | dyad/speaker))
+```
+```
+lmer(ow_F2_normalized ~ language_proceeding * language_following * percentage + (1 + langauge_proceeding * language_following_percentage | dyad/speaker))
+```
 
 ## '*nanka*'
 
-- We will examine the absolute duration of /n/. Based on the languages' rhythmic structures, we predict that the moraic nasal /n/ will be longer in Japanese than in English contexts.
-- Rhythmic structure should also be evident in relative length. We will examine the relative duration of the three portions /na/ /n/ /ka/ (moraic partition), and /nan/ /ka/ (syllabic partition). We predict that the difference between the three elements of the moraic partition will be smaller in Japanese contexts compared to English contexts, while the difference between the two elements of the English partition will be smaller in English compared to Japanese contexts.
-- anything quality-based?
+* **[na] duration**
+    + Measurement: Duration in milliseconds of the initial [na] portion of the token.
+    + Prediction: Based on the languages' rhythmic structures, we predict the duration to be longer in Japanese contents, as the [na] will form a full unit, unlike in English where a coda is expected.
+    + Statistical analysis:
+```
+lmer(na_duration ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
 
-Statistical analyses will be conducted as described in the main preregistration document.
+* **[n] duration**
+    + Measurement: Duration in milliseconds of the second [n] portion of the token.
+    + Prediction: Based on the languages' rhythmic structures, we predict that the moraic nasal [n] will be longer in Japanese than in English contexts.
+    + Statistical analysis:
+```
+lmer(n_duration ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
 
+* **[ka] duration**
+    + Measurement: Duration in milliseconds of final [ka] portion of the token.
+    + Prediction: There is no clear expectation of a difference in duration for these phonemes, as [ka] could function as a unit in both a Japanese or an English context. [*PAGE NOTE: RIGHT?*]
+    + Statistical analysis:
+```
+lmer(ka_duration ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
+
+*PAGE NOTE: WE COULD DO THE FOLLOWING TWO ANALYSES INSTEAD OF THE FIRST THREE.*
+
+* **Moraic partition standard deviation**
+    + Measurement: For a given token, we will compute the standard deviation in milliseconds of the three units of the token given a moraic partition, [na] [n] [ka].
+    + Prediction: The standard deviation should be smaller in Japanese contexts compared to English contexts, since Japanese follows a moraic structure.
+    + Statistical analysis:
+```
+lmer(moraic_sd ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
+    
+* **Syllabic partition standard deviation**
+    + Measurement: For a given token, we will compute the standard deviation in milliseconds of the two units of the token given a syllabic partition, [nan] [ka].
+    + Prediction: The standard deviation should be smaller in English contexts compared to Japanese contexts, since English follows syllabic structure.
+    + Statistical analysis:
+```
+lmer(syllabic_sd ~ language_proceeding * language_following + (1 + language_proceeding * language_following | dyad/speaker))
+```
 
 # Conclusion

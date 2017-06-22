@@ -3,13 +3,12 @@ title: 'Code-switching in Japanese-English bilinguals. Sub-project Discourse Mar
   Pre-registration'
 author: "Sho Tsuji & Page Piccinini"
 date: "June 21, 2017"
-header-includes:
-  - \usepackage{tipa}
-bibliography: cs_japanese_english_references.bib
-cls: apa.csl
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
+header-includes: \usepackage{tipa}
+cls: apa.csl
+bibliography: cs_japanese_english_references.bib
 ---
 
 # Introduction
@@ -113,6 +112,11 @@ glmer(k_burst_presence ~ language_proceeding * language_following +
     + \underline{Measurement:} If a burst is present, its position voice onset time (VOT) duration will be measured in milliseconds.
     + \underline{Prediction:} Japanese tokens are predicted to have a shorter duration, as the VOT of Japanese voiceless stops tend to be shorter than English voiceless stops [@Riney2007].
     + \underline{Statistical analysis:}
+    
+* **[k]-following vowel presence **
+    + \underline{Measurement:} If a vowel is present after the burst, its duration will be measured in milliseconds.
+    + \underline{Prediction:} The following vowel is predicted to be more likely in Japanese contexts, as the moraic structure of Japanese disallows word-final [k] [@Labrune2012].
+    + \underline{Statistical analysis:}
 ```
 lmer(k_burst_duration ~ language_proceeding * language_following +
 (1 + language_proceeding * language_following | dyad/speaker))
@@ -144,7 +148,8 @@ lmer(ae_F2_midpoint_normalized ~ language_proceeding * language_following +
 
 * **[so\textipa{U}] duration**
     + \underline{Measurement:} Duration in milliseconds of entire [so\textipa{U}] token.
-    + \underline{Prediction:} There are no specific predictions for this analysis. However, the duration may be longer in English since a diphthong will be produced, and a monophthong in Japanese
+    + \underline{Prediction:} The duration is expected to be longer in Japanese contexts than English contexts, as English is expect to have a shorter diphthong, and in Japanese there may be two fully produced vowels, since Japanese only has monophthongs [@Okada1991].
+    *NOTE SHO: CHANGED THE ABOVE FROM THE FOLLOWING (There are no specific predictions for this analysis. However, the duration may be longer in English since a diphthong will be produced, and a monophthong in Japanese)
     + \underline{Statistical analysis:}
 ```
 lmer(sou_duration ~ language_proceeding * language_following +
@@ -192,6 +197,7 @@ lmer(ka_duration ~ language_proceeding * language_following +
 ```
 
 *PAGE NOTE: WE COULD DO THE FOLLOWING TWO ANALYSES INSTEAD OF THE FIRST THREE.*
+*SHO NOTE: LIKE THE SECOND ANALYSYS!*
 
 * **Moraic partition standard deviation**
     + \underline{Measurement:} For a given token, we will compute the standard deviation in milliseconds of the three units of the token given a moraic partition, [na] [n] [ka].

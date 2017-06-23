@@ -2,10 +2,10 @@
 title: 'Code-switching in Japanese-English bilinguals. Sub-project Discourse Markers:
   Pre-registration'
 author: "Sho Tsuji & Page Piccinini"
-date: "June 21, 2017"
+date: "June 23, 2017"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 header-includes: \usepackage{tipa}
 cls: apa.csl
 bibliography: cs_japanese_english_references.bib

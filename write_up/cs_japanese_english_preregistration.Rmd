@@ -49,7 +49,7 @@ Based on orthographic transcriptions, we counted token frequency of individual l
 
 Four words will be segmented for this analysis, 'like', 'yeah', 'so'/'*so*', and '*nanka*'. For each word the following phonemes will be segmented:
 
-* 'like': [l], [a\textipa{I}], [k]-closure (if present), [k]-burst (if present)
+* 'like': [l], [a\textipa{I}], [k]-closure (if present), [k]-burst (if present), post-[k] vowel (if present)
 * 'yeah': [j], [\textipa{\ae}]
 * 'so'/'*so*: [s], [o\textipa{U}]
 * '*nanka*': [na], [n], [ka]
@@ -70,7 +70,7 @@ For all analyses we will use linear mixed effects regression models (LMEMs). The
 
 * **[la\textipa{I}] duration**
     + \underline{Measurement:} Duration in milliseconds of [la\textipa{I}] portion of the token.
-    + \underline{Prediction:} The duration is expected to be longer in Japanese contexts than English contexts, as English is expect to have a shorter diphthong, and in Japanese there may be two fully produced vowels, since Japanese only has monophthongs [@Okada1991].
+    + \underline{Prediction:} The duration is expected to be longer in Japanese contexts than English contexts, as English is expected to have a shorter diphthong, and in Japanese there may be two fully produced vowels, since Japanese only has monophthongs [@Okada1991].
     + \underline{Statistical analysis:}
 ```
 lmer(lai_duration ~ language_proceeding * language_following +
@@ -109,16 +109,20 @@ glmer(k_burst_presence ~ language_proceeding * language_following +
 ```
 
 * **[k]-burst duration **
-    + \underline{Measurement:} If a burst is present, its position voice onset time (VOT) duration will be measured in milliseconds.
+    + \underline{Measurement:} If a burst is present, its positive voice onset time (VOT) duration will be measured in milliseconds.
     + \underline{Prediction:} Japanese tokens are predicted to have a shorter duration, as the VOT of Japanese voiceless stops tend to be shorter than English voiceless stops [@Riney2007].
-    + \underline{Statistical analysis:}
-    
-* **[k]-following vowel presence **
-    + \underline{Measurement:} If a vowel is present after the burst, its duration will be measured in milliseconds.
-    + \underline{Prediction:} The following vowel is predicted to be more likely in Japanese contexts, as the moraic structure of Japanese disallows word-final [k] [@Labrune2012].
     + \underline{Statistical analysis:}
 ```
 lmer(k_burst_duration ~ language_proceeding * language_following +
+(1 + language_proceeding * language_following | dyad/speaker))
+```
+    
+* **post-[k] vowel presence **
+    + \underline{Measurement:} Each token will be coded for whether a vowel is present following the final [k].
+    + \underline{Prediction:} The following vowel is predicted to be more likely in Japanese contexts, as the moraic structure of Japanese disallows word-final [k] [@Labrune2012].
+    + \underline{Statistical analysis:}
+```
+glmer(post_k_vowel_presence ~ language_proceeding * language_following +
 (1 + language_proceeding * language_following | dyad/speaker))
 ```
 
@@ -148,8 +152,7 @@ lmer(ae_F2_midpoint_normalized ~ language_proceeding * language_following +
 
 * **[so\textipa{U}] duration**
     + \underline{Measurement:} Duration in milliseconds of entire [so\textipa{U}] token.
-    + \underline{Prediction:} The duration is expected to be longer in Japanese contexts than English contexts, as English is expect to have a shorter diphthong, and in Japanese there may be two fully produced vowels, since Japanese only has monophthongs [@Okada1991].
-    *NOTE SHO: CHANGED THE ABOVE FROM THE FOLLOWING (There are no specific predictions for this analysis. However, the duration may be longer in English since a diphthong will be produced, and a monophthong in Japanese)
+    + \underline{Prediction:} The duration is expected to be longer in Japanese contexts than English contexts, as English is expected to have a shorter diphthong, and in Japanese there may be two fully produced vowels, since Japanese only has monophthongs [@Okada1991].
     + \underline{Statistical analysis:}
 ```
 lmer(sou_duration ~ language_proceeding * language_following +
@@ -169,36 +172,6 @@ lmer(ow_F2_normalized ~ language_proceeding * language_following * percentage +
 
 ## '*nanka*'
 
-* **[na] duration**
-    + \underline{Measurement:} Duration in milliseconds of the initial [na] portion of the token.
-    + \underline{Prediction:} Based on the languages' rhythmic structures, we predict the duration to be longer in Japanese contents, as the [na] will form a full unit, unlike in English where a coda is expected [@Kessler1997].
-    + \underline{Statistical analysis:}
-```
-lmer(na_duration ~ language_proceeding * language_following +
-(1 + language_proceeding * language_following | dyad/speaker))
-```
-
-* **[n] duration**
-    + \underline{Measurement:} Duration in milliseconds of the second [n] portion of the token.
-    + \underline{Prediction:} Based on the languages' rhythmic structures, we predict that the moraic nasal [n] will be longer in Japanese [@Otake1996] than in English contexts.
-    + \underline{Statistical analysis:}
-```
-lmer(n_duration ~ language_proceeding * language_following +
-(1 + language_proceeding * language_following | dyad/speaker))
-```
-
-* **[ka] duration**
-    + \underline{Measurement:} Duration in milliseconds of final [ka] portion of the token.
-    + \underline{Prediction:} There are no specific predictions for this analysis, as [ka] could function as a unit in both a Japanese or an English context.
-    + \underline{Statistical analysis:}
-```
-lmer(ka_duration ~ language_proceeding * language_following +
-(1 + language_proceeding * language_following | dyad/speaker))
-```
-
-*PAGE NOTE: WE COULD DO THE FOLLOWING TWO ANALYSES INSTEAD OF THE FIRST THREE.*
-*SHO NOTE: LIKE THE SECOND ANALYSYS!*
-
 * **Moraic partition standard deviation**
     + \underline{Measurement:} For a given token, we will compute the standard deviation in milliseconds of the three units of the token given a moraic partition, [na] [n] [ka].
     + \underline{Prediction:} The standard deviation should be smaller in Japanese contexts compared to English contexts, since Japanese follows a moraic structure [@Otake1996].
@@ -210,7 +183,7 @@ lmer(moraic_sd ~ language_proceeding * language_following +
     
 * **Syllabic partition standard deviation**
     + \underline{Measurement:} For a given token, we will compute the standard deviation in milliseconds of the two units of the token given a syllabic partition, [nan] [ka].
-    + \underline{Prediction:} The standard deviation should be smaller in English contexts compared to Japanese contexts, since English follows syllabic structure [@Kessler1997].
+    + \underline{Prediction:} The standard deviation should be smaller in English contexts compared to Japanese contexts, since English follows a syllabic structure [@Kessler1997].
     + \underline{Statistical analysis:}
 ```
 lmer(syllabic_sd ~ language_proceeding * language_following +

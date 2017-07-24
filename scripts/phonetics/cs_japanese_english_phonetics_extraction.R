@@ -27,8 +27,14 @@ data_phonetics = read.table(paste("data/phonetics/textfiles_phonetics/", file, "
   mutate(presence = if_else(is.na(presence), 1, 0)) %>%
   # Compute duration of segments
   mutate(duration = tmax - tmin) %>%
+  mutate(duration_ms = duration * 1000) %>%
   # Add column with file name
-  mutate(file_name = file)
+  mutate(file_name = file) %>%
+  # Make columns with desired information about file
+  separate(file_name,
+           into = c("pair", "prompt", "speaking"),
+           sep = "_",
+           remove = FALSE)
 
 # Save formant data
 for (i in 1:dim(data_phonetics)[1]) {

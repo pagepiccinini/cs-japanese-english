@@ -71,12 +71,13 @@ formants_extracter = function(filename, wavfile, durationfile, line, formant_arg
   
   # Read in table and clean up data
   read.table(file = table_loc, header=TRUE, sep="\t", na.strings="--undefined--" ) %>%
-    # Only keep time, F1, and F2
-    select(time.s., F1.Hz., F2.Hz.) %>%
+    # Only keep time, F1, F2, and F3
+    select(time.s., F1.Hz., F2.Hz., F3.Hz.) %>%
     # Rename time, f1, and f2 columns
     rename(time = time.s.) %>%
     rename(f1 = F1.Hz.) %>%
     rename(f2 = F2.Hz.) %>%
+    rename(f3 = F3.Hz.) %>%
     # Save gender information for intial settings
     mutate(gender = speaker_gender) %>%
     mutate(file_name = curr_file) %>%

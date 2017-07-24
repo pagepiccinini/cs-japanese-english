@@ -19,8 +19,9 @@ data_formants_yeah_eah = data_formants_clean %>%
   filter(word == "yeah") %>%
   # Focus on phoneme
   filter(sound == "eah") %>%
-  # Get mean formants
-  group_by(line, pair, prompt, speaker, lang_pre, lang_post) %>%
-  summarise(f1_mean = mean(f1, na.rm = T),
-            f2_mean = mean(f2, na.rm = T)) %>%
-  ungroup()
+  # Add percentages
+  group_by(pair, speaker, prompt, line) %>%
+  mutate(midpoint = round(min(time) + ((max(time) - min(time)) / 2), 3)) %>%
+  ungroup() %>%
+  # Filter to midpoint
+  filter(time == midpoint)

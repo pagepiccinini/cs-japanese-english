@@ -37,7 +37,7 @@ duration_yeah.plot
 ## MAKE FIGURE OF FORMANTS ####
 # /ae/
 formants_yeah_eah.plot = ggplot(data_formants_yeah_eah_figs,
-                         aes(x = f2_mean, y = f1_mean,
+                         aes(x = f2, y = f1,
                              col = lang_post, shape = lang_pre)) + 
   geom_point() +
   scale_x_reverse() +

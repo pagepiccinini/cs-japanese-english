@@ -50,7 +50,8 @@ source("scripts/phonetics/like/cs_japanese_english_phonetics_like_cleaning.R")
 source("scripts/phonetics/like/cs_japanese_english_phonetics_like_figures.R")
 
 # Run analysis for "yeah"
-source("scripts/phonetics/cs_japanese_english_phonetics_yeah.R")
+source("scripts/phonetics/yeah/cs_japanese_english_phonetics_yeah_cleaning.R")
+source("scripts/phonetics/yeah/cs_japanese_english_phonetics_yeah_figures.R")
 
 # Run analysis for "so"
 source("scripts/phonetics/cs_japanese_english_phonetics_so.R")

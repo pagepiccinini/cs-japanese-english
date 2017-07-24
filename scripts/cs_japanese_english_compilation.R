@@ -45,9 +45,16 @@ source("scripts/phonetics/cs_japanese_english_phonetics_extraction.R")
 # Read in all phonetic data
 source("scripts/phonetics/cs_japanese_english_phonetics_cleaning.R")
 
-# Run analysis for specific words
-source("scripts/phonetics/cs_japanese_english_phonetics_like.R")
+# Run analysis "like"
+source("scripts/phonetics/like/cs_japanese_english_phonetics_like_cleaning.R")
+source("scripts/phonetics/like/cs_japanese_english_phonetics_like_figures.R")
+
+# Run analysis for "yeah"
 source("scripts/phonetics/cs_japanese_english_phonetics_yeah.R")
+
+# Run analysis for "so"
 source("scripts/phonetics/cs_japanese_english_phonetics_so.R")
+
+# Run analysis for nanka
 source("scripts/phonetics/cs_japanese_english_phonetics_nanka.R")
 

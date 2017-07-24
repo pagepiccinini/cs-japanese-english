@@ -36,12 +36,3 @@ data_formants_like_lai = data_formants_like %>%
   # Focus on the phoneme /lai/
   filter(sound == "l" | sound == "i")
 
-
-  # Arrange to allow for correct spread
-  arrange(pair, prompt, speaker, line) %>%
-  # Add column for total duration of token
-  mutate(duration_l = duration) %>%
-  mutate(duration_ai = lead(duration)) %>%
-  filter(phoneme == "l") %>%
-  mutate(duration_lai = duration_l + duration_ai)
-

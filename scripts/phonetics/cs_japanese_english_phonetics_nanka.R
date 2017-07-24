@@ -1,65 +1,59 @@
 ## ORGANIZE DATA ####
 # Separate out "nanka" data
-data_phonetics_nanka = data_phonetics_formants %>%
+data_duration_nanka = data_duration_clean %>%
   # Focus on the word "nanka"
   filter(word == "nanka")
 
-# Separate out each phoneme
-data_phonetics_nanka_na = data_phonetics_nanka %>%
-  # Focus on the phoneme /na/
-  filter(sound == "na")
+# Get durations based on moraic partition
+data_duration_nanka_moraic = data_duration_nanka %>%
+  # Arrange to allow for correct spread
+  arrange(pair, prompt, speaker, line) %>%
+  # Add column for total duration of token
+  mutate(duration_na = duration) %>%
+  mutate(duration_n = lead(duration)) %>%
+  mutate(duration_ka = lead(duration, 2)) %>%
+  filter(phoneme == "na") %>%
+  mutate(duration_sd = sd(c(duration_na, duration_n, duration_ka)))
 
-data_phonetics_nanka_n = data_phonetics_nanka %>%
-  # Focus on the phoneme /n/
-  filter(sound == "n")
+# Get durations based on syllabic partition
+data_duration_nanka_syllabic = data_duration_nanka %>%
+  # Arrange to allow for correct spread
+  arrange(pair, prompt, speaker, line) %>%
+  # Add column for total duration of token
+  mutate(duration_nan = duration + lead(duration)) %>%
+  mutate(duration_ka = lead(duration, 2)) %>%
+  filter(phoneme == "na") %>%
+  mutate(duration_sd = sd(c(duration_nan, duration_ka)))
 
-data_phonetics_nanka_ka = data_phonetics_nanka %>%
-  # Focus on the phoneme /ka/
-  filter(sound == "ka")
 
-
-## MAKE FIGURE OF FORMANTS ####
-# /na/
-nanka_na_formants.plot = ggplot(data_phonetics_nanka_na, aes(x = time, y = f1, col = lang_post)) + 
-  facet_wrap(~line) +
-  geom_point() +
-  geom_point(aes(y = f2)) +
-  scale_color_manual(values = c(brewer.pal(5, "PRGn")[1], brewer.pal(5, "PRGn")[5])) +
-  ggtitle("F1 and F2 for /na/ in 'nanka'") +
-  xlab("Time into vowel") +
-  ylab("Frequency in Hz") +
+## MAKE FIGURE OF DURATIONS ####
+# 'nanka' moraic partition
+duration_nanka_moraic.plot = ggplot(data_duration_nanka_moraic,
+                                    aes(x = lg_pre, y = duration_sd,
+                                                fill = lg_post)) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Language pre-switch",
+       y = "Duration (s)",
+       fill = "Language post-switch") +
   theme_classic() +
-  theme(text = element_text(size = 18), axis.text.x = element_text(angle = 60, hjust = 1))
+  theme(text = element_text(size = 16), legend.position = "top")
 
-nanka_na_formants.plot
-ggsave("figures/nanka_na_formants.pdf", nanka_na_formants.plot, width = 7, height = 7, unit = "in")
+duration_nanka_moraic.plot
 
-# /n/
-nanka_n_formants.plot = ggplot(data_phonetics_nanka_n, aes(x = time, y = f1, col = lang_post)) + 
-  facet_wrap(~line) +
-  geom_point() +
-  geom_point(aes(y = f2)) +
-  scale_color_manual(values = c(brewer.pal(5, "PRGn")[1], brewer.pal(5, "PRGn")[5])) +
-  ggtitle("F1 and F2 for /n/ in 'nanka'") +
-  xlab("Time into vowel") +
-  ylab("Frequency in Hz") +
+# 'nanka' syllabic partition
+duration_nanka_syllabic.plot = ggplot(data_duration_nanka_syllabic,
+                                    aes(x = lg_pre, y = duration_sd,
+                                        fill = lg_post)) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Language pre-switch",
+       y = "Duration (s)",
+       fill = "Language post-switch") +
   theme_classic() +
-  theme(text = element_text(size = 18), axis.text.x = element_text(angle = 60, hjust = 1))
+  theme(text = element_text(size = 16), legend.position = "top")
 
-nanka_n_formants.plot
-ggsave("figures/nanka_n_formants.pdf", nanka_n_formants.plot, width = 7, height = 7, unit = "in")
+duration_nanka_syllabic.plot
 
-# /ka/
-nanka_ka_formants.plot = ggplot(data_phonetics_nanka_ka, aes(x = time, y = f1, col = lang_post)) + 
-  facet_wrap(~line) +
-  geom_point() +
-  geom_point(aes(y = f2)) +
-  scale_color_manual(values = c(brewer.pal(5, "PRGn")[1], brewer.pal(5, "PRGn")[5])) +
-  ggtitle("F1 and F2 for /ka/ in 'nanka'") +
-  xlab("Time into vowel") +
-  ylab("Frequency in Hz") +
-  theme_classic() +
-  theme(text = element_text(size = 18), axis.text.x = element_text(angle = 60, hjust = 1))
 
-nanka_ka_formants.plot
-ggsave("figures/nanka_ka_formants.pdf", nanka_ka_formants.plot, width = 7, height = 7, unit = "in")
+

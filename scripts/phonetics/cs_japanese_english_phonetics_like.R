@@ -1,47 +1,63 @@
 ## ORGANIZE DATA ####
 # Separate out "like" data
-data_phonetics_like = data_phonetics_formants %>%
+data_duration_like = data_duration_clean %>%
   # Focus on the word "like"
   filter(word == "like")
 
 # Separate out each phoneme
-data_phonetics_like_l = data_phonetics_like %>%
-  # Focus on the phoneme /l/
-  filter(sound == "l")
+data_duration_like_lai = data_duration_like %>%
+  # Focus on the phoneme /lai/
+  filter(phoneme == "l" | phoneme == "i") %>%
+  # Arrange to allow for correct spread
+  arrange(pair, prompt, speaker, line) %>%
+  # Add column for total duration of token
+  mutate(duration_l = duration) %>%
+  mutate(duration_ai = lead(duration)) %>%
+  filter(phoneme == "l") %>%
+  mutate(duration_lai = duration_l + duration_ai)
 
-data_phonetics_like_i = data_phonetics_like %>%
+data_duration_like_kclosure = data_duration_like %>%
   # Focus on the phoneme /ai/
-  filter(sound == "i")
+  filter(phoneme == "k-closure")
+
+data_duration_like_kburst = data_duration_like %>%
+  # Focus on the phoneme /ai/
+  filter(phoneme == "k-burst")
 
 
-## MAKE FIGURE OF FORMANTS ####
-# /l/
-like_l_formants.plot = ggplot(data_phonetics_like_l, aes(x = time, y = f1, col = lang_pre)) + 
-  facet_wrap(~line) +
-  geom_point() +
-  geom_point(aes(y = f2)) +
-  scale_color_manual(values = c(brewer.pal(5, "PRGn")[1], brewer.pal(5, "PRGn")[5])) +
-  ggtitle("F1 and F2 for /l/ in 'like'") +
-  xlab("Time into /l/") +
-  ylab("Frequency in Hz") +
+## MAKE FIGURE OF DURATIONS ####
+# /lai/ duration
+duration_like_lai.plot = ggplot(data_duration_like_lai, aes(x = lg_pre, y = duration_lai,
+                                   fill = lg_post)) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Language pre-switch",
+       y = "Duration (s)",
+       fill = "Language post-switch") +
   theme_classic() +
-  theme(text = element_text(size = 18), axis.text.x = element_text(angle = 60, hjust = 1))
+  theme(text = element_text(size = 16), legend.position = "top")
 
-like_l_formants.plot
-ggsave("figures/like_l_formants.pdf", like_l_formants.plot, width = 7, height = 7, unit = "in")
+duration_like_lai.plot
 
-# /ai/
-like_i_formants.plot = ggplot(data_phonetics_like_i, aes(x = time, y = f1, col = lang_pre)) + 
-  facet_wrap(~line) +
-  geom_point() +
-  geom_point(aes(y = f2)) +
-  scale_color_manual(values = c(brewer.pal(5, "PRGn")[1], brewer.pal(5, "PRGn")[5])) +
-  ggtitle("F1 and F2 for /ai/ in 'like'") +
-  xlab("Time into /ai/") +
-  ylab("Frequency in Hz") +
+# [k]-closure presence
+ggplot(data_duration_like_kclosure, aes(x = lg_pre, y = presence,
+                                       fill = lg_post)) +
+  geom_point()
+
+# [k]-burst presence
+ggplot(data_duration_like_kburst, aes(x = lg_pre, y = presence,
+                                        fill = lg_post)) +
+  geom_point()
+
+# [k]-burst duration
+duration_like_kburst.plot = ggplot(data_duration_like_kburst, aes(x = lg_pre, y = duration,
+                                                            fill = lg_post)) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Language pre-switch",
+       y = "Duration (s)",
+       fill = "Language post-switch") +
   theme_classic() +
-  theme(text = element_text(size = 18), axis.text.x = element_text(angle = 60, hjust = 1))
+  theme(text = element_text(size = 16), legend.position = "top")
 
-like_i_formants.plot
-ggsave("figures/like_i_formants.pdf", like_i_formants.plot, width = 7, height = 7, unit = "in")
-
+duration_like_kburst.plot

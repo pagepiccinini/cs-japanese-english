@@ -37,12 +37,27 @@ duration_so.plot
 ## MAKE FIGURE OF FORMANTS ####
 # /o/ formants
 ggplot(data_formants_so_o_figs,
-       aes(x = time, y = f1,
+       aes(x = percentage, y = f1,
            color = lang_post, shape = lang_pre)) +
   geom_point() +
   geom_point(aes(y = f2)) +
-  labs(x = "Time (s)",
+  scale_x_continuous(labels = scales::percent) +
+  labs(x = "Percentage into token",
        y = "Formants (Hz)",
+       shape = "Language pre-switch",
+       color = "Language post-switch") +
+  theme_classic() +
+  theme(text = element_text(size = 16), legend.position = "top")
+
+# /o/ formants
+ggplot(data_formants_so_o_figs,
+       aes(x = f2, y = f1,
+           color = lang_post, shape = lang_pre)) +
+  geom_point() +
+  scale_x_reverse() +
+  scale_y_reverse() +
+  labs(x = "F2 (Hz)",
+       y = "F1 (Hz)",
        shape = "Language pre-switch",
        color = "Language post-switch") +
   theme_classic() +

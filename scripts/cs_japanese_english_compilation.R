@@ -54,8 +54,10 @@ source("scripts/phonetics/yeah/cs_japanese_english_phonetics_yeah_cleaning.R")
 source("scripts/phonetics/yeah/cs_japanese_english_phonetics_yeah_figures.R")
 
 # Run analysis for "so"
-source("scripts/phonetics/cs_japanese_english_phonetics_so.R")
+source("scripts/phonetics/so/cs_japanese_english_phonetics_so_cleaning.R")
+source("scripts/phonetics/so/cs_japanese_english_phonetics_so_figures.R")
 
 # Run analysis for nanka
-source("scripts/phonetics/cs_japanese_english_phonetics_nanka.R")
+source("scripts/phonetics/nanka/cs_japanese_english_phonetics_nanka_cleaning.R")
+source("scripts/phonetics/nanka/cs_japanese_english_phonetics_nanka_figures.R")
 

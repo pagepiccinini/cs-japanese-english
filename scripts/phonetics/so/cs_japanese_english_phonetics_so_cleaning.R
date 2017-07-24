@@ -1,4 +1,4 @@
-## ORGANIZE DATA ####
+## ORGANIZE DURATION DATA ####
 # Separate out "so" data
 data_duration_so = data_duration_clean %>%
   # Focus on the word "so"
@@ -12,5 +12,12 @@ data_duration_so = data_duration_clean %>%
   mutate(duration_so = duration_s + duration_o)
 
 
+
+## ORGANIZE FORMANT DATA ####
+data_formants_so_o = data_formants_clean %>%
+  # Focus on word "so"
+  filter(word == "so-eng" | word == "so-jap") %>%
+  # Focus on vowel
+  filter(sound == "o")
 
 

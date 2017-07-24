@@ -20,7 +20,7 @@ source("scripts/words/cs_japanese_english_words_figures.R")
 source("scripts/words/cs_japanese_english_words_discmark.R")
 
 
-## GET AND ANALYZE PHONETIC DATA ####
+## EXTRACT PHONETIC DATA ####
 # Set parameters for a specific speaker
 pair = "e06"
 prompt = "a00"
@@ -40,6 +40,8 @@ formant_arguments = list(0.001,        # Time step (s)
 # Pull out phonetic data
 source("scripts/phonetics/cs_japanese_english_phonetics_extraction.R")
 
+
+## READ IN AND ANALYZE PHONETIC DATA ####
 # Read in all phonetic data
 source("scripts/phonetics/cs_japanese_english_phonetics_cleaning.R")
 

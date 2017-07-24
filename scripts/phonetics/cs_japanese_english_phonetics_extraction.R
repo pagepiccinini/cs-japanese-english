@@ -53,3 +53,17 @@ for (i in 1:dim(data_phonetics)[1]) {
 # Combine duration and formant data
 data_phonetics_formants = inner_join(data_phonetics, data_formants)
 
+
+## SAVE DATA TO TEXT FILES ####
+# Durations
+write_csv(data_phonetics,
+            paste0("data/phonetics/textfiles_phonetics/", file, "_duration.csv"))
+
+# Formants
+write_csv(data_phonetics_formants,
+          paste0("data/phonetics/textfiles_phonetics/", file, "_formants.csv"))
+
+
+## GET RID OF TEMP DATA ####
+rm(data_phonetics, data_formants, data_phonetics_formants)
+

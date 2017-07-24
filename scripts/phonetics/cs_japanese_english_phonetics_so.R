@@ -1,32 +1,28 @@
 ## ORGANIZE DATA ####
 # Separate out "so" data
-data_phonetics_so = data_phonetics_formants %>%
+data_duration_so = data_duration_clean %>%
   # Focus on the word "so"
-  filter(word == "so-eng" | word == "so-jap")
+  filter(word == "so-eng" | word == "so-jap") %>%
+  # Arrange to allow for correct spread
+  arrange(pair, prompt, speaker, line) %>%
+  # Add column for total duration of token
+  mutate(duration_s = duration) %>%
+  mutate(duration_o = lead(duration)) %>%
+  filter(phoneme == "s") %>%
+  mutate(duration_so = duration_s + duration_o)
 
-# Separate out each phoneme
-data_phonetics_so_s = data_phonetics_so %>%
-  # Focus on the phoneme /s/
-  filter(sound == "s")
 
-data_phonetics_so_o = data_phonetics_so %>%
-  # Focus on the phoneme /o/
-  filter(sound == "o")
- 
- 
-## MAKE FIGURE OF FORMANTS ####
-so_formants.plot = ggplot(data_phonetics_so_o, aes(x = time, y = f1, col = word)) + 
-  facet_wrap(~line) +
-  geom_point() +
-  geom_point(aes(y = f2)) +
-  scale_color_manual(values = c(brewer.pal(5, "PRGn")[1], brewer.pal(5, "PRGn")[5])) +
-  ggtitle("F1 and F2 for /o/ in 'so'") +
-  xlab("Time into vowel") +
-  ylab("Frequency in Hz") +
+## MAKE FIGURE OF DURATIONS ####
+# 'so' duration
+duration_so.plot = ggplot(data_duration_so, aes(x = lg_pre, y = duration_so,
+                                                    fill = lg_post)) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Language pre-switch",
+       y = "Duration (s)",
+       fill = "Language post-switch") +
   theme_classic() +
-  theme(text = element_text(size = 18), axis.text.x = element_text(angle = 60, hjust = 1))
+  theme(text = element_text(size = 16), legend.position = "top")
 
-so_formants.plot
-ggsave("figures/so_formants.pdf", so_formants.plot, width = 7, height = 7, unit = "in")
+duration_so.plot
 
-  

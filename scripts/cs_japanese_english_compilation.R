@@ -40,6 +40,9 @@ formant_arguments = list(0.001,        # Time step (s)
 # Pull out phonetic data
 source("scripts/phonetics/cs_japanese_english_phonetics_extraction.R")
 
+# Read in all phonetic data
+source("scripts/phonetics/cs_japanese_english_phonetics_cleaning.R")
+
 # Run analysis for specific words
 source("scripts/phonetics/cs_japanese_english_phonetics_like.R")
 source("scripts/phonetics/cs_japanese_english_phonetics_yeah.R")

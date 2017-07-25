@@ -1,10 +1,10 @@
 ## GET LOCATION AND NAME INFORMATION OF TEXTGRIDS ####
 # Get file locations
-files = paste(getwd(), "/", list.files("data/words/textgrids_words", full.names = T),
+files = paste(getwd(), "/", list.files("word_analysis/data/textgrids", full.names = T),
               sep = "")
 
 # Get file names
-names = sub(".TextGrid", "", list.files("data/words/textgrids_words"))
+names = sub(".TextGrid", "", list.files("word_analysis/data/textgrids"))
 
 
 ## TRANSFORM DATA FROM TEXTGRID TO TEXTFILE ####

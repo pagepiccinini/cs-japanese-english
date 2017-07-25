@@ -1,9 +1,9 @@
 ## READ IN DATA ####
 # Get file names
-names = sub(".TextGrid", "", list.files("data/words/textgrids_words"))
+names = sub(".txt", "", list.files("word_analysis/data/textfiles"))
 
 # Read in data and add names  
-data = list.files("data/words/textfiles_words", full.names = T) %>%
+data = list.files("word_analysis/data/textfiles", full.names = T) %>%
   # Read in data to table
   map(read.table, header = T, sep = "\t", quote = "", fileEncoding = "utf-16be") %>%
   # Add column for file names
@@ -13,7 +13,7 @@ data = list.files("data/words/textfiles_words", full.names = T) %>%
   bind_rows()
 
 # Read in Clearpond English database
-clearpond_english = read.table("data/dictionaries/clearpond_english.txt", header = T, sep = "\t") %>%
+clearpond_english = read.table("word_analysis/data/dictionaries/clearpond_english.txt", header = T, sep = "\t") %>%
   # Make all words lowercase
   mutate(word = tolower(word))
 

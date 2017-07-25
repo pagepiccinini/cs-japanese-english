@@ -56,7 +56,7 @@ formants_extracter = function(filename, wavfile, durationfile, line, formant_arg
         filetype = "tab-separated")
   
   # Read in table and clean up data
-  read.table(file = table_loc, header=TRUE, sep="\t", na.strings="--undefined--" ) %>%
+  read.table(file = table_loc, header = TRUE, sep = "\t", na.strings="--undefined--" ) %>%
     # Only keep time, F1, F2, and F3
     select(time.s., F1.Hz., F2.Hz., F3.Hz.) %>%
     # Rename time, f1, and f2 columns

@@ -19,7 +19,7 @@ max_formant = if_else(speaker_gender == "female", 5500, 4000)
 formant_arguments = list(0.001,        # Time step (s)
                          5,            # Max. number of formants
                          max_formant,  # Maximum formant (Hz) <- change to be based on gender
-                         0.025,        # Window length (s)
+                         0.001,        # Window length (s)
                          50)           # Pre-emphasis from (Hz)
 
 

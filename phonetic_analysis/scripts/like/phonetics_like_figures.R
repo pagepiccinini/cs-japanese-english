@@ -103,16 +103,35 @@ duration_like_kburst.plot
 
 
 ## MAKE FIGURE OF FORMANTS ####
-# /lai/
-like_l_formants.plot = ggplot(data_formants_like_lai_figs,
-                              aes(x = time, y = f1, col = lang_pre)) + 
+# /lai/ over time
+formants_like_lai.plot = ggplot(data_formants_like_lai_figs,
+                              aes(x = percentage, y = f1, col = lang_pre)) + 
   geom_point() +
+  geom_smooth() +
   geom_point(aes(y = f2)) +
+  geom_smooth(aes(y = f2)) +
   scale_color_brewer(palette = "Dark2") +
+  scale_x_continuous(labels = scales::percent) +
   labs(x = "Time into /lai/",
        y = "Frequency in Hz") +
   theme_classic() +
   theme(text = element_text(size = 16), legend.position = "top")
 
-like_l_formants.plot
+formants_like_lai.plot
+
+# /lai/ F2 x F1
+formants_like_lai_vs.plot = ggplot(data_formants_like_lai_figs,
+                                aes(x = f2, y = f1,
+                                    col = percentage)) + 
+  geom_point() +
+  geom_smooth() +
+  scale_x_reverse() +
+  scale_y_reverse() +
+  #scale_color_brewer(palette = "Dark2") +
+  labs(x = "F2 (Hz)",
+       y = "F1 (Hz)") +
+  theme_classic() +
+  theme(text = element_text(size = 16), legend.position = "top")
+
+formants_like_lai_vs.plot
 

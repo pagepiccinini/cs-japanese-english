@@ -34,5 +34,18 @@ data_formants_like = data_formants_clean %>%
 # Separate out each phoneme
 data_formants_like_lai = data_formants_like %>%
   # Focus on the phoneme /lai/
-  filter(sound == "l" | sound == "i")
-
+  filter(sound == "l" | sound == "i") %>%
+  # Update line number and time
+  mutate(line_lai = ifelse(sound == "l", line, line - 1)) %>%
+  # Update time column
+  mutate(time_real = tmin + time) %>%
+  # Get percentages
+  group_by(pair, prompt, speaker, line_lai) %>%
+  mutate(percentage = round((time_real - min(time_real)) /
+           (max(time_real) - min(time_real)), 1)) %>%
+  # Get mean of percentage
+  group_by(pair, prompt, speaker, lang_pre, lang_post, line_lai, percentage) %>%
+  summarise(f1 = mean(f1, na.rm = T),
+            f2 = mean(f2, na.rm = T),
+            f3 = mean(f3, na.rm = T)) %>%
+  ungroup()

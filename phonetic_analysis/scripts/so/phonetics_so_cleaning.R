@@ -20,7 +20,12 @@ data_formants_so_o = data_formants_clean %>%
   filter(sound == "o") %>%
   # Add percentages
   group_by(pair, prompt, speaker, line) %>%
-  mutate(percentage = time / max(time)) %>%
+  mutate(percentage = round(time / max(time), 1)) %>%
+  ungroup() %>%
+  # Get mean of percentage
+  group_by(pair, prompt, speaker, lang_pre, lang_post, line, percentage) %>%
+  summarise(f1 = mean(f1, na.rm = T),
+            f2 = mean(f2, na.rm = T),
+            f3 = mean(f3, na.rm = T)) %>%
   ungroup()
-
 

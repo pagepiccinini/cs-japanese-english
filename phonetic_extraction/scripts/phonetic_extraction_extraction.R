@@ -32,7 +32,7 @@ data_duration = read.table(paste("phonetic_analysis/data/", file, ".txt", sep = 
   mutate(file_name = file) %>%
   # Make columns with desired information about file
   separate(file_name,
-           into = c("pair", "prompt", "speaking"),
+           into = c("pair", "prompt", "speaker"),
            sep = "_",
            remove = FALSE)
 

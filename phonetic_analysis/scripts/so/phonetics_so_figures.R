@@ -15,7 +15,8 @@ data_formants_so_o_figs = data_formants_so_o %>%
                            labels = c("English", "Japanese"))) %>%
   mutate(lang_post = factor(lang_post,
                             levels = c("eng", "jap"),
-                            labels = c("English", "Japanese")))
+                            labels = c("English", "Japanese"))) %>%
+  mutate(context = paste(lang_pre, lang_post))
 
 
 ## MAKE FIGURE OF DURATIONS ####
@@ -38,10 +39,13 @@ duration_so.plot
 # /o/ formants
 ggplot(data_formants_so_o_figs,
        aes(x = percentage, y = f1,
-           color = lang_post, shape = lang_pre)) +
+           color = context)) +
   geom_point() +
+  geom_smooth() +
   geom_point(aes(y = f2)) +
+  geom_smooth(aes(y = f2)) +
   scale_x_continuous(labels = scales::percent) +
+  scale_color_brewer(palette = "PRGn") +
   labs(x = "Percentage into token",
        y = "Formants (Hz)",
        shape = "Language pre-switch",
@@ -52,8 +56,9 @@ ggplot(data_formants_so_o_figs,
 # /o/ formants
 ggplot(data_formants_so_o_figs,
        aes(x = f2, y = f1,
-           color = lang_post, shape = lang_pre)) +
+           color = context)) +
   geom_point() +
+  geom_smooth() +
   scale_x_reverse() +
   scale_y_reverse() +
   labs(x = "F2 (Hz)",

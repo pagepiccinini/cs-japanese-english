@@ -3,11 +3,11 @@
 file = paste0(pair, "_", prompt, "_", speaker)
 
 # Read in wav file
-data_wav = paste(getwd(), "/data/recordings/",
+data_wav = paste(getwd(), "/phonetic_extraction/data/recordings/",
                  file, ".wav", sep="")
 
 # Set location of TextGrid
-textgrid_loc = paste(getwd(), "/data/phonetics/textgrids_phonetics/",
+textgrid_loc = paste(getwd(), "/phonetic_extraction/data/textgrids/",
                      file, ".TextGrid", sep = "")
 
 
@@ -16,7 +16,7 @@ textgrid_loc = paste(getwd(), "/data/phonetics/textgrids_phonetics/",
 table_to_textgrid_phonetics(textgrid_loc, file)
 
 # Read in duration data
-data_phonetics = read.table(paste("data/phonetics/textfiles_phonetics/", file, ".txt", sep = ""),
+data_duration = read.table(paste("phonetic_analysis/data/", file, ".txt", sep = ""),
                   header = T, sep = "\t") %>%
   # Make columns with detailed information about each token
   separate(text,
@@ -37,39 +37,39 @@ data_phonetics = read.table(paste("data/phonetics/textfiles_phonetics/", file, "
            remove = FALSE)
 
 # Save formant data
-for (i in 1:dim(data_phonetics)[1]) {
+for (i in 1:dim(data_duration)[1]) {
   # Save pitch information
-  formants_temp = formants_extracter(file, data_wav, data_phonetics, i, formant_arguments)
+  formants_temp = formants_extracter(file, data_wav, data_duration, i, formant_arguments)
   
   # Save data and remove temp files
   if(!exists("data_formants") == TRUE){
     data_formants = formants_temp
-    unlink(paste("data/temp/", file, "_", curr_time, ".wav", sep = ""))
-    unlink(paste("data/temp/", file, "_", curr_time, ".Formant", sep = ""))
-    unlink(paste("data/temp/", file, "_", curr_time, ".txt", sep = ""))
+    unlink(paste("phonetic_extraction/data/temp/", file, "_", curr_time, ".wav", sep = ""))
+    unlink(paste("phonetic_extraction/data/temp/", file, "_", curr_time, ".Formant", sep = ""))
+    unlink(paste("phonetic_extraction/data/temp/", file, "_", curr_time, ".txt", sep = ""))
   } else {
     data_formants = bind_rows(data_formants, formants_temp)
-    unlink(paste("data/temp/", file, "_", curr_time, ".wav", sep = ""))
-    unlink(paste("data/temp/", file, "_", curr_time, ".Formant", sep = ""))
-    unlink(paste("data/temp/", file, "_", curr_time, ".txt", sep = ""))
+    unlink(paste("phonetic_extraction/data/temp/", file, "_", curr_time, ".wav", sep = ""))
+    unlink(paste("phonetic_extraction/data/temp/", file, "_", curr_time, ".Formant", sep = ""))
+    unlink(paste("phonetic_extraction/data/temp/", file, "_", curr_time, ".txt", sep = ""))
   }
   rm(formants_temp)
 }
 
 # Combine duration and formant data
-data_phonetics_formants = inner_join(data_phonetics, data_formants)
+data_duration_formants = inner_join(data_duration, data_formants)
 
 
 ## SAVE DATA TO TEXT FILES ####
 # Durations
-write_csv(data_phonetics,
-            paste0("data/phonetics/textfiles_phonetics/", file, "_duration.csv"))
+write_csv(data_duration,
+            paste0("phonetic_analysis/data/", file, "_duration.csv"))
 
 # Formants
-write_csv(data_phonetics_formants,
-          paste0("data/phonetics/textfiles_phonetics/", file, "_formants.csv"))
+write_csv(data_duration_formants,
+          paste0("phonetic_analysis/data/", file, "_formants.csv"))
 
 
 ## GET RID OF TEMP DATA ####
-rm(data_phonetics, data_formants, data_phonetics_formants)
+rm(data_duration, data_formants, data_duration_formants)
 

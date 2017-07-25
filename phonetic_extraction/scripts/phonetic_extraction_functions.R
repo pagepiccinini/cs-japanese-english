@@ -1,17 +1,3 @@
-# Make table from TextGrid for words
-table_to_textgrid = function(inputfile, outputfile) {
-  praat( "Down to Table...",
-         arguments = list( TRUE, # Include line number
-                           6,    # Time decimals
-                           TRUE, # Include tier names
-                           FALSE  # Include empty intervals
-                          ), # End list()
-         input = inputfile,
-         output = paste(getwd(), "/data/words/textfiles_words/", outputfile, ".txt", sep = ""),
-         filetype = "tab-separated"
-         )
-}
-
 # Make table from TextGrid for phonetics
 table_to_textgrid_phonetics = function(inputfile, outputfile) {
   praat( "Down to Table...",
@@ -21,7 +7,7 @@ table_to_textgrid_phonetics = function(inputfile, outputfile) {
                            FALSE  # Include empty intervals
          ), # End list()
          input = inputfile,
-         output = paste(getwd(), "/data/phonetics/textfiles_phonetics/", outputfile, ".txt", sep = ""),
+         output = paste(getwd(), "/phonetic_analysis/data/", outputfile, ".txt", sep = ""),
          filetype = "tab-separated"
   )
 }
@@ -39,10 +25,10 @@ formants_extracter = function(filename, wavfile, durationfile, line, formant_arg
                   from = durationfile$tmin[line], to = durationfile$tmax[line],
                   units = "seconds")
   
-  savewav(temp, file = paste("data/temp/", curr_file, "_", curr_time, ".wav", sep = ""))
+  savewav(temp, file = paste("phonetic_extraction/data/temp/", curr_file, "_", curr_time, ".wav", sep = ""))
   
   # Set location paths for wav files and formant files, Note: spaces not allowed in path
-  wav_loc = paste(getwd(), "/", list.files(path = "data/temp", full.names = TRUE), sep = "")
+  wav_loc = paste(getwd(), "/", list.files(path = "phonetic_extraction/data/temp", full.names = TRUE), sep = "")
   formant_loc = sub(wav_loc, pattern = ".wav", replacement = ".Formant")
   table_loc = sub(wav_loc, pattern = ".wav", replacement = ".txt")
   

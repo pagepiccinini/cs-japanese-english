@@ -16,8 +16,7 @@ textgrid_loc = paste(getwd(), "/phonetic_extraction/data/textgrids/",
 table_to_textgrid_phonetics(textgrid_loc, file)
 
 # Read in duration data
-data_duration = read.table(paste("phonetic_analysis/data/", file, ".txt", sep = ""),
-                  header = T, sep = "\t") %>%
+data_duration = read_table2(paste("phonetic_analysis/data/", file, ".txt", sep = "")) %>%
   # Make columns with detailed information about each token
   separate(text,
            into = c("word", "sound", "lang_pre", "lang_post", "type", "presence"),

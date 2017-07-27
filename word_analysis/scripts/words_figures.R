@@ -10,6 +10,11 @@ data_eng_firstphone_figs = data_eng_firstphone %>%
 
 # Japanese
 data_jap_figs = data_jap_sum %>%
+  # Get ranking of words by frequency
+  mutate(ranking = row_number())
+
+data_jap_firstphone_figs = data_jap_firstphone %>%
+  # Get ranking of phonemes by frequency
   mutate(ranking = row_number())
 
 
@@ -54,6 +59,18 @@ english_top20phonemes.plot = ggplot(filter(data_eng_firstphone_figs, ranking <= 
 english_top20phonemes.plot
 ggsave("word_analysis/figures/english_topphonemes20.pdf", english_top20phonemes.plot, width = 7, height = 7, unit = "in")
 
+# English
+japanese_top20phonemes.plot = ggplot(filter(data_jap_firstphone_figs, ranking <= 20),
+                                    aes(x = reorder(alphabet, -tokens), y = tokens)) +
+  geom_bar(stat = "identity") +
+  ggtitle("Japanese: Top 20 First Phonemes Used") +
+  xlab("Phoneme") +
+  ylab("Count") +
+  theme_classic() +
+  theme(text = element_text(size = 18), axis.text.x = element_text(angle = 60, hjust = 1))
+
+japanese_top20phonemes.plot
+ggsave("word_analysis/figures/japanese_top20phonemes.pdf", japanese_top20phonemes.plot, width = 7, height = 7, unit = "in")
 
 
 

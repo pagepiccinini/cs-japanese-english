@@ -10,12 +10,17 @@ data = list.files("word_analysis/data/textfiles", full.names = T) %>%
   map2(names, function(df, names) df %>%
          mutate(file = names)) %>%
   # Combine into one data frame
-  bind_rows()
+  bind_rows() %>%
+  # Convert to tibble so easier to look at
+  as_tibble()
 
 # Read in Clearpond English database
-clearpond_english = read.table("word_analysis/data/dictionaries/clearpond_english.txt", header = T, sep = "\t") %>%
+clearpond_english = read_table2("word_analysis/data/dictionaries/clearpond_english.txt") %>%
   # Make all words lowercase
   mutate(word = tolower(word))
+
+# Read in Kana to alphabet
+kana_alphabet = read_csv("word_analysis/data/dictionaries/kana_alphabet.csv")
 
 
 ## CLEAN DATA ####
@@ -79,7 +84,9 @@ data_jap_clean = data_clean %>%
   ungroup() %>%
   # Note if first, last, or medial
   mutate(word_position = if_else(word_number == 1, "first",
-                      if_else(word_number == number_words_utt, "last", "medial")))
+                      if_else(word_number == number_words_utt, "last", "medial"))) %>%
+  # Make column for first phoneme
+  mutate(first_phoneme = substr(word, 1, 1))
 
 
 ## GET SUMMARY INFORMATION OF WORDS ####
@@ -92,7 +99,7 @@ data_eng_firstphone = data_eng_clean %>%
   filter(!is.na(first_phoneme)) %>%
   # Get type and token counts for initial phonemes
   group_by(first_phoneme) %>%
-  summarise(types = length(unique(word)),
+  summarise(types = n_distinct(word),
             tokens = n()) %>%
   ungroup() %>%
   # Sort by number of tokens
@@ -102,4 +109,15 @@ data_eng_firstphone = data_eng_clean %>%
 data_jap_sum = data_jap_clean %>%
   count(word, sort = T)
 
-# [Japanese first phoneme information will go here]
+data_jap_firstphone = data_jap_clean %>%
+  # Join alphabetic data
+  left_join(kana_alphabet, by = c("first_phoneme" = "katakana")) %>%
+  # Drop NAs
+  filter(!is.na(first_phoneme)) %>%
+  # Get type and token counts for initial phonemes
+  group_by(first_phoneme, alphabet) %>%
+  summarise(type = n_distinct(word),
+            tokens = n()) %>%
+  ungroup() %>%
+  # Sory by number of tokens
+  arrange(desc(tokens))

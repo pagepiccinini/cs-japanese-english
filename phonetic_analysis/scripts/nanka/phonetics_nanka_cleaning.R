@@ -9,9 +9,9 @@ data_duration_nanka_moraic = data_duration_nanka %>%
   # Arrange to allow for correct spread
   arrange(pair, prompt, speaker, line) %>%
   # Add column for total duration of token
-  mutate(duration_na = duration) %>%
-  mutate(duration_n = lead(duration)) %>%
-  mutate(duration_ka = lead(duration, 2)) %>%
+  mutate(duration_na = duration_ms) %>%
+  mutate(duration_n = lead(duration_ms)) %>%
+  mutate(duration_ka = lead(duration_ms, 2)) %>%
   filter(sound == "na") %>%
   mutate(duration_sd = sd(c(duration_na, duration_n, duration_ka)))
 
@@ -20,8 +20,8 @@ data_duration_nanka_syllabic = data_duration_nanka %>%
   # Arrange to allow for correct spread
   arrange(pair, prompt, speaker, line) %>%
   # Add column for total duration of token
-  mutate(duration_nan = duration + lead(duration)) %>%
-  mutate(duration_ka = lead(duration, 2)) %>%
+  mutate(duration_nan = duration_ms + lead(duration_ms)) %>%
+  mutate(duration_ka = lead(duration_ms, 2)) %>%
   filter(sound == "na") %>%
   mutate(duration_sd = sd(c(duration_nan, duration_ka)))
 

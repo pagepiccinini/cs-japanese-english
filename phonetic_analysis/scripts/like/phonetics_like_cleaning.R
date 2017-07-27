@@ -11,8 +11,8 @@ data_duration_like_lai = data_duration_like %>%
   # Arrange to allow for correct spread
   arrange(pair, prompt, speaker, line) %>%
   # Add column for total duration of token
-  mutate(duration_l = duration) %>%
-  mutate(duration_ai = lead(duration)) %>%
+  mutate(duration_l = duration_ms) %>%
+  mutate(duration_ai = lead(duration_ms)) %>%
   filter(sound == "l") %>%
   mutate(duration_lai = duration_l + duration_ai)
 
@@ -45,7 +45,6 @@ data_formants_like_lai = data_formants_like %>%
            (max(time_real) - min(time_real)), 1)) %>%
   # Get mean of percentage
   group_by(pair, prompt, speaker, lang_pre, lang_post, line_lai, percentage) %>%
-  summarise(f1 = mean(f1, na.rm = T),
-            f2 = mean(f2, na.rm = T),
-            f3 = mean(f3, na.rm = T)) %>%
+  summarise(f1_norm_sum = mean(f1_norm_bark, na.rm = T),
+            f2_norm_sum = mean(f2_norm_bark, na.rm = T)) %>%
   ungroup()

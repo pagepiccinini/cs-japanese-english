@@ -6,8 +6,8 @@ data_duration_yeah = data_duration_clean %>%
   # Arrange to allow for correct spread
   arrange(pair, prompt, speaker, line) %>%
   # Add column for total duration of token
-  mutate(duration_y = duration) %>%
-  mutate(duration_eah = lead(duration)) %>%
+  mutate(duration_y = duration_ms) %>%
+  mutate(duration_eah = lead(duration_ms)) %>%
   filter(sound == "y") %>%
   mutate(duration_yeah = duration_y + duration_eah)
 

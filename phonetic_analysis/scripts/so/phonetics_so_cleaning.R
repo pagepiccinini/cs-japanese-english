@@ -6,8 +6,8 @@ data_duration_so = data_duration_clean %>%
   # Arrange to allow for correct spread
   arrange(pair, prompt, speaker, line) %>%
   # Add column for total duration of token
-  mutate(duration_s = duration) %>%
-  mutate(duration_o = lead(duration)) %>%
+  mutate(duration_s = duration_ms) %>%
+  mutate(duration_o = lead(duration_ms)) %>%
   filter(sound == "s") %>%
   mutate(duration_so = duration_s + duration_o)
 
@@ -24,8 +24,7 @@ data_formants_so_o = data_formants_clean %>%
   ungroup() %>%
   # Get mean of percentage
   group_by(pair, prompt, speaker, lang_pre, lang_post, line, percentage) %>%
-  summarise(f1 = mean(f1, na.rm = T),
-            f2 = mean(f2, na.rm = T),
-            f3 = mean(f3, na.rm = T)) %>%
+  summarise(f1_norm_sum = mean(f1_norm_bark, na.rm = T),
+            f2_norm_sum = mean(f2_norm_bark, na.rm = T)) %>%
   ungroup()
 

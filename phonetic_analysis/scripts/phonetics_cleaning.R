@@ -17,4 +17,11 @@ data_formants = list.files("phonetic_analysis/data",
   bind_rows()
 
 # Clean data
-data_formants_clean = data_formants
+data_formants_clean = data_formants %>%
+  # Bark transform F1, F2, F3
+  mutate(f1_bark = 26.81 / (1 + 1960 / f1) - 0.53) %>%
+  mutate(f2_bark = 26.81 / (1 + 1960 / f2) - 0.53) %>%
+  mutate(f3_bark = 26.81 / (1 + 1960 / f3) - 0.53) %>%
+  # Normalize F1 and F2 based on F3
+  mutate(f1_norm_bark = f3_bark - f1_bark) %>%
+  mutate(f2_norm_bark = f3_bark - f2_bark)

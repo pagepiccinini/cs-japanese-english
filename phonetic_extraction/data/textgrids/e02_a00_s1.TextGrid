@@ -1,0 +1,1142 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 601.9192743764172 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "e02_s1_seg" 
+        xmin = 0 
+        xmax = 601.9192743764172 
+        intervals: size = 282 
+        intervals [1]:
+            xmin = 0 
+            xmax = 100.6707080843604 
+            text = "" 
+        intervals [2]:
+            xmin = 100.6707080843604 
+            xmax = 100.81519381552495 
+            text = "so-eng_s_eng_eng" 
+        intervals [3]:
+            xmin = 100.81519381552495 
+            xmax = 101.16900307176138 
+            text = "so-eng_o_eng_eng" 
+        intervals [4]:
+            xmin = 101.16900307176138 
+            xmax = 102.6754627418094 
+            text = "" 
+        intervals [5]:
+            xmin = 102.6754627418094 
+            xmax = 102.77432772597709 
+            text = "so-eng_s_eng_eng" 
+        intervals [6]:
+            xmin = 102.77432772597709 
+            xmax = 102.83968904352604 
+            text = "so-eng_o_eng_eng" 
+        intervals [7]:
+            xmin = 102.83968904352604 
+            xmax = 125.9843987939236 
+            text = "" 
+        intervals [8]:
+            xmin = 125.9843987939236 
+            xmax = 126.13475505921912 
+            text = "so-eng_s_eng_eng" 
+        intervals [9]:
+            xmin = 126.13475505921912 
+            xmax = 126.50485841155844 
+            text = "so-eng_o_eng_eng" 
+        intervals [10]:
+            xmin = 126.50485841155844 
+            xmax = 126.81702630074956 
+            text = "" 
+        intervals [11]:
+            xmin = 126.81702630074956 
+            xmax = 126.84790264738189 
+            text = "yeah_y_eng_eng" 
+        intervals [12]:
+            xmin = 126.84790264738189 
+            xmax = 126.9793224266677 
+            text = "yeah_eah_eng_eng" 
+        intervals [13]:
+            xmin = 126.9793224266677 
+            xmax = 127.45157850269217 
+            text = "" 
+        intervals [14]:
+            xmin = 127.45157850269217 
+            xmax = 127.48777656856947 
+            text = "like_l_eng_eng_d" 
+        intervals [15]:
+            xmin = 127.48777656856947 
+            xmax = 127.5645787827817 
+            text = "like_i_eng_eng_d" 
+        intervals [16]:
+            xmin = 127.5645787827817 
+            xmax = 127.6162293522372 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [17]:
+            xmin = 127.6162293522372 
+            xmax = 127.63163566579654 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [18]:
+            xmin = 127.63163566579654 
+            xmax = 127.64112455309355 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [19]:
+            xmin = 127.64112455309355 
+            xmax = 139.60457902517845 
+            text = "" 
+        intervals [20]:
+            xmin = 139.60457902517845 
+            xmax = 139.64478088608732 
+            text = "yeah_y_eng_eng" 
+        intervals [21]:
+            xmin = 139.64478088608732 
+            xmax = 139.8361897462354 
+            text = "yeah_eah_eng_eng" 
+        intervals [22]:
+            xmin = 139.8361897462354 
+            xmax = 142.12308635255633 
+            text = "" 
+        intervals [23]:
+            xmin = 142.12308635255633 
+            xmax = 142.17148370544066 
+            text = "yeah_y_eng_eng" 
+        intervals [24]:
+            xmin = 142.17148370544066 
+            xmax = 142.27506308684735 
+            text = "yeah_eah_eng_eng" 
+        intervals [25]:
+            xmin = 142.27506308684735 
+            xmax = 142.6016529609591 
+            text = "" 
+        intervals [26]:
+            xmin = 142.6016529609591 
+            xmax = 142.70852689632915 
+            text = "so-eng_s_eng_eng" 
+        intervals [27]:
+            xmin = 142.70852689632915 
+            xmax = 142.86883779938427 
+            text = "so-eng_o_eng_eng" 
+        intervals [28]:
+            xmin = 142.86883779938427 
+            xmax = 167.60625339878126 
+            text = "" 
+        intervals [29]:
+            xmin = 167.60625339878126 
+            xmax = 167.69432173807138 
+            text = "so-eng_s_eng_eng" 
+        intervals [30]:
+            xmin = 167.69432173807138 
+            xmax = 167.73759230939888 
+            text = "so-eng_o_eng_eng" 
+        intervals [31]:
+            xmin = 167.73759230939888 
+            xmax = 175.38807305739184 
+            text = "" 
+        intervals [32]:
+            xmin = 175.38807305739184 
+            xmax = 175.46831159105702 
+            text = "yeah_y_eng_eng" 
+        intervals [33]:
+            xmin = 175.46831159105702 
+            xmax = 175.70695281237747 
+            text = "yeah_eah_eng_eng" 
+        intervals [34]:
+            xmin = 175.70695281237747 
+            xmax = 182.17840504461063 
+            text = "" 
+        intervals [35]:
+            xmin = 182.17840504461063 
+            xmax = 182.22177806974383 
+            text = "so-eng_s_eng_eng" 
+        intervals [36]:
+            xmin = 182.22177806974383 
+            xmax = 182.29803465964508 
+            text = "so-eng_o_eng_eng" 
+        intervals [37]:
+            xmin = 182.29803465964508 
+            xmax = 183.97676801073627 
+            text = "" 
+        intervals [38]:
+            xmin = 183.97676801073627 
+            xmax = 184.04247199947758 
+            text = "yeah_y_eng_eng" 
+        intervals [39]:
+            xmin = 184.04247199947758 
+            xmax = 184.18239233572805 
+            text = "yeah_eah_eng_eng" 
+        intervals [40]:
+            xmin = 184.18239233572805 
+            xmax = 205.93926080722957 
+            text = "" 
+        intervals [41]:
+            xmin = 205.93926080722957 
+            xmax = 206.02492041774363 
+            text = "so-eng_s_eng_eng" 
+        intervals [42]:
+            xmin = 206.02492041774363 
+            xmax = 206.14912685298899 
+            text = "so-eng_o_eng_eng" 
+        intervals [43]:
+            xmin = 206.14912685298899 
+            xmax = 218.2753877638082 
+            text = "" 
+        intervals [44]:
+            xmin = 218.2753877638082 
+            xmax = 218.33610200032874 
+            text = "yeah_y_eng_eng" 
+        intervals [45]:
+            xmin = 218.33610200032874 
+            xmax = 218.46675886967506 
+            text = "yeah_eah_eng_eng" 
+        intervals [46]:
+            xmin = 218.46675886967506 
+            xmax = 235.93730602739788 
+            text = "" 
+        intervals [47]:
+            xmin = 235.93730602739788 
+            xmax = 236.01512911831594 
+            text = "like_l_eng_eng_d" 
+        intervals [48]:
+            xmin = 236.01512911831594 
+            xmax = 236.1535312388604 
+            text = "like_i_eng_eng_d" 
+        intervals [49]:
+            xmin = 236.1535312388604 
+            xmax = 236.3161307413892 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [50]:
+            xmin = 236.3161307413892 
+            xmax = 236.33989288643747 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [51]:
+            xmin = 236.33989288643747 
+            xmax = 236.4257307547101 
+            text = "like_k-release_eng_eng_d" 
+        intervals [52]:
+            xmin = 236.4257307547101 
+            xmax = 238.9160159505358 
+            text = "" 
+        intervals [53]:
+            xmin = 238.9160159505358 
+            xmax = 238.9873331413988 
+            text = "so-eng_s_eng-eng" 
+        intervals [54]:
+            xmin = 238.9873331413988 
+            xmax = 239.06904091636108 
+            text = "so-eng_o_eng_eng" 
+        intervals [55]:
+            xmin = 239.06904091636108 
+            xmax = 241.08912207185512 
+            text = "" 
+        intervals [56]:
+            xmin = 241.08912207185512 
+            xmax = 241.11446252906208 
+            text = "like_l_eng_eng_d" 
+        intervals [57]:
+            xmin = 241.11446252906208 
+            xmax = 241.15972537237997 
+            text = "like_i_eng_eng_d" 
+        intervals [58]:
+            xmin = 241.15972537237997 
+            xmax = 241.20399977824036 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [59]:
+            xmin = 241.20399977824036 
+            xmax = 241.2235105333653 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [60]:
+            xmin = 241.2235105333653 
+            xmax = 241.23687482947003 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [61]:
+            xmin = 241.23687482947003 
+            xmax = 258.40644679289335 
+            text = "" 
+        intervals [62]:
+            xmin = 258.40644679289335 
+            xmax = 258.49947151028033 
+            text = "yeah_y_eng_eng" 
+        intervals [63]:
+            xmin = 258.49947151028033 
+            xmax = 258.848791086968 
+            text = "yeah_eah_eng_eng" 
+        intervals [64]:
+            xmin = 258.848791086968 
+            xmax = 269.28409811430384 
+            text = "" 
+        intervals [65]:
+            xmin = 269.28409811430384 
+            xmax = 269.3517379520588 
+            text = "yeah_y_eng_eng" 
+        intervals [66]:
+            xmin = 269.3517379520588 
+            xmax = 269.54994116126875 
+            text = "yeah_eah_eng_eng" 
+        intervals [67]:
+            xmin = 269.54994116126875 
+            xmax = 269.74709370576 
+            text = "" 
+        intervals [68]:
+            xmin = 269.74709370576 
+            xmax = 269.8262604992989 
+            text = "yeah_y_eng_eng" 
+        intervals [69]:
+            xmin = 269.8262604992989 
+            xmax = 270.0241774831461 
+            text = "yeah_eah_eng_eng" 
+        intervals [70]:
+            xmin = 270.0241774831461 
+            xmax = 270.9934091605865 
+            text = "" 
+        intervals [71]:
+            xmin = 270.9934091605865 
+            xmax = 271.03417221864595 
+            text = "yeah_y_eng_eng" 
+        intervals [72]:
+            xmin = 271.03417221864595 
+            xmax = 271.1906899596365 
+            text = "yeah_eah_eng_eng" 
+        intervals [73]:
+            xmin = 271.1906899596365 
+            xmax = 271.22293395778047 
+            text = "yeah_y_eng_eng" 
+        intervals [74]:
+            xmin = 271.22293395778047 
+            xmax = 271.36313691316315 
+            text = "yeah_eah_eng_eng" 
+        intervals [75]:
+            xmin = 271.36313691316315 
+            xmax = 271.44316821572266 
+            text = "yeah_y_eng_eng" 
+        intervals [76]:
+            xmin = 271.44316821572266 
+            xmax = 271.6078184355663 
+            text = "yeah_eah_eng_eng" 
+        intervals [77]:
+            xmin = 271.6078184355663 
+            xmax = 281.29964361339813 
+            text = "" 
+        intervals [78]:
+            xmin = 281.29964361339813 
+            xmax = 281.3974127472179 
+            text = "so-eng_s_eng_eng" 
+        intervals [79]:
+            xmin = 281.3974127472179 
+            xmax = 281.69533916287355 
+            text = "so-eng_o_eng_eng" 
+        intervals [80]:
+            xmin = 281.69533916287355 
+            xmax = 295.72668370554425 
+            text = "" 
+        intervals [81]:
+            xmin = 295.72668370554425 
+            xmax = 295.79556544285055 
+            text = "yeah_y_eng_eng" 
+        intervals [82]:
+            xmin = 295.79556544285055 
+            xmax = 296.0819684558608 
+            text = "yeah_eah_eng_eng" 
+        intervals [83]:
+            xmin = 296.0819684558608 
+            xmax = 297.01760551737016 
+            text = "" 
+        intervals [84]:
+            xmin = 297.01760551737016 
+            xmax = 297.05661345783847 
+            text = "yeah_y_eng_eng" 
+        intervals [85]:
+            xmin = 297.05661345783847 
+            xmax = 297.1938636187456 
+            text = "yeah_eah_eng_eng" 
+        intervals [86]:
+            xmin = 297.1938636187456 
+            xmax = 297.2242031279987 
+            text = "yeah_y_eng_eng" 
+        intervals [87]:
+            xmin = 297.2242031279987 
+            xmax = 297.27765845382567 
+            text = "yeah_eah_eng_eng" 
+        intervals [88]:
+            xmin = 297.27765845382567 
+            xmax = 297.32389008697334 
+            text = "yeah_y_eng_eng" 
+        intervals [89]:
+            xmin = 297.32389008697334 
+            xmax = 297.5940561931799 
+            text = "yeah_eah_eng_eng" 
+        intervals [90]:
+            xmin = 297.5940561931799 
+            xmax = 304.35166801397236 
+            text = "" 
+        intervals [91]:
+            xmin = 304.35166801397236 
+            xmax = 304.5108488655977 
+            text = "so-eng_s_eng_eng" 
+        intervals [92]:
+            xmin = 304.5108488655977 
+            xmax = 304.94313411952146 
+            text = "so-eng_o_eng_eng" 
+        intervals [93]:
+            xmin = 304.94313411952146 
+            xmax = 305.27860193006063 
+            text = "" 
+        intervals [94]:
+            xmin = 305.27860193006063 
+            xmax = 305.3359087860004 
+            text = "yeah_y_eng_eng" 
+        intervals [95]:
+            xmin = 305.3359087860004 
+            xmax = 305.68552730974 
+            text = "yeah_eah_eng_eng" 
+        intervals [96]:
+            xmin = 305.68552730974 
+            xmax = 313.1065642743436 
+            text = "" 
+        intervals [97]:
+            xmin = 313.1065642743436 
+            xmax = 313.1474491175284 
+            text = "like_l_eng_eng_d" 
+        intervals [98]:
+            xmin = 313.1474491175284 
+            xmax = 313.2194843174254 
+            text = "like_i_eng_eng_d" 
+        intervals [99]:
+            xmin = 313.2194843174254 
+            xmax = 313.32777993529044 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [100]:
+            xmin = 313.32777993529044 
+            xmax = 313.36477098388616 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [101]:
+            xmin = 313.36477098388616 
+            xmax = 313.3803461622423 
+            text = "like_k-release_eng_eng_d" 
+        intervals [102]:
+            xmin = 313.3803461622423 
+            xmax = 317.6595183490627 
+            text = "" 
+        intervals [103]:
+            xmin = 317.6595183490627 
+            xmax = 317.70243048757226 
+            text = "yeah_y_eng_eng" 
+        intervals [104]:
+            xmin = 317.70243048757226 
+            xmax = 317.8437881203095 
+            text = "yeah_eah_eng_eng" 
+        intervals [105]:
+            xmin = 317.8437881203095 
+            xmax = 317.8760697374808 
+            text = "yeah_y_eng_eng" 
+        intervals [106]:
+            xmin = 317.8760697374808 
+            xmax = 317.9857441239554 
+            text = "yeah_eah_eng_eng" 
+        intervals [107]:
+            xmin = 317.9857441239554 
+            xmax = 318.00621792588663 
+            text = "yeah_y_eng_eng" 
+        intervals [108]:
+            xmin = 318.00621792588663 
+            xmax = 318.06241471895623 
+            text = "yeah_eah_eng_eng" 
+        intervals [109]:
+            xmin = 318.06241471895623 
+            xmax = 323.16415266900145 
+            text = "" 
+        intervals [110]:
+            xmin = 323.16415266900145 
+            xmax = 323.20930915308594 
+            text = "like_l_eng_eng_d" 
+        intervals [111]:
+            xmin = 323.20930915308594 
+            xmax = 323.28428595684886 
+            text = "like_i_eng_eng_d" 
+        intervals [112]:
+            xmin = 323.28428595684886 
+            xmax = 323.34733463274046 
+            text = "like_k-closure_eng_eng-d" 
+        intervals [113]:
+            xmin = 323.34733463274046 
+            xmax = 323.3532986966761 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [114]:
+            xmin = 323.3532986966761 
+            xmax = 323.3652268245475 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [115]:
+            xmin = 323.3652268245475 
+            xmax = 328.9302964505442 
+            text = "" 
+        intervals [116]:
+            xmin = 328.9302964505442 
+            xmax = 329.06450369261364 
+            text = "so-eng_s_eng_eng" 
+        intervals [117]:
+            xmin = 329.06450369261364 
+            xmax = 329.32392490795405 
+            text = "so-eng_o_eng_eng" 
+        intervals [118]:
+            xmin = 329.32392490795405 
+            xmax = 329.3601915017731 
+            text = "" 
+        intervals [119]:
+            xmin = 329.3601915017731 
+            xmax = 329.4267327020506 
+            text = "yeah_y_eng_eng" 
+        intervals [120]:
+            xmin = 329.4267327020506 
+            xmax = 329.63289159933885 
+            text = "yeah_eah_eng_eng" 
+        intervals [121]:
+            xmin = 329.63289159933885 
+            xmax = 339.50220854292184 
+            text = "" 
+        intervals [122]:
+            xmin = 339.50220854292184 
+            xmax = 339.65576758088946 
+            text = "so-eng_s_eng_eng" 
+        intervals [123]:
+            xmin = 339.65576758088946 
+            xmax = 339.8772161899027 
+            text = "so-eng_o_eng_eng" 
+        intervals [124]:
+            xmin = 339.8772161899027 
+            xmax = 340.9971103795026 
+            text = "" 
+        intervals [125]:
+            xmin = 340.9971103795026 
+            xmax = 341.04737721047746 
+            text = "yeah_y_eng_eng" 
+        intervals [126]:
+            xmin = 341.04737721047746 
+            xmax = 341.2882391088988 
+            text = "yeah_eah_eng_eng" 
+        intervals [127]:
+            xmin = 341.2882391088988 
+            xmax = 356.40640834628783 
+            text = "" 
+        intervals [128]:
+            xmin = 356.40640834628783 
+            xmax = 356.42643248253376 
+            text = "like_l_eng_eng_d" 
+        intervals [129]:
+            xmin = 356.42643248253376 
+            xmax = 356.4830481630632 
+            text = "like_i_eng_eng_d" 
+        intervals [130]:
+            xmin = 356.4830481630632 
+            xmax = 356.52213929348477 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [131]:
+            xmin = 356.52213929348477 
+            xmax = 356.53137389508595 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [132]:
+            xmin = 356.53137389508595 
+            xmax = 356.54091838264685 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [133]:
+            xmin = 356.54091838264685 
+            xmax = 361.5240450640743 
+            text = "" 
+        intervals [134]:
+            xmin = 361.5240450640743 
+            xmax = 361.68372168861 
+            text = "so-eng_s_eng_eng" 
+        intervals [135]:
+            xmin = 361.68372168861 
+            xmax = 361.8860485091702 
+            text = "so-eng_o_eng_eng" 
+        intervals [136]:
+            xmin = 361.8860485091702 
+            xmax = 366.0028705892794 
+            text = "" 
+        intervals [137]:
+            xmin = 366.0028705892794 
+            xmax = 366.0781442002525 
+            text = "so-eng_s_eng_eng" 
+        intervals [138]:
+            xmin = 366.0781442002525 
+            xmax = 366.2162988155142 
+            text = "so-eng_o_eng_eng" 
+        intervals [139]:
+            xmin = 366.2162988155142 
+            xmax = 370.19368989896856 
+            text = "" 
+        intervals [140]:
+            xmin = 370.19368989896856 
+            xmax = 370.20898289371235 
+            text = "yeah_y_eng_eng" 
+        intervals [141]:
+            xmin = 370.20898289371235 
+            xmax = 370.28704088771724 
+            text = "yeah_eah_eng_eng" 
+        intervals [142]:
+            xmin = 370.28704088771724 
+            xmax = 371.4242325596436 
+            text = "" 
+        intervals [143]:
+            xmin = 371.4242325596436 
+            xmax = 371.4557433754529 
+            text = "yeah_y_eng_eng" 
+        intervals [144]:
+            xmin = 371.4557433754529 
+            xmax = 371.66476380019725 
+            text = "yeah_eah_eng_eng" 
+        intervals [145]:
+            xmin = 371.66476380019725 
+            xmax = 372.010909068945 
+            text = "" 
+        intervals [146]:
+            xmin = 372.010909068945 
+            xmax = 372.05153333435027 
+            text = "like_l_eng_eng_d" 
+        intervals [147]:
+            xmin = 372.05153333435027 
+            xmax = 372.1636791937788 
+            text = "like_i_eng_eng_d" 
+        intervals [148]:
+            xmin = 372.1636791937788 
+            xmax = 372.23358535977286 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [149]:
+            xmin = 372.23358535977286 
+            xmax = 372.24216692420754 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [150]:
+            xmin = 372.24216692420754 
+            xmax = 372.2598299500343 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [151]:
+            xmin = 372.2598299500343 
+            xmax = 397.311333306709 
+            text = "" 
+        intervals [152]:
+            xmin = 397.311333306709 
+            xmax = 397.3451848392698 
+            text = "yeah_y_eng_eng" 
+        intervals [153]:
+            xmin = 397.3451848392698 
+            xmax = 397.5071226239036 
+            text = "yeah_eah_eng_eng" 
+        intervals [154]:
+            xmin = 397.5071226239036 
+            xmax = 416.41378974091066 
+            text = "" 
+        intervals [155]:
+            xmin = 416.41378974091066 
+            xmax = 416.531965166942 
+            text = "yeah_y_eng_eng" 
+        intervals [156]:
+            xmin = 416.531965166942 
+            xmax = 416.7724869163941 
+            text = "yeah_eah_eng_eng" 
+        intervals [157]:
+            xmin = 416.7724869163941 
+            xmax = 420.34243477026155 
+            text = "" 
+        intervals [158]:
+            xmin = 420.34243477026155 
+            xmax = 420.36554819222283 
+            text = "like_l_eng_eng_d" 
+        intervals [159]:
+            xmin = 420.36554819222283 
+            xmax = 420.434118010708 
+            text = "like_i_eng_eng_d" 
+        intervals [160]:
+            xmin = 420.434118010708 
+            xmax = 420.5073105135854 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [161]:
+            xmin = 420.5073105135854 
+            xmax = 420.51385931647445 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [162]:
+            xmin = 420.51385931647445 
+            xmax = 420.53430855956674 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [163]:
+            xmin = 420.53430855956674 
+            xmax = 427.7521132962287 
+            text = "" 
+        intervals [164]:
+            xmin = 427.7521132962287 
+            xmax = 427.7833716293578 
+            text = "like_l_eng_eng_d" 
+        intervals [165]:
+            xmin = 427.7833716293578 
+            xmax = 427.87790794347876 
+            text = "like_i_eng_eng_d" 
+        intervals [166]:
+            xmin = 427.87790794347876 
+            xmax = 427.9897308978961 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [167]:
+            xmin = 427.9897308978961 
+            xmax = 428.01620106584994 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [168]:
+            xmin = 428.01620106584994 
+            xmax = 428.04097690886795 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [169]:
+            xmin = 428.04097690886795 
+            xmax = 441.85454494450187 
+            text = "" 
+        intervals [170]:
+            xmin = 441.85454494450187 
+            xmax = 441.949085285327 
+            text = "yeah_y_eng_eng" 
+        intervals [171]:
+            xmin = 441.949085285327 
+            xmax = 442.34810113557404 
+            text = "yeah_eah_eng_eng" 
+        intervals [172]:
+            xmin = 442.34810113557404 
+            xmax = 454.47233479385886 
+            text = "" 
+        intervals [173]:
+            xmin = 454.47233479385886 
+            xmax = 454.5352619521131 
+            text = "yeah_y_eng_eng" 
+        intervals [174]:
+            xmin = 454.5352619521131 
+            xmax = 454.81409436023944 
+            text = "yeah_eah_eng_eng" 
+        intervals [175]:
+            xmin = 454.81409436023944 
+            xmax = 461.9738915230631 
+            text = "" 
+        intervals [176]:
+            xmin = 461.9738915230631 
+            xmax = 462.0146342286933 
+            text = "yeah_y_eng_eng" 
+        intervals [177]:
+            xmin = 462.0146342286933 
+            xmax = 462.1478253336459 
+            text = "yeah_eah_eng_eng" 
+        intervals [178]:
+            xmin = 462.1478253336459 
+            xmax = 465.66749882090204 
+            text = "" 
+        intervals [179]:
+            xmin = 465.66749882090204 
+            xmax = 465.6945336087311 
+            text = "yeah_y_eng_eng" 
+        intervals [180]:
+            xmin = 465.6945336087311 
+            xmax = 465.86593416356743 
+            text = "yeah_eah_eng_eng" 
+        intervals [181]:
+            xmin = 465.86593416356743 
+            xmax = 466.94067604438015 
+            text = "" 
+        intervals [182]:
+            xmin = 466.94067604438015 
+            xmax = 466.96133752249284 
+            text = "like_l_eng_eng_d" 
+        intervals [183]:
+            xmin = 466.96133752249284 
+            xmax = 467.0564676244543 
+            text = "like_i_eng_eng_d" 
+        intervals [184]:
+            xmin = 467.0564676244543 
+            xmax = 467.10475508406 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [185]:
+            xmin = 467.10475508406 
+            xmax = 467.1082034089907 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [186]:
+            xmin = 467.1082034089907 
+            xmax = 467.1120880469721 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [187]:
+            xmin = 467.1120880469721 
+            xmax = 469.20101394102716 
+            text = "" 
+        intervals [188]:
+            xmin = 469.20101394102716 
+            xmax = 469.2209054115314 
+            text = "like_l_eng_eng_d" 
+        intervals [189]:
+            xmin = 469.2209054115314 
+            xmax = 469.2742314813938 
+            text = "like_i_eng_eng_d" 
+        intervals [190]:
+            xmin = 469.2742314813938 
+            xmax = 469.3784233251136 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [191]:
+            xmin = 469.3784233251136 
+            xmax = 469.38204307912747 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [192]:
+            xmin = 469.38204307912747 
+            xmax = 469.3882957713686 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [193]:
+            xmin = 469.3882957713686 
+            xmax = 475.3470845056216 
+            text = "" 
+        intervals [194]:
+            xmin = 475.3470845056216 
+            xmax = 475.3758127237983 
+            text = "like_l_eng_eng_dq" 
+        intervals [195]:
+            xmin = 475.3758127237983 
+            xmax = 475.4721367494495 
+            text = "like_i_eng_eng_dq" 
+        intervals [196]:
+            xmin = 475.4721367494495 
+            xmax = 475.5317055547864 
+            text = "like_k-closure_eng_eng_dq" 
+        intervals [197]:
+            xmin = 475.5317055547864 
+            xmax = 475.5409999783142 
+            text = "like_k-burst_eng_eng_dq" 
+        intervals [198]:
+            xmin = 475.5409999783142 
+            xmax = 475.5591087119889 
+            text = "like_k-release_eng_eng_dq" 
+        intervals [199]:
+            xmin = 475.5591087119889 
+            xmax = 476.0004808244832 
+            text = "" 
+        intervals [200]:
+            xmin = 476.0004808244832 
+            xmax = 476.0323320482409 
+            text = "yeah_y_eng_eng" 
+        intervals [201]:
+            xmin = 476.0323320482409 
+            xmax = 476.1904506233236 
+            text = "yeah_eah_eng_eng" 
+        intervals [202]:
+            xmin = 476.1904506233236 
+            xmax = 478.96076402249764 
+            text = "" 
+        intervals [203]:
+            xmin = 478.96076402249764 
+            xmax = 479.07232959732414 
+            text = "so-eng_s_eng_eng" 
+        intervals [204]:
+            xmin = 479.07232959732414 
+            xmax = 479.2496902547406 
+            text = "so-eng_o_eng_eng" 
+        intervals [205]:
+            xmin = 479.2496902547406 
+            xmax = 482.92126081177713 
+            text = "" 
+        intervals [206]:
+            xmin = 482.92126081177713 
+            xmax = 482.9585098864321 
+            text = "yeah_y_eng_eng" 
+        intervals [207]:
+            xmin = 482.9585098864321 
+            xmax = 483.2540909633266 
+            text = "yeah_eah_eng_eng" 
+        intervals [208]:
+            xmin = 483.2540909633266 
+            xmax = 483.82790849393416 
+            text = "" 
+        intervals [209]:
+            xmin = 483.82790849393416 
+            xmax = 483.8894881796664 
+            text = "yeah_y_eng_eng" 
+        intervals [210]:
+            xmin = 483.8894881796664 
+            xmax = 484.14862793613094 
+            text = "yeah_eah_eng_eng" 
+        intervals [211]:
+            xmin = 484.14862793613094 
+            xmax = 487.93280517213 
+            text = "" 
+        intervals [212]:
+            xmin = 487.93280517213 
+            xmax = 487.9736618120357 
+            text = "yeah_y_eng_eng" 
+        intervals [213]:
+            xmin = 487.9736618120357 
+            xmax = 488.1995749973967 
+            text = "yeah_eah_eng_eng" 
+        intervals [214]:
+            xmin = 488.1995749973967 
+            xmax = 506.4488171366249 
+            text = "" 
+        intervals [215]:
+            xmin = 506.4488171366249 
+            xmax = 506.4800647127447 
+            text = "like_l_eng_eng_v" 
+        intervals [216]:
+            xmin = 506.4800647127447 
+            xmax = 506.54623399020005 
+            text = "like_i_eng_eng_v" 
+        intervals [217]:
+            xmin = 506.54623399020005 
+            xmax = 506.6318182053518 
+            text = "like_k-closure_eng_eng_v" 
+        intervals [218]:
+            xmin = 506.6318182053518 
+            xmax = 506.6433086786824 
+            text = "like_k-burst_eng_eng_v" 
+        intervals [219]:
+            xmin = 506.6433086786824 
+            xmax = 506.646929065479 
+            text = "like_k-release_eng_eng_v_0" 
+        intervals [220]:
+            xmin = 506.646929065479 
+            xmax = 524.941626225517 
+            text = "" 
+        intervals [221]:
+            xmin = 524.941626225517 
+            xmax = 524.9768116668374 
+            text = "yeah_y_eng_eng" 
+        intervals [222]:
+            xmin = 524.9768116668374 
+            xmax = 525.1200578907249 
+            text = "yeah_eah_eng_eng" 
+        intervals [223]:
+            xmin = 525.1200578907249 
+            xmax = 525.1387900892332 
+            text = "yeah_y_eng_eng" 
+        intervals [224]:
+            xmin = 525.1387900892332 
+            xmax = 525.2362325432431 
+            text = "yeah_eah_eng_eng" 
+        intervals [225]:
+            xmin = 525.2362325432431 
+            xmax = 528.8043131621647 
+            text = "" 
+        intervals [226]:
+            xmin = 528.8043131621647 
+            xmax = 528.8281717335389 
+            text = "like_l_eng_eng_d" 
+        intervals [227]:
+            xmin = 528.8281717335389 
+            xmax = 528.9024586489536 
+            text = "like_i_eng_eng_d" 
+        intervals [228]:
+            xmin = 528.9024586489536 
+            xmax = 528.9868657833775 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [229]:
+            xmin = 528.9868657833775 
+            xmax = 528.9963471545375 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [230]:
+            xmin = 528.9963471545375 
+            xmax = 529.0229660092994 
+            text = "like_k-release_eng_eng_d" 
+        intervals [231]:
+            xmin = 529.0229660092994 
+            xmax = 538.7012210536974 
+            text = "" 
+        intervals [232]:
+            xmin = 538.7012210536974 
+            xmax = 538.7543313851036 
+            text = "so-eng_s_eng_eng" 
+        intervals [233]:
+            xmin = 538.7543313851036 
+            xmax = 538.8219696546971 
+            text = "so-eng_o_eng_eng" 
+        intervals [234]:
+            xmin = 538.8219696546971 
+            xmax = 549.3279477788625 
+            text = "" 
+        intervals [235]:
+            xmin = 549.3279477788625 
+            xmax = 549.4224361310081 
+            text = "so-eng_s_eng_eng" 
+        intervals [236]:
+            xmin = 549.4224361310081 
+            xmax = 549.4659174965973 
+            text = "so-eng_o_eng_eng" 
+        intervals [237]:
+            xmin = 549.4659174965973 
+            xmax = 550.0070859335873 
+            text = "" 
+        intervals [238]:
+            xmin = 550.0070859335873 
+            xmax = 550.0486665017826 
+            text = "like_l_eng_eng_d" 
+        intervals [239]:
+            xmin = 550.0486665017826 
+            xmax = 550.1381140337805 
+            text = "like_i_eng_eng_d" 
+        intervals [240]:
+            xmin = 550.1381140337805 
+            xmax = 550.1721729017337 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [241]:
+            xmin = 550.1721729017337 
+            xmax = 550.177333336272 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [242]:
+            xmin = 550.177333336272 
+            xmax = 550.1910475579601 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [243]:
+            xmin = 550.1910475579601 
+            xmax = 553.3866712015032 
+            text = "" 
+        intervals [244]:
+            xmin = 553.3866712015032 
+            xmax = 553.4052929196054 
+            text = "like_l_eng_eng_d" 
+        intervals [245]:
+            xmin = 553.4052929196054 
+            xmax = 553.4931058019275 
+            text = "like_i_eng_eng_d" 
+        intervals [246]:
+            xmin = 553.4931058019275 
+            xmax = 553.5105169726938 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [247]:
+            xmin = 553.5105169726938 
+            xmax = 553.5189545094294 
+            text = "like_k-burst_eng_eng_d_0" 
+        intervals [248]:
+            xmin = 553.5189545094294 
+            xmax = 553.5261420407227 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [249]:
+            xmin = 553.5261420407227 
+            xmax = 571.1160835768599 
+            text = "" 
+        intervals [250]:
+            xmin = 571.1160835768599 
+            xmax = 571.2234032796638 
+            text = "so-eng_s_eng_eng" 
+        intervals [251]:
+            xmin = 571.2234032796638 
+            xmax = 571.3284646799806 
+            text = "so-eng_o_eng_eng" 
+        intervals [252]:
+            xmin = 571.3284646799806 
+            xmax = 571.3870976301245 
+            text = "" 
+        intervals [253]:
+            xmin = 571.3870976301245 
+            xmax = 571.4849176812327 
+            text = "yeah_y_eng_eng" 
+        intervals [254]:
+            xmin = 571.4849176812327 
+            xmax = 571.6450527278618 
+            text = "yeah_eah_eng_eng" 
+        intervals [255]:
+            xmin = 571.6450527278618 
+            xmax = 577.5175217183543 
+            text = "" 
+        intervals [256]:
+            xmin = 577.5175217183543 
+            xmax = 577.5587090336895 
+            text = "yeah_y_eng_eng" 
+        intervals [257]:
+            xmin = 577.5587090336895 
+            xmax = 577.7016878569249 
+            text = "yeah_eah_eng_eng" 
+        intervals [258]:
+            xmin = 577.7016878569249 
+            xmax = 579.2819792574295 
+            text = "" 
+        intervals [259]:
+            xmin = 579.2819792574295 
+            xmax = 579.3618222429512 
+            text = "yeah_y_eng_eng" 
+        intervals [260]:
+            xmin = 579.3618222429512 
+            xmax = 579.5546264580494 
+            text = "yeah_eah_eng_eng" 
+        intervals [261]:
+            xmin = 579.5546264580494 
+            xmax = 582.385720122803 
+            text = "" 
+        intervals [262]:
+            xmin = 582.385720122803 
+            xmax = 582.4187155895237 
+            text = "yeah_y_eng_eng" 
+        intervals [263]:
+            xmin = 582.4187155895237 
+            xmax = 582.5765587681599 
+            text = "yeah_eah_eng_eng" 
+        intervals [264]:
+            xmin = 582.5765587681599 
+            xmax = 584.425200006928 
+            text = "" 
+        intervals [265]:
+            xmin = 584.425200006928 
+            xmax = 584.5287551057472 
+            text = "so-eng_s_eng_eng" 
+        intervals [266]:
+            xmin = 584.5287551057472 
+            xmax = 584.5906365008233 
+            text = "so-eng_o_eng_eng" 
+        intervals [267]:
+            xmin = 584.5906365008233 
+            xmax = 585.3471912620887 
+            text = "" 
+        intervals [268]:
+            xmin = 585.3471912620887 
+            xmax = 585.3698784808576 
+            text = "yeah_y_eng_eng" 
+        intervals [269]:
+            xmin = 585.3698784808576 
+            xmax = 585.5286890122397 
+            text = "yeah_eah_eng_eng" 
+        intervals [270]:
+            xmin = 585.5286890122397 
+            xmax = 596.7989790334503 
+            text = "" 
+        intervals [271]:
+            xmin = 596.7989790334503 
+            xmax = 596.8254474553473 
+            text = "yeah_y_eng_eng" 
+        intervals [272]:
+            xmin = 596.8254474553473 
+            xmax = 597.1770993462651 
+            text = "yeah_eah_eng_eng" 
+        intervals [273]:
+            xmin = 597.1770993462651 
+            xmax = 598.0549642617998 
+            text = "" 
+        intervals [274]:
+            xmin = 598.0549642617998 
+            xmax = 598.1694836193445 
+            text = "so-eng_s_eng_eng" 
+        intervals [275]:
+            xmin = 598.1694836193445 
+            xmax = 598.2619269561577 
+            text = "so-eng_o_eng_eng" 
+        intervals [276]:
+            xmin = 598.2619269561577 
+            xmax = 598.5848944611338 
+            text = "" 
+        intervals [277]:
+            xmin = 598.5848944611338 
+            xmax = 598.609533263367 
+            text = "like_l_eng_eng_d" 
+        intervals [278]:
+            xmin = 598.609533263367 
+            xmax = 598.6483867591963 
+            text = "like_i_eng_eng_d" 
+        intervals [279]:
+            xmin = 598.6483867591963 
+            xmax = 598.7740589562734 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [280]:
+            xmin = 598.7740589562734 
+            xmax = 598.7840187498557 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [281]:
+            xmin = 598.7840187498557 
+            xmax = 598.791217744846 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [282]:
+            xmin = 598.791217744846 
+            xmax = 601.9192743764172 
+            text = "" 

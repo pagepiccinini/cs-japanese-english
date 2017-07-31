@@ -1,0 +1,478 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 609.8721088435374 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "e00_s2_seg" 
+        xmin = 0 
+        xmax = 609.8721088435374 
+        intervals: size = 116 
+        intervals [1]:
+            xmin = 0 
+            xmax = 133.41535192658228 
+            text = "" 
+        intervals [2]:
+            xmin = 133.41535192658228 
+            xmax = 133.42964107785784 
+            text = "like_l_eng_eng_d" 
+        intervals [3]:
+            xmin = 133.42964107785784 
+            xmax = 133.51042360887763 
+            text = "like_i_eng_eng_d" 
+        intervals [4]:
+            xmin = 133.51042360887763 
+            xmax = 133.5796238440268 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [5]:
+            xmin = 133.5796238440268 
+            xmax = 133.5832371272524 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [6]:
+            xmin = 133.5832371272524 
+            xmax = 133.60162527407866 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [7]:
+            xmin = 133.60162527407866 
+            xmax = 149.68185893593116 
+            text = "" 
+        intervals [8]:
+            xmin = 149.68185893593116 
+            xmax = 149.69741457690398 
+            text = "like_l_eng_eng_d" 
+        intervals [9]:
+            xmin = 149.69741457690398 
+            xmax = 149.79223625654012 
+            text = "like_i_eng_eng_d" 
+        intervals [10]:
+            xmin = 149.79223625654012 
+            xmax = 149.83233056544265 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [11]:
+            xmin = 149.83233056544265 
+            xmax = 149.83746611593793 
+            text = "like_k-burst_eng_eng_d_0" 
+        intervals [12]:
+            xmin = 149.83746611593793 
+            xmax = 149.85852187296854 
+            text = "like_k_release_eng_eng_d_0" 
+        intervals [13]:
+            xmin = 149.85852187296854 
+            xmax = 151.88069179023984 
+            text = "" 
+        intervals [14]:
+            xmin = 151.88069179023984 
+            xmax = 151.91946433845177 
+            text = "like_l_eng_eng_d" 
+        intervals [15]:
+            xmin = 151.91946433845177 
+            xmax = 152.02286532022063 
+            text = "like_i_eng_eng_d" 
+        intervals [16]:
+            xmin = 152.02286532022063 
+            xmax = 152.06642652534848 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [17]:
+            xmin = 152.06642652534848 
+            xmax = 152.0841423097792 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [18]:
+            xmin = 152.0841423097792 
+            xmax = 152.11370143250687 
+            text = "like_k-release_eng_eng_d" 
+        intervals [19]:
+            xmin = 152.11370143250687 
+            xmax = 240.80396380990962 
+            text = "" 
+        intervals [20]:
+            xmin = 240.80396380990962 
+            xmax = 240.85585178852756 
+            text = "so-jap_s_jap_jap" 
+        intervals [21]:
+            xmin = 240.85585178852756 
+            xmax = 240.8924527948144 
+            text = "so-jap_o_jap_jap" 
+        intervals [22]:
+            xmin = 240.8924527948144 
+            xmax = 242.1503221955905 
+            text = "" 
+        intervals [23]:
+            xmin = 242.1503221955905 
+            xmax = 242.2445383991728 
+            text = "so-jap_s_jap_jap" 
+        intervals [24]:
+            xmin = 242.2445383991728 
+            xmax = 242.26991948192898 
+            text = "so-jap_o_jap_jap" 
+        intervals [25]:
+            xmin = 242.26991948192898 
+            xmax = 242.41175350620185 
+            text = "" 
+        intervals [26]:
+            xmin = 242.41175350620185 
+            xmax = 242.45638603604235 
+            text = "so-jap_s_jap_jap" 
+        intervals [27]:
+            xmin = 242.45638603604235 
+            xmax = 242.5091286785383 
+            text = "so-jap_o_jap_jap" 
+        intervals [28]:
+            xmin = 242.5091286785383 
+            xmax = 242.61430821635088 
+            text = "" 
+        intervals [29]:
+            xmin = 242.61430821635088 
+            xmax = 242.69023098569855 
+            text = "so-jap_s_jap_jap" 
+        intervals [30]:
+            xmin = 242.69023098569855 
+            xmax = 242.69431320515577 
+            text = "so-jap_o_jap_jap_0" 
+        intervals [31]:
+            xmin = 242.69431320515577 
+            xmax = 259.5407937724342 
+            text = "" 
+        intervals [32]:
+            xmin = 259.5407937724342 
+            xmax = 259.5517460095599 
+            text = "like_l_jap_eng_d" 
+        intervals [33]:
+            xmin = 259.5517460095599 
+            xmax = 259.6110531362688 
+            text = "like_i_jap_eng_d" 
+        intervals [34]:
+            xmin = 259.6110531362688 
+            xmax = 259.6862286190493 
+            text = "like_k-closure_jap_eng_d" 
+        intervals [35]:
+            xmin = 259.6862286190493 
+            xmax = 259.6922971411361 
+            text = "like_k-burst_jap_eng_d_0" 
+        intervals [36]:
+            xmin = 259.6922971411361 
+            xmax = 259.69684853270127 
+            text = "like_k-release_jap_eng_d_0" 
+        intervals [37]:
+            xmin = 259.69684853270127 
+            xmax = 274.93575502679226 
+            text = "" 
+        intervals [38]:
+            xmin = 274.93575502679226 
+            xmax = 274.9477386753516 
+            text = "like_l_eng_eng_d" 
+        intervals [39]:
+            xmin = 274.9477386753516 
+            xmax = 275.0444464250911 
+            text = "like_i_eng_eng_d" 
+        intervals [40]:
+            xmin = 275.0444464250911 
+            xmax = 275.0895993194093 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [41]:
+            xmin = 275.0895993194093 
+            xmax = 275.09608835811366 
+            text = "like_k-burst_eng_eng_d_0" 
+        intervals [42]:
+            xmin = 275.09608835811366 
+            xmax = 275.10338852665615 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [43]:
+            xmin = 275.10338852665615 
+            xmax = 286.42238968658364 
+            text = "" 
+        intervals [44]:
+            xmin = 286.42238968658364 
+            xmax = 286.46661482271287 
+            text = "so-jap_s_jap_jap" 
+        intervals [45]:
+            xmin = 286.46661482271287 
+            xmax = 286.4999048246986 
+            text = "so-jap_o_jap_jap" 
+        intervals [46]:
+            xmin = 286.4999048246986 
+            xmax = 288.1372551555718 
+            text = "" 
+        intervals [47]:
+            xmin = 288.1372551555718 
+            xmax = 288.26325488979245 
+            text = "nanka_na_jap_jap" 
+        intervals [48]:
+            xmin = 288.26325488979245 
+            xmax = 288.30078425086845 
+            text = "nanka_n_jap_jap" 
+        intervals [49]:
+            xmin = 288.30078425086845 
+            xmax = 288.36881321107546 
+            text = "nanka_ka_jap_jap" 
+        intervals [50]:
+            xmin = 288.36881321107546 
+            xmax = 300.8729103966403 
+            text = "" 
+        intervals [51]:
+            xmin = 300.8729103966403 
+            xmax = 300.97955186874105 
+            text = "nanka_na_jap_jap" 
+        intervals [52]:
+            xmin = 300.97955186874105 
+            xmax = 301.01997461685454 
+            text = "nanka_n_jap_jap" 
+        intervals [53]:
+            xmin = 301.01997461685454 
+            xmax = 301.0962933908745 
+            text = "nanka_ka_jap_jap" 
+        intervals [54]:
+            xmin = 301.0962933908745 
+            xmax = 308.1815410888009 
+            text = "" 
+        intervals [55]:
+            xmin = 308.1815410888009 
+            xmax = 308.27857335037396 
+            text = "nanka_na_jap_jap" 
+        intervals [56]:
+            xmin = 308.27857335037396 
+            xmax = 308.3184529220056 
+            text = "nanka_n_jap_jap" 
+        intervals [57]:
+            xmin = 308.3184529220056 
+            xmax = 308.42347877299113 
+            text = "nanka_ka_jap_jap" 
+        intervals [58]:
+            xmin = 308.42347877299113 
+            xmax = 335.96020367743904 
+            text = "" 
+        intervals [59]:
+            xmin = 335.96020367743904 
+            xmax = 335.98362241811986 
+            text = "like_l_eng_eng_v" 
+        intervals [60]:
+            xmin = 335.98362241811986 
+            xmax = 336.1399521684827 
+            text = "like_i_eng_eng_v" 
+        intervals [61]:
+            xmin = 336.1399521684827 
+            xmax = 336.2989638615825 
+            text = "like_k-closure_eng_eng_v" 
+        intervals [62]:
+            xmin = 336.2989638615825 
+            xmax = 336.31964052457516 
+            text = "like_k-burst_eng_eng_v" 
+        intervals [63]:
+            xmin = 336.31964052457516 
+            xmax = 336.3483398085507 
+            text = "like_k-release_eng_eng_v" 
+        intervals [64]:
+            xmin = 336.3483398085507 
+            xmax = 340.13593897552937 
+            text = "" 
+        intervals [65]:
+            xmin = 340.13593897552937 
+            xmax = 340.1730067633636 
+            text = "like_l_eng_eng_v" 
+        intervals [66]:
+            xmin = 340.1730067633636 
+            xmax = 340.24112169232717 
+            text = "like_i_eng_eng_v" 
+        intervals [67]:
+            xmin = 340.24112169232717 
+            xmax = 340.27382706774847 
+            text = "like_k-closure_eng_eng_v" 
+        intervals [68]:
+            xmin = 340.27382706774847 
+            xmax = 340.2815383685142 
+            text = "like_k-burst_eng_eng_v" 
+        intervals [69]:
+            xmin = 340.2815383685142 
+            xmax = 340.28588881500986 
+            text = "like_k-release_eng_eng_v_0" 
+        intervals [70]:
+            xmin = 340.28588881500986 
+            xmax = 356.6141051266066 
+            text = "" 
+        intervals [71]:
+            xmin = 356.6141051266066 
+            xmax = 356.7167463628767 
+            text = "nanka_na_jap_jap" 
+        intervals [72]:
+            xmin = 356.7167463628767 
+            xmax = 356.7534918818348 
+            text = "nanka_n_jap_jap" 
+        intervals [73]:
+            xmin = 356.7534918818348 
+            xmax = 356.8478246128398 
+            text = "nanka_ka_jap_jap" 
+        intervals [74]:
+            xmin = 356.8478246128398 
+            xmax = 358.5183614483576 
+            text = "" 
+        intervals [75]:
+            xmin = 358.5183614483576 
+            xmax = 358.6322728060188 
+            text = "nanka_na_jap_jap" 
+        intervals [76]:
+            xmin = 358.6322728060188 
+            xmax = 358.66328190279086 
+            text = "nanka_n_jap_jap" 
+        intervals [77]:
+            xmin = 358.66328190279086 
+            xmax = 358.753087625467 
+            text = "nanka_ka_jap_jap" 
+        intervals [78]:
+            xmin = 358.753087625467 
+            xmax = 360.12039123681967 
+            text = "" 
+        intervals [79]:
+            xmin = 360.12039123681967 
+            xmax = 360.18684321253045 
+            text = "nanka_na_jap_jap" 
+        intervals [80]:
+            xmin = 360.18684321253045 
+            xmax = 360.21182462495926 
+            text = "nanka_n_jap_jap" 
+        intervals [81]:
+            xmin = 360.21182462495926 
+            xmax = 360.30984856765934 
+            text = "nanka_ka_jap_jap" 
+        intervals [82]:
+            xmin = 360.30984856765934 
+            xmax = 362.3359296540117 
+            text = "" 
+        intervals [83]:
+            xmin = 362.3359296540117 
+            xmax = 362.4143782241071 
+            text = "nanka_na_jap_jap" 
+        intervals [84]:
+            xmin = 362.4143782241071 
+            xmax = 362.4502250364594 
+            text = "nanka_n_jap_jap" 
+        intervals [85]:
+            xmin = 362.4502250364594 
+            xmax = 362.6067351503941 
+            text = "nanka_ka_jap_jap" 
+        intervals [86]:
+            xmin = 362.6067351503941 
+            xmax = 424.9558617502824 
+            text = "" 
+        intervals [87]:
+            xmin = 424.9558617502824 
+            xmax = 424.97014136500127 
+            text = "like_l_eng_eng_d" 
+        intervals [88]:
+            xmin = 424.97014136500127 
+            xmax = 425.00740502621113 
+            text = "like_i_eng_eng_d" 
+        intervals [89]:
+            xmin = 425.00740502621113 
+            xmax = 425.0649184836804 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [90]:
+            xmin = 425.0649184836804 
+            xmax = 425.0746763038779 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [91]:
+            xmin = 425.0746763038779 
+            xmax = 425.10713644669727 
+            text = "like_k-release_eng_eng_d" 
+        intervals [92]:
+            xmin = 425.10713644669727 
+            xmax = 452.7034012095062 
+            text = "" 
+        intervals [93]:
+            xmin = 452.7034012095062 
+            xmax = 452.78037754160687 
+            text = "yeah_y_eng_eng" 
+        intervals [94]:
+            xmin = 452.78037754160687 
+            xmax = 453.0153493822709 
+            text = "yeah_eah_eng_eng" 
+        intervals [95]:
+            xmin = 453.0153493822709 
+            xmax = 470.0222918069734 
+            text = "" 
+        intervals [96]:
+            xmin = 470.0222918069734 
+            xmax = 470.1090211497742 
+            text = "so-jap_s_" 
+        intervals [97]:
+            xmin = 470.1090211497742 
+            xmax = 470.19385586964535 
+            text = "so-jap_o_jap_jap" 
+        intervals [98]:
+            xmin = 470.19385586964535 
+            xmax = 474.9263398846862 
+            text = "" 
+        intervals [99]:
+            xmin = 474.9263398846862 
+            xmax = 475.03280121143507 
+            text = "so-jap_s_jap_jap" 
+        intervals [100]:
+            xmin = 475.03280121143507 
+            xmax = 475.1773571441407 
+            text = "so-jap_o_jap_jap" 
+        intervals [101]:
+            xmin = 475.1773571441407 
+            xmax = 544.2885454301029 
+            text = "" 
+        intervals [102]:
+            xmin = 544.2885454301029 
+            xmax = 544.3642711945178 
+            text = "nanka_na_eng_jap" 
+        intervals [103]:
+            xmin = 544.3642711945178 
+            xmax = 544.3904072267719 
+            text = "nanka_n_eng_jap" 
+        intervals [104]:
+            xmin = 544.3904072267719 
+            xmax = 544.4886141979267 
+            text = "nanka_ka_eng_jap" 
+        intervals [105]:
+            xmin = 544.4886141979267 
+            xmax = 553.1716793854401 
+            text = "" 
+        intervals [106]:
+            xmin = 553.1716793854401 
+            xmax = 553.2373331804178 
+            text = "so-jap_s_jap_jap" 
+        intervals [107]:
+            xmin = 553.2373331804178 
+            xmax = 553.328243744992 
+            text = "so-jap_o_jap_jap" 
+        intervals [108]:
+            xmin = 553.328243744992 
+            xmax = 558.9399691290704 
+            text = "" 
+        intervals [109]:
+            xmin = 558.9399691290704 
+            xmax = 559.051567225182 
+            text = "nanka_na_jap_jap" 
+        intervals [110]:
+            xmin = 559.051567225182 
+            xmax = 559.0785924949184 
+            text = "nanka_n_jap_jap" 
+        intervals [111]:
+            xmin = 559.0785924949184 
+            xmax = 559.1645874552438 
+            text = "nanka_ka_jap_jap" 
+        intervals [112]:
+            xmin = 559.1645874552438 
+            xmax = 563.2695981162425 
+            text = "" 
+        intervals [113]:
+            xmin = 563.2695981162425 
+            xmax = 563.3711539281094 
+            text = "nanka_na_jap_jap" 
+        intervals [114]:
+            xmin = 563.3711539281094 
+            xmax = 563.4077744253253 
+            text = "nanka_n_jap_jap" 
+        intervals [115]:
+            xmin = 563.4077744253253 
+            xmax = 563.5458550285281 
+            text = "nanka_ka_jap_jap" 
+        intervals [116]:
+            xmin = 563.5458550285281 
+            xmax = 609.8721088435374 
+            text = "" 

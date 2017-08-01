@@ -28,7 +28,7 @@ duration_so.plot = ggplot(data_duration_so_figs,
   geom_boxplot() +
   scale_fill_brewer(palette = "PRGn") +
   labs(x = "Language context",
-       y = "Duration (ms)",
+       y = "[soU] duration (ms)",
        fill = "") +
   theme_classic() +
   theme(text = element_text(size = 16), legend.position = "top")

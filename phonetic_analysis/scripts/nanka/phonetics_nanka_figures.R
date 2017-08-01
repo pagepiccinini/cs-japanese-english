@@ -26,7 +26,7 @@ duration_nanka_moraic.plot = ggplot(data_duration_nanka_moraic_figs,
   geom_boxplot() +
   scale_fill_brewer(palette = "PRGn") +
   labs(x = "Language context",
-       y = "Duration standard deviation (ms)",
+       y = "Moraic duration standard deviation (ms)",
        fill = "") +
   theme_classic() +
   theme(text = element_text(size = 16), legend.position = "top")
@@ -42,7 +42,7 @@ duration_nanka_syllabic.plot = ggplot(data_duration_nanka_syllabic_figs,
   geom_boxplot() +
   scale_fill_brewer(palette = "PRGn") +
   labs(x = "Language context",
-       y = "Duration standard deviation (ms)",
+       y = "Syllabic duration standard deviation (ms)",
        fill = "") +
   theme_classic() +
   theme(text = element_text(size = 16), legend.position = "top")

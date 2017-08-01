@@ -61,7 +61,7 @@ ggsave("phonetic_analysis/figures/yeah/formants_yeah_eah.pdf", formants_yeah_eah
 formants_yeah_eah_vs.plot = ggplot(data_formants_yeah_eah_figs,
                          aes(x = f2_norm_bark, y = f1_norm_bark,
                              col = context)) + 
-  geom_point() +
+  geom_point(size = 3) +
   scale_color_brewer(palette = "PRGn") +
   labs(x = "F2 (Bark normalized)",
        y = "F1 (Bark normalized)",

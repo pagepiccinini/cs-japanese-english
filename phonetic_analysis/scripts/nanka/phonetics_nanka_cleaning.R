@@ -13,6 +13,7 @@ data_duration_nanka_moraic = data_duration_nanka %>%
   mutate(duration_n = lead(duration_ms)) %>%
   mutate(duration_ka = lead(duration_ms, 2)) %>%
   filter(sound == "na") %>%
+  rowwise() %>%
   mutate(duration_sd = sd(c(duration_na, duration_n, duration_ka)))
 
 # Get durations based on syllabic partition
@@ -23,6 +24,7 @@ data_duration_nanka_syllabic = data_duration_nanka %>%
   mutate(duration_nan = duration_ms + lead(duration_ms)) %>%
   mutate(duration_ka = lead(duration_ms, 2)) %>%
   filter(sound == "na") %>%
+  rowwise() %>%
   mutate(duration_sd = sd(c(duration_nan, duration_ka)))
 
 

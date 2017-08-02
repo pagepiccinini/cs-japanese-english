@@ -55,7 +55,7 @@ duration_like_lai.plot = ggplot(data_duration_like_lai_figs,
   geom_boxplot() +
   scale_fill_brewer(palette = "PRGn") +
   labs(x = "Language context",
-       y = "Duration (ms)",
+       y = "[lai] duration (ms)",
        fill = "") +
   theme_classic() +
   theme(text = element_text(size = 16), legend.position = "top")
@@ -105,7 +105,7 @@ duration_like_kburst.plot = ggplot(data_duration_like_kburst_figs,
   geom_boxplot() +
   scale_fill_brewer(palette = "PRGn") +
   labs(x = "Language context",
-       y = "Duration (ms)",
+       y = "[k]-burst duration (ms)",
        fill = "") +
   theme_classic() +
   theme(text = element_text(size = 16), legend.position = "top")

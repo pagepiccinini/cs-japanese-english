@@ -24,7 +24,8 @@ formants_extracter = function(filename, wavfile, durationfile, line, formant_arg
   temp = readWave(wavfile,
                   from = durationfile$tmin[line], to = durationfile$tmax[line],
                   units = "seconds")
-  
+  temp = normalize(temp, unit = "16")
+
   savewav(temp, file = paste("phonetic_extraction/data/temp/", curr_file, "_", curr_time, ".wav", sep = ""))
   
   # Set location paths for wav files and formant files, Note: spaces not allowed in path

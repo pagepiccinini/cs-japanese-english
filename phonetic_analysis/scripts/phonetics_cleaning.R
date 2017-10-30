@@ -7,7 +7,7 @@ data_duration = list.files("phonetic_analysis/data",
 
 # Clean data
 data_duration_clean = data_duration %>%
-  mutate(duration_clean = if_else(presence == 0, 0, duration))
+  mutate(duration_ms = if_else(presence == 0, 0, duration_ms))
 
 
 ## READ IN DATA FOR FORMANTS ####

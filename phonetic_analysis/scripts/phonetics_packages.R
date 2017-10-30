@@ -3,3 +3,6 @@ library(tidyverse)
 
 # Specific color choices
 library(RColorBrewer)
+
+# Data analysis
+library(lme4)

@@ -30,14 +30,14 @@ item []:
             text = "like_k-closure_eng_eng_d" 
         intervals [5]:
             xmin = 61.21898273516147 
-            xmax = 61.22868748544645 
+            xmax = 61.42608350855079 
             text = "like_k-burst_eng_eng_d" 
         intervals [6]:
-            xmin = 61.22868748544645 
-            xmax = 61.42608350855079 
-            text = "like_k-release_eng_eng_d" 
-        intervals [7]:
             xmin = 61.42608350855079 
+            xmax = 61.47379398990712 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [7]:
+            xmin = 61.47379398990712 
             xmax = 103.93076387978921 
             text = "" 
         intervals [8]:
@@ -82,14 +82,14 @@ item []:
             text = "like_k-closure_eng_eng_d" 
         intervals [18]:
             xmin = 107.89884476980407 
-            xmax = 107.92891293414081 
+            xmax = 108.05125648822316 
             text = "like_k-burst_eng_eng_d" 
         intervals [19]:
-            xmin = 107.92891293414081 
-            xmax = 108.05125648822316 
-            text = "like_k-release_eng_eng_d" 
-        intervals [20]:
             xmin = 108.05125648822316 
+            xmax = 108.08593900401364 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [20]:
+            xmin = 108.08593900401364 
             xmax = 110.96931007540455 
             text = "" 
         intervals [21]:
@@ -123,7 +123,7 @@ item []:
         intervals [28]:
             xmin = 112.79025019493929 
             xmax = 112.80392386687791 
-            text = "like_k-release_eng_eng_d" 
+            text = "like_k-release_eng_eng_d_0" 
         intervals [29]:
             xmin = 112.80392386687791 
             xmax = 127.95027219248989 
@@ -175,11 +175,11 @@ item []:
         intervals [41]:
             xmin = 142.35582627335387 
             xmax = 142.36449490543973 
-            text = "nanka_na_jap_jap_0" 
+            text = "nanka_na_jap_jap_NA_0" 
         intervals [42]:
             xmin = 142.36449490543973 
             xmax = 142.3752886059216 
-            text = "nanka_n_jap_jap_0" 
+            text = "nanka_n_jap_jap_NA_0" 
         intervals [43]:
             xmin = 142.3752886059216 
             xmax = 142.53970135878674 
@@ -250,10 +250,10 @@ item []:
             text = "" 
         intervals [60]:
             xmin = 233.74503466308263 
-            xmax = 233.76116843279297 
+            xmax = 233.820280709367 
             text = "like_l_eng_eng_d" 
         intervals [61]:
-            xmin = 233.76116843279297 
+            xmin = 233.820280709367 
             xmax = 233.87768660684713 
             text = "like_i_eng_eng_d" 
         intervals [62]:
@@ -262,14 +262,14 @@ item []:
             text = "like_k-closure_eng_eng_d" 
         intervals [63]:
             xmin = 233.96226562618563 
-            xmax = 233.97154561872378 
+            xmax = 233.99397939316742 
             text = "like_k-burst_eng_eng_d" 
         intervals [64]:
-            xmin = 233.97154561872378 
-            xmax = 233.99397939316742 
-            text = "like_k-release_eng_eng_d" 
-        intervals [65]:
             xmin = 233.99397939316742 
+            xmax = 234.0202428426905 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [65]:
+            xmin = 234.0202428426905 
             xmax = 241.63531816630373 
             text = "" 
         intervals [66]:
@@ -279,7 +279,7 @@ item []:
         intervals [67]:
             xmin = 241.75102156865876 
             xmax = 241.8049828868646 
-            text = "s-jap_o_jap_jap" 
+            text = "so-jap_o_jap_jap" 
         intervals [68]:
             xmin = 241.8049828868646 
             xmax = 241.83545546550388 
@@ -327,7 +327,7 @@ item []:
         intervals [79]:
             xmin = 242.5888905620496 
             xmax = 242.61266626785064 
-            text = "so-jap_o_jap_jap_0" 
+            text = "so-jap_o_jap_jap_NA_0" 
         intervals [80]:
             xmin = 242.61266626785064 
             xmax = 282.39540438133577 
@@ -346,12 +346,12 @@ item []:
             text = "like_k-closure_jap_jap_d" 
         intervals [84]:
             xmin = 282.6333204534698 
-            xmax = 282.64382145866506 
+            xmax = 282.6702905284583 
             text = "like_k-burst_jap_jap_d" 
         intervals [85]:
-            xmin = 282.64382145866506 
+            xmin = 282.6702905284583 
             xmax = 282.69515777063134 
-            text = "like_k-release_jap_jap_d" 
+            text = "like_k-release_jap_jap_d_0" 
         intervals [86]:
             xmin = 282.69515777063134 
             xmax = 313.8782795389382 
@@ -386,10 +386,10 @@ item []:
             text = "like_l_eng_eng_d" 
         intervals [94]:
             xmin = 316.98009938050717 
-            xmax = 317.06238018146126 
+            xmax = 317.09495071325784 
             text = "like_i_eng_eng_d" 
         intervals [95]:
-            xmin = 317.06238018146126 
+            xmin = 317.09495071325784 
             xmax = 317.1399801678017 
             text = "like_k-closure_eng_eng_d" 
         intervals [96]:
@@ -418,10 +418,10 @@ item []:
             text = "" 
         intervals [102]:
             xmin = 323.1201421446344 
-            xmax = 323.1437566858091 
+            xmax = 323.15610509710046 
             text = "like_l_eng_eng_d" 
         intervals [103]:
-            xmin = 323.1437566858091 
+            xmin = 323.15610509710046 
             xmax = 323.233364858287 
             text = "like_i_eng_eng_d" 
         intervals [104]:
@@ -430,14 +430,14 @@ item []:
             text = "like_k-closure_eng_eng_d" 
         intervals [105]:
             xmin = 323.3484105491227 
-            xmax = 323.35434763443135 
+            xmax = 323.4487268771113 
             text = "like_k-burst_eng_eng_d" 
         intervals [106]:
-            xmin = 323.35434763443135 
-            xmax = 323.4487268771113 
-            text = "like_k-release_eng_eng_d" 
-        intervals [107]:
             xmin = 323.4487268771113 
+            xmax = 323.4636943657938 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [107]:
+            xmin = 323.4636943657938 
             xmax = 337.194209358992 
             text = "" 
         intervals [108]:
@@ -466,10 +466,10 @@ item []:
             text = "" 
         intervals [114]:
             xmin = 342.89072745114095 
-            xmax = 342.9089061730633 
+            xmax = 342.95370537131333 
             text = "like_l_eng_eng_v" 
         intervals [115]:
-            xmin = 342.9089061730633 
+            xmin = 342.95370537131333 
             xmax = 343.0059877788527 
             text = "like_i_eng_eng_v" 
         intervals [116]:
@@ -483,7 +483,7 @@ item []:
         intervals [118]:
             xmin = 343.08787583765235 
             xmax = 343.09281849164495 
-            text = "like_k-release_eng_eng_v" 
+            text = "like_k-release_eng_eng_v_0" 
         intervals [119]:
             xmin = 343.09281849164495 
             xmax = 453.5470759172532 
@@ -502,30 +502,30 @@ item []:
             text = "nanka_ka_jap_jap" 
         intervals [123]:
             xmin = 453.7459315911541 
-            xmax = 492.3987275092954 
+            xmax = 492.4155395393292 
             text = "" 
         intervals [124]:
-            xmin = 492.3987275092954 
-            xmax = 492.41798037133225 
+            xmin = 492.4155395393292 
+            xmax = 492.44799264887666 
             text = "like_l_eng_eng_d" 
         intervals [125]:
-            xmin = 492.41798037133225 
-            xmax = 492.4834328942787 
+            xmin = 492.44799264887666 
+            xmax = 492.5397171208665 
             text = "like_i_eng_eng_d" 
         intervals [126]:
-            xmin = 492.4834328942787 
-            xmax = 492.6898050567929 
+            xmin = 492.5397171208665 
+            xmax = 492.6918499057149 
             text = "like_k-closure_eng_eng_d" 
         intervals [127]:
-            xmin = 492.6898050567929 
-            xmax = 492.7055422754249 
+            xmin = 492.6918499057149 
+            xmax = 492.7045679128042 
             text = "like_k-burst_eng_eng_d" 
         intervals [128]:
-            xmin = 492.7055422754249 
-            xmax = 492.74444545460403 
-            text = "like_k-release_eng_eng_d" 
+            xmin = 492.7045679128042 
+            xmax = 492.76321864590534 
+            text = "like_k-release_eng_eng_d_0" 
         intervals [129]:
-            xmin = 492.74444545460403 
+            xmin = 492.76321864590534 
             xmax = 492.9137147388495 
             text = "" 
         intervals [130]:
@@ -574,14 +574,14 @@ item []:
             text = "nanka_ka_jap_jap" 
         intervals [141]:
             xmin = 511.2578110397564 
-            xmax = 514.2872174342087 
+            xmax = 514.2877127109201 
             text = "" 
         intervals [142]:
-            xmin = 514.2872174342087 
-            xmax = 514.3086620885892 
+            xmin = 514.2877127109201 
+            xmax = 514.3205412380436 
             text = "like_l_eng_eng_g" 
         intervals [143]:
-            xmin = 514.3086620885892 
+            xmin = 514.3205412380436 
             xmax = 514.3643292821023 
             text = "like_i_eng_eng_g" 
         intervals [144]:
@@ -674,14 +674,14 @@ item []:
             text = "" 
         intervals [166]:
             xmin = 551.5957075524226 
-            xmax = 551.6000847674063 
+            xmax = 551.6265670094558 
             text = "like_l_eng_eng_d" 
         intervals [167]:
-            xmin = 551.6000847674063 
-            xmax = 551.6571187685515 
+            xmin = 551.6265670094558 
+            xmax = 551.6567313695102 
             text = "like_i_eng_eng_d" 
         intervals [168]:
-            xmin = 551.6571187685515 
+            xmin = 551.6567313695102 
             xmax = 551.7059116219149 
             text = "like_k-closure_eng_eng_d" 
         intervals [169]:
@@ -691,17 +691,17 @@ item []:
         intervals [170]:
             xmin = 551.7212152913862 
             xmax = 551.7279778640849 
-            text = "like_k-release_eng_eng_d" 
+            text = "like_k-release_eng_eng_d_0" 
         intervals [171]:
             xmin = 551.7279778640849 
             xmax = 552.8834987963693 
             text = "" 
         intervals [172]:
             xmin = 552.8834987963693 
-            xmax = 552.9175071783008 
+            xmax = 552.9582231530092 
             text = "like_l_eng_eng_d" 
         intervals [173]:
-            xmin = 552.9175071783008 
+            xmin = 552.9582231530092 
             xmax = 553.0778248614702 
             text = "like_i_eng_eng_d" 
         intervals [174]:
@@ -715,7 +715,7 @@ item []:
         intervals [176]:
             xmin = 553.1879666472079 
             xmax = 553.2076675231386 
-            text = "like_k-release_eng_eng_d" 
+            text = "like_k-release_eng_eng_d_0" 
         intervals [177]:
             xmin = 553.2076675231386 
             xmax = 553.3622546674329 
@@ -730,16 +730,16 @@ item []:
             text = "like_i_eng_eng_d" 
         intervals [180]:
             xmin = 553.454947142933 
-            xmax = 553.4966990014159 
+            xmax = 553.500477015811 
             text = "like_k-closure_eng_eng_d" 
         intervals [181]:
-            xmin = 553.4966990014159 
+            xmin = 553.500477015811 
             xmax = 553.5080795331021 
             text = "like_k-burst_eng_eng_d" 
         intervals [182]:
             xmin = 553.5080795331021 
             xmax = 553.5170054159678 
-            text = "like_k-release_eng_eng_d" 
+            text = "like_k-release_eng_eng_d_0" 
         intervals [183]:
             xmin = 553.5170054159678 
             xmax = 555.6024900825527 
@@ -794,10 +794,10 @@ item []:
             text = "so-jap_o_jap_jap" 
         intervals [196]:
             xmin = 561.3536706951145 
-            xmax = 561.3702422173489 
+            xmax = 561.3702422173488 
             text = "" 
         intervals [197]:
-            xmin = 561.3702422173489 
+            xmin = 561.3702422173488 
             xmax = 561.4467322782178 
             text = "so-jap_s_jap_jap" 
         intervals [198]:
@@ -822,10 +822,10 @@ item []:
             text = "" 
         intervals [203]:
             xmin = 574.597907694412 
-            xmax = 574.6361776914717 
+            xmax = 574.6539644878579 
             text = "like_l_eng_eng_d" 
         intervals [204]:
-            xmin = 574.6361776914717 
+            xmin = 574.6539644878579 
             xmax = 574.8206733489385 
             text = "like_i_eng_eng_d" 
         intervals [205]:

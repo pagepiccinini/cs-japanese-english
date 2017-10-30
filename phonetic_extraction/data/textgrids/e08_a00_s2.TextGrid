@@ -1,0 +1,534 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 473.42585034013604 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "e08_s2_seg" 
+        xmin = 0 
+        xmax = 473.42585034013604 
+        intervals: size = 130 
+        intervals [1]:
+            xmin = 0 
+            xmax = 93.90516105119671 
+            text = "" 
+        intervals [2]:
+            xmin = 93.90516105119671 
+            xmax = 94.00883403361019 
+            text = "so-jap_s_jap_jap" 
+        intervals [3]:
+            xmin = 94.00883403361019 
+            xmax = 94.1606771909874 
+            text = "so-jap_o_jap_jap" 
+        intervals [4]:
+            xmin = 94.1606771909874 
+            xmax = 94.5596001081304 
+            text = "" 
+        intervals [5]:
+            xmin = 94.5596001081304 
+            xmax = 94.6730701169337 
+            text = "so-jap_s_jap_jap" 
+        intervals [6]:
+            xmin = 94.6730701169337 
+            xmax = 94.84773000867668 
+            text = "so-jap_o_jap_jap" 
+        intervals [7]:
+            xmin = 94.84773000867668 
+            xmax = 105.03049506381404 
+            text = "" 
+        intervals [8]:
+            xmin = 105.03049506381404 
+            xmax = 105.14897657325785 
+            text = "so-jap_s_jap_jap" 
+        intervals [9]:
+            xmin = 105.14897657325785 
+            xmax = 105.24123326835115 
+            text = "so-jap_o_jap_jap" 
+        intervals [10]:
+            xmin = 105.24123326835115 
+            xmax = 117.12294734909773 
+            text = "" 
+        intervals [11]:
+            xmin = 117.12294734909773 
+            xmax = 117.23490661302964 
+            text = "so-jap_s_jap_jap" 
+        intervals [12]:
+            xmin = 117.23490661302964 
+            xmax = 117.26631695925626 
+            text = "so-jap_o_jap_jap" 
+        intervals [13]:
+            xmin = 117.26631695925626 
+            xmax = 134.5467001818694 
+            text = "" 
+        intervals [14]:
+            xmin = 134.5467001818694 
+            xmax = 134.61582546623941 
+            text = "nanka_na_jap_jap" 
+        intervals [15]:
+            xmin = 134.61582546623941 
+            xmax = 134.6446960227458 
+            text = "nanka_n_jap_jap" 
+        intervals [16]:
+            xmin = 134.6446960227458 
+            xmax = 134.72820388597674 
+            text = "nanka_ka_jap_jap" 
+        intervals [17]:
+            xmin = 134.72820388597674 
+            xmax = 141.90990958346518 
+            text = "" 
+        intervals [18]:
+            xmin = 141.90990958346518 
+            xmax = 142.04889082590483 
+            text = "so-jap_s_jap_jap" 
+        intervals [19]:
+            xmin = 142.04889082590483 
+            xmax = 142.4276687078549 
+            text = "so-jap_o_jap_jap" 
+        intervals [20]:
+            xmin = 142.4276687078549 
+            xmax = 143.52546865152578 
+            text = "" 
+        intervals [21]:
+            xmin = 143.52546865152578 
+            xmax = 143.64330184845414 
+            text = "so-jap_s_jap_jap" 
+        intervals [22]:
+            xmin = 143.64330184845414 
+            xmax = 143.9744292590397 
+            text = "so-jap_o_jap_jap" 
+        intervals [23]:
+            xmin = 143.9744292590397 
+            xmax = 144.71100464940147 
+            text = "" 
+        intervals [24]:
+            xmin = 144.71100464940147 
+            xmax = 144.84548712947273 
+            text = "so-jap_s_jap_jap" 
+        intervals [25]:
+            xmin = 144.84548712947273 
+            xmax = 145.06084681092713 
+            text = "so-jap_o_jap_jap" 
+        intervals [26]:
+            xmin = 145.06084681092713 
+            xmax = 145.16481733452744 
+            text = "so-jap_s_jap_jap" 
+        intervals [27]:
+            xmin = 145.16481733452744 
+            xmax = 145.278420555201 
+            text = "so-jap_o_jap_jap" 
+        intervals [28]:
+            xmin = 145.278420555201 
+            xmax = 145.39254665275521 
+            text = "so-jap_s_jap_jap" 
+        intervals [29]:
+            xmin = 145.39254665275521 
+            xmax = 145.49623233813756 
+            text = "so-jap_o_jap_jap" 
+        intervals [30]:
+            xmin = 145.49623233813756 
+            xmax = 145.61062065812231 
+            text = "so-jap_s_jap_jap" 
+        intervals [31]:
+            xmin = 145.61062065812231 
+            xmax = 145.67504432103073 
+            text = "so-jap_o_jap_jap" 
+        intervals [32]:
+            xmin = 145.67504432103073 
+            xmax = 153.1904289906338 
+            text = "" 
+        intervals [33]:
+            xmin = 153.1904289906338 
+            xmax = 153.32759975648906 
+            text = "so-jap_s_jap_jap" 
+        intervals [34]:
+            xmin = 153.32759975648906 
+            xmax = 153.4670729346643 
+            text = "so-jap_o_jap_jap" 
+        intervals [35]:
+            xmin = 153.4670729346643 
+            xmax = 181.61496889956393 
+            text = "" 
+        intervals [36]:
+            xmin = 181.61496889956393 
+            xmax = 181.69956034083916 
+            text = "so-jap_s_jap_jap" 
+        intervals [37]:
+            xmin = 181.69956034083916 
+            xmax = 181.80856341663454 
+            text = "so-jap_o_jap_jap" 
+        intervals [38]:
+            xmin = 181.80856341663454 
+            xmax = 201.19561045731464 
+            text = "" 
+        intervals [39]:
+            xmin = 201.19561045731464 
+            xmax = 201.3190171022371 
+            text = "nanka_na_jap_jap" 
+        intervals [40]:
+            xmin = 201.3190171022371 
+            xmax = 201.35364246694348 
+            text = "nanka_n_jap_jap" 
+        intervals [41]:
+            xmin = 201.35364246694348 
+            xmax = 201.45350701437454 
+            text = "nanka_ka_jap_jap" 
+        intervals [42]:
+            xmin = 201.45350701437454 
+            xmax = 202.32443459155883 
+            text = "" 
+        intervals [43]:
+            xmin = 202.32443459155883 
+            xmax = 202.41701708188972 
+            text = "nanka_na_jap_jap" 
+        intervals [44]:
+            xmin = 202.41701708188972 
+            xmax = 202.43392942076798 
+            text = "nanka_n_jap_jap" 
+        intervals [45]:
+            xmin = 202.43392942076798 
+            xmax = 202.51739215306233 
+            text = "nanka_ka_jap_jap" 
+        intervals [46]:
+            xmin = 202.51739215306233 
+            xmax = 215.9646629729342 
+            text = "" 
+        intervals [47]:
+            xmin = 215.9646629729342 
+            xmax = 216.04233205963212 
+            text = "nanka_na_jap_jap" 
+        intervals [48]:
+            xmin = 216.04233205963212 
+            xmax = 216.0822263965649 
+            text = "nanka_n_jap_jap" 
+        intervals [49]:
+            xmin = 216.0822263965649 
+            xmax = 216.13414384022158 
+            text = "nanka_ka_jap_jap" 
+        intervals [50]:
+            xmin = 216.13414384022158 
+            xmax = 219.49091957334304 
+            text = "" 
+        intervals [51]:
+            xmin = 219.49091957334304 
+            xmax = 219.56068225795966 
+            text = "nanka_na_jap_jap" 
+        intervals [52]:
+            xmin = 219.56068225795966 
+            xmax = 219.5840415363341 
+            text = "nanka_n_jap_jap" 
+        intervals [53]:
+            xmin = 219.5840415363341 
+            xmax = 219.65156849805388 
+            text = "nanka_ka_jap_jap" 
+        intervals [54]:
+            xmin = 219.65156849805388 
+            xmax = 223.52030201583386 
+            text = "" 
+        intervals [55]:
+            xmin = 223.52030201583386 
+            xmax = 223.72552912623166 
+            text = "nanka_na_jap_jap" 
+        intervals [56]:
+            xmin = 223.72552912623166 
+            xmax = 223.7508503504722 
+            text = "nanka_n_jap_jap" 
+        intervals [57]:
+            xmin = 223.7508503504722 
+            xmax = 223.83960798744263 
+            text = "nanka_ka_jap_jap" 
+        intervals [58]:
+            xmin = 223.83960798744263 
+            xmax = 225.3791483363628 
+            text = "" 
+        intervals [59]:
+            xmin = 225.3791483363628 
+            xmax = 225.52465788442703 
+            text = "nanka_na_jap_jap" 
+        intervals [60]:
+            xmin = 225.52465788442703 
+            xmax = 225.5871577120183 
+            text = "nanka_n_jap_jap" 
+        intervals [61]:
+            xmin = 225.5871577120183 
+            xmax = 225.74064384355475 
+            text = "nanka_ka_jap_jap" 
+        intervals [62]:
+            xmin = 225.74064384355475 
+            xmax = 229.1362406578273 
+            text = "" 
+        intervals [63]:
+            xmin = 229.1362406578273 
+            xmax = 229.20430858113133 
+            text = "so-jap_s_jap_jap" 
+        intervals [64]:
+            xmin = 229.20430858113133 
+            xmax = 229.25124381291943 
+            text = "so-jap_o_jap_jap" 
+        intervals [65]:
+            xmin = 229.25124381291943 
+            xmax = 309.0028505319166 
+            text = "" 
+        intervals [66]:
+            xmin = 309.0028505319166 
+            xmax = 309.1107520555087 
+            text = "so-jap_s_jap_jap" 
+        intervals [67]:
+            xmin = 309.1107520555087 
+            xmax = 309.35846539084247 
+            text = "so-jap_o_jap_jap" 
+        intervals [68]:
+            xmin = 309.35846539084247 
+            xmax = 347.7727907394524 
+            text = "" 
+        intervals [69]:
+            xmin = 347.7727907394524 
+            xmax = 347.8932351546205 
+            text = "nanka_na_jap_jap" 
+        intervals [70]:
+            xmin = 347.8932351546205 
+            xmax = 347.9655327065744 
+            text = "nanka_n_jap_jap" 
+        intervals [71]:
+            xmin = 347.9655327065744 
+            xmax = 348.21987151432967 
+            text = "nanka_ka_jap_jap" 
+        intervals [72]:
+            xmin = 348.21987151432967 
+            xmax = 349.25624866529796 
+            text = "" 
+        intervals [73]:
+            xmin = 349.25624866529796 
+            xmax = 349.35939155221257 
+            text = "nanka_na_jap_jap" 
+        intervals [74]:
+            xmin = 349.35939155221257 
+            xmax = 349.43726385891546 
+            text = "nanka_n_jap_jap" 
+        intervals [75]:
+            xmin = 349.43726385891546 
+            xmax = 349.62030692965055 
+            text = "nanka_ka_jap_jap" 
+        intervals [76]:
+            xmin = 349.62030692965055 
+            xmax = 350.120376582138 
+            text = "" 
+        intervals [77]:
+            xmin = 350.120376582138 
+            xmax = 350.17959610084995 
+            text = "nanka_na_jap_jap" 
+        intervals [78]:
+            xmin = 350.17959610084995 
+            xmax = 350.22196044851734 
+            text = "nanka_n_jap_jap" 
+        intervals [79]:
+            xmin = 350.22196044851734 
+            xmax = 350.38836056118134 
+            text = "nanka_ka_jap_jap" 
+        intervals [80]:
+            xmin = 350.38836056118134 
+            xmax = 356.69758941685166 
+            text = "" 
+        intervals [81]:
+            xmin = 356.69758941685166 
+            xmax = 356.80608349948403 
+            text = "nanka_na_jap_jap" 
+        intervals [82]:
+            xmin = 356.80608349948403 
+            xmax = 356.8461078300545 
+            text = "nanka_n_jap_jap" 
+        intervals [83]:
+            xmin = 356.8461078300545 
+            xmax = 357.05116960910965 
+            text = "nanka_ka_jap_jap" 
+        intervals [84]:
+            xmin = 357.05116960910965 
+            xmax = 358.67845505181896 
+            text = "" 
+        intervals [85]:
+            xmin = 358.67845505181896 
+            xmax = 358.7974473444818 
+            text = "nanka_na_jap_jap" 
+        intervals [86]:
+            xmin = 358.7974473444818 
+            xmax = 358.8355887839984 
+            text = "nanka_n_jap_jap" 
+        intervals [87]:
+            xmin = 358.8355887839984 
+            xmax = 358.9219968432344 
+            text = "nanka_ka_jap_jap" 
+        intervals [88]:
+            xmin = 358.9219968432344 
+            xmax = 360.37695434369436 
+            text = "" 
+        intervals [89]:
+            xmin = 360.37695434369436 
+            xmax = 360.5409658045537 
+            text = "nanka_na_jap_jap" 
+        intervals [90]:
+            xmin = 360.5409658045537 
+            xmax = 360.58793132113163 
+            text = "nanka_n_jap_jap" 
+        intervals [91]:
+            xmin = 360.58793132113163 
+            xmax = 360.65635828348525 
+            text = "nanka_ka_jap_jap" 
+        intervals [92]:
+            xmin = 360.65635828348525 
+            xmax = 362.2824390421706 
+            text = "" 
+        intervals [93]:
+            xmin = 362.2824390421706 
+            xmax = 362.37236663217607 
+            text = "nanka_na_jap_jap" 
+        intervals [94]:
+            xmin = 362.37236663217607 
+            xmax = 362.41137268804624 
+            text = "nanka_n_jap_jap" 
+        intervals [95]:
+            xmin = 362.41137268804624 
+            xmax = 362.5661036997462 
+            text = "nanka_ka_jap_jap" 
+        intervals [96]:
+            xmin = 362.5661036997462 
+            xmax = 365.56836292236426 
+            text = "" 
+        intervals [97]:
+            xmin = 365.56836292236426 
+            xmax = 365.68009486755443 
+            text = "nanka_na_jap_jap" 
+        intervals [98]:
+            xmin = 365.68009486755443 
+            xmax = 365.7248675602657 
+            text = "nanka_n_jap_jap" 
+        intervals [99]:
+            xmin = 365.7248675602657 
+            xmax = 365.87230949910503 
+            text = "nanka_ka_jap_jap" 
+        intervals [100]:
+            xmin = 365.87230949910503 
+            xmax = 369.8411182423594 
+            text = "" 
+        intervals [101]:
+            xmin = 369.8411182423594 
+            xmax = 369.8806121248938 
+            text = "nanka_na_jap_jap" 
+        intervals [102]:
+            xmin = 369.8806121248938 
+            xmax = 369.9263788062319 
+            text = "nanka_n_jap_jap" 
+        intervals [103]:
+            xmin = 369.9263788062319 
+            xmax = 369.95916650357435 
+            text = "nanka_ka_jap_jap" 
+        intervals [104]:
+            xmin = 369.95916650357435 
+            xmax = 374.9082656842784 
+            text = "" 
+        intervals [105]:
+            xmin = 374.9082656842784 
+            xmax = 375.00682740825044 
+            text = "so-jap_s_jap_jap" 
+        intervals [106]:
+            xmin = 375.00682740825044 
+            xmax = 375.1257809943945 
+            text = "so-jap_o_jap_jap" 
+        intervals [107]:
+            xmin = 375.1257809943945 
+            xmax = 377.53803740501564 
+            text = "" 
+        intervals [108]:
+            xmin = 377.53803740501564 
+            xmax = 377.62742970437176 
+            text = "nanka_na_jap_jap" 
+        intervals [109]:
+            xmin = 377.62742970437176 
+            xmax = 377.6650659692287 
+            text = "nanka_n_jap_jap" 
+        intervals [110]:
+            xmin = 377.6650659692287 
+            xmax = 377.74177006748795 
+            text = "nanka_ka_jap_jap" 
+        intervals [111]:
+            xmin = 377.74177006748795 
+            xmax = 379.2984278015456 
+            text = "" 
+        intervals [112]:
+            xmin = 379.2984278015456 
+            xmax = 379.40141328223046 
+            text = "so-jap_s_jap_jap" 
+        intervals [113]:
+            xmin = 379.40141328223046 
+            xmax = 379.5358253820633 
+            text = "so-jap_o_jap_jap" 
+        intervals [114]:
+            xmin = 379.5358253820633 
+            xmax = 380.72337464535286 
+            text = "" 
+        intervals [115]:
+            xmin = 380.72337464535286 
+            xmax = 380.81962243340564 
+            text = "so-jap_s_jap_jap" 
+        intervals [116]:
+            xmin = 380.81962243340564 
+            xmax = 380.88974290364393 
+            text = "so-jap_o_jap_jap" 
+        intervals [117]:
+            xmin = 380.88974290364393 
+            xmax = 384.3617158418524 
+            text = "" 
+        intervals [118]:
+            xmin = 384.3617158418524 
+            xmax = 384.4882731713283 
+            text = "so-jap_s_jap_jap" 
+        intervals [119]:
+            xmin = 384.4882731713283 
+            xmax = 384.6689275379118 
+            text = "so-jap_o_jap_jap" 
+        intervals [120]:
+            xmin = 384.6689275379118 
+            xmax = 429.23320708814305 
+            text = "" 
+        intervals [121]:
+            xmin = 429.23320708814305 
+            xmax = 429.3184248138762 
+            text = "so-jap_s_jap_jap" 
+        intervals [122]:
+            xmin = 429.3184248138762 
+            xmax = 429.521217184114 
+            text = "so-jap_o_jap_jap" 
+        intervals [123]:
+            xmin = 429.521217184114 
+            xmax = 435.75373344710965 
+            text = "" 
+        intervals [124]:
+            xmin = 435.75373344710965 
+            xmax = 435.84832202970443 
+            text = "nanka_na_jap_jap" 
+        intervals [125]:
+            xmin = 435.84832202970443 
+            xmax = 435.89505177464895 
+            text = "nanka_n_jap_jap" 
+        intervals [126]:
+            xmin = 435.89505177464895 
+            xmax = 435.95727864809857 
+            text = "nanka_ka_jap_jap" 
+        intervals [127]:
+            xmin = 435.95727864809857 
+            xmax = 441.9485325110713 
+            text = "" 
+        intervals [128]:
+            xmin = 441.9485325110713 
+            xmax = 442.09162700229945 
+            text = "so-jap_s_jap_jap" 
+        intervals [129]:
+            xmin = 442.09162700229945 
+            xmax = 442.2773257576062 
+            text = "so-jap_o_jap_jap" 
+        intervals [130]:
+            xmin = 442.2773257576062 
+            xmax = 473.42585034013604 
+            text = "" 

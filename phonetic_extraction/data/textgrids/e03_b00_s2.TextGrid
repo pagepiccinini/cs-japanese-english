@@ -1,0 +1,470 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 614.530612244898 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "e03_s2_seg" 
+        xmin = 0 
+        xmax = 614.530612244898 
+        intervals: size = 114 
+        intervals [1]:
+            xmin = 0 
+            xmax = 30.74734940208432 
+            text = "" 
+        intervals [2]:
+            xmin = 30.74734940208432 
+            xmax = 30.86955345095843 
+            text = "yeah_y_eng_eng" 
+        intervals [3]:
+            xmin = 30.86955345095843 
+            xmax = 31.330456675477425 
+            text = "yeah_eah_eng_eng" 
+        intervals [4]:
+            xmin = 31.330456675477425 
+            xmax = 31.962612129109107 
+            text = "" 
+        intervals [5]:
+            xmin = 31.962612129109107 
+            xmax = 32.12848945512834 
+            text = "yeah_y_eng_eng" 
+        intervals [6]:
+            xmin = 32.12848945512834 
+            xmax = 32.41593691853915 
+            text = "yeah_eah_eng_eng" 
+        intervals [7]:
+            xmin = 32.41593691853915 
+            xmax = 52.11083160531448 
+            text = "" 
+        intervals [8]:
+            xmin = 52.11083160531448 
+            xmax = 52.29977608824218 
+            text = "so-eng_s_eng_eng" 
+        intervals [9]:
+            xmin = 52.29977608824218 
+            xmax = 52.4865975994516 
+            text = "so-eng_o_eng_eng" 
+        intervals [10]:
+            xmin = 52.4865975994516 
+            xmax = 65.4221524888036 
+            text = "" 
+        intervals [11]:
+            xmin = 65.4221524888036 
+            xmax = 65.52827993093602 
+            text = "yeah_y_eng_eng" 
+        intervals [12]:
+            xmin = 65.52827993093602 
+            xmax = 66.01859824027633 
+            text = "yeah_eah_eng_eng" 
+        intervals [13]:
+            xmin = 66.01859824027633 
+            xmax = 70.17706812453315 
+            text = "" 
+        intervals [14]:
+            xmin = 70.17706812453315 
+            xmax = 70.19748829859242 
+            text = "like_l_eng_eng_d" 
+        intervals [15]:
+            xmin = 70.19748829859242 
+            xmax = 70.25376829051189 
+            text = "like_i_eng_eng_d" 
+        intervals [16]:
+            xmin = 70.25376829051189 
+            xmax = 70.35437500173073 
+            text = "like_k-closure_eng_eng_d" 
+        intervals [17]:
+            xmin = 70.35437500173073 
+            xmax = 70.36682632737663 
+            text = "like_k-burst_eng_eng_d" 
+        intervals [18]:
+            xmin = 70.36682632737663 
+            xmax = 70.46544082649213 
+            text = "like_k-release_eng_eng_d_0" 
+        intervals [19]:
+            xmin = 70.46544082649213 
+            xmax = 70.93720204726999 
+            text = "" 
+        intervals [20]:
+            xmin = 70.93720204726999 
+            xmax = 70.98225696684182 
+            text = "yeah_y_eng_eng" 
+        intervals [21]:
+            xmin = 70.98225696684182 
+            xmax = 71.15404390617182 
+            text = "yeah_eah_eng_eng" 
+        intervals [22]:
+            xmin = 71.15404390617182 
+            xmax = 84.30190536524505 
+            text = "" 
+        intervals [23]:
+            xmin = 84.30190536524505 
+            xmax = 84.36250607640383 
+            text = "yeah_y_eng_eng" 
+        intervals [24]:
+            xmin = 84.36250607640383 
+            xmax = 84.64629477256199 
+            text = "yeah_eah_eng_eng" 
+        intervals [25]:
+            xmin = 84.64629477256199 
+            xmax = 103.14934714048158 
+            text = "" 
+        intervals [26]:
+            xmin = 103.14934714048158 
+            xmax = 103.23127901316978 
+            text = "yeah_y_eng_eng" 
+        intervals [27]:
+            xmin = 103.23127901316978 
+            xmax = 103.49494139474895 
+            text = "yeah_eah_eng_eng" 
+        intervals [28]:
+            xmin = 103.49494139474895 
+            xmax = 129.93954751919694 
+            text = "" 
+        intervals [29]:
+            xmin = 129.93954751919694 
+            xmax = 130.00099582248149 
+            text = "nanka_na_jap_jap" 
+        intervals [30]:
+            xmin = 130.00099582248149 
+            xmax = 130.01656446837873 
+            text = "nanka_n_jap_jap" 
+        intervals [31]:
+            xmin = 130.01656446837873 
+            xmax = 130.14773437072498 
+            text = "nanka_ka_jap_jap" 
+        intervals [32]:
+            xmin = 130.14773437072498 
+            xmax = 150.22301911268133 
+            text = "" 
+        intervals [33]:
+            xmin = 150.22301911268133 
+            xmax = 150.31632748335605 
+            text = "yeah_y_eng_eng" 
+        intervals [34]:
+            xmin = 150.31632748335605 
+            xmax = 150.48514163388 
+            text = "yeah_eah_eng_eng" 
+        intervals [35]:
+            xmin = 150.48514163388 
+            xmax = 150.77172741350245 
+            text = "" 
+        intervals [36]:
+            xmin = 150.77172741350245 
+            xmax = 150.82576674486234 
+            text = "yeah_y_eng_eng" 
+        intervals [37]:
+            xmin = 150.82576674486234 
+            xmax = 151.04349065099697 
+            text = "yeah_eah_eng_eng" 
+        intervals [38]:
+            xmin = 151.04349065099697 
+            xmax = 151.18986232247516 
+            text = "" 
+        intervals [39]:
+            xmin = 151.18986232247516 
+            xmax = 151.23184329063903 
+            text = "yeah_y_eng_eng" 
+        intervals [40]:
+            xmin = 151.23184329063903 
+            xmax = 151.47991874340042 
+            text = "yeah_eah_eng_eng" 
+        intervals [41]:
+            xmin = 151.47991874340042 
+            xmax = 151.67354971191187 
+            text = "" 
+        intervals [42]:
+            xmin = 151.67354971191187 
+            xmax = 151.76376853836632 
+            text = "yeah_y_eng_eng" 
+        intervals [43]:
+            xmin = 151.76376853836632 
+            xmax = 151.9025667329116 
+            text = "yeah_eah_eng_eng" 
+        intervals [44]:
+            xmin = 151.9025667329116 
+            xmax = 166.37794262061914 
+            text = "" 
+        intervals [45]:
+            xmin = 166.37794262061914 
+            xmax = 166.69003891276935 
+            text = "so-eng_s_eng_eng" 
+        intervals [46]:
+            xmin = 166.69003891276935 
+            xmax = 166.95979048186402 
+            text = "so-eng_o_eng_eng" 
+        intervals [47]:
+            xmin = 166.95979048186402 
+            xmax = 167.09780291256362 
+            text = "" 
+        intervals [48]:
+            xmin = 167.09780291256362 
+            xmax = 167.24522528172 
+            text = "so-eng_s_eng_eng" 
+        intervals [49]:
+            xmin = 167.24522528172 
+            xmax = 167.50068549117512 
+            text = "so-eng_o_eng_eng" 
+        intervals [50]:
+            xmin = 167.50068549117512 
+            xmax = 174.69212739020566 
+            text = "" 
+        intervals [51]:
+            xmin = 174.69212739020566 
+            xmax = 174.7384878306601 
+            text = "yeah_y_eng_eng" 
+        intervals [52]:
+            xmin = 174.7384878306601 
+            xmax = 174.98688821531718 
+            text = "yeah_eah_eng_eng" 
+        intervals [53]:
+            xmin = 174.98688821531718 
+            xmax = 248.02850566743456 
+            text = "" 
+        intervals [54]:
+            xmin = 248.02850566743456 
+            xmax = 248.13978280690824 
+            text = "so-eng_s_eng_eng" 
+        intervals [55]:
+            xmin = 248.13978280690824 
+            xmax = 248.31208289383525 
+            text = "so-eng_o_eng_eng" 
+        intervals [56]:
+            xmin = 248.31208289383525 
+            xmax = 248.41939419135656 
+            text = "" 
+        intervals [57]:
+            xmin = 248.41939419135656 
+            xmax = 248.4747082766522 
+            text = "yeah_y_eng_eng" 
+        intervals [58]:
+            xmin = 248.4747082766522 
+            xmax = 248.6067803883437 
+            text = "yeah_eah_eng_eng" 
+        intervals [59]:
+            xmin = 248.6067803883437 
+            xmax = 249.38523639248623 
+            text = "" 
+        intervals [60]:
+            xmin = 249.38523639248623 
+            xmax = 249.49706259798054 
+            text = "nanka_na_jap_jap" 
+        intervals [61]:
+            xmin = 249.49706259798054 
+            xmax = 249.51415808112932 
+            text = "nanka_n_jap_jap" 
+        intervals [62]:
+            xmin = 249.51415808112932 
+            xmax = 249.74546820549782 
+            text = "nanka_ka_jap_jap" 
+        intervals [63]:
+            xmin = 249.74546820549782 
+            xmax = 303.8828618542801 
+            text = "" 
+        intervals [64]:
+            xmin = 303.8828618542801 
+            xmax = 303.9285219550129 
+            text = "yeah_y_eng_eng" 
+        intervals [65]:
+            xmin = 303.9285219550129 
+            xmax = 303.9897788228277 
+            text = "yeah_eah_eng_eng" 
+        intervals [66]:
+            xmin = 303.9897788228277 
+            xmax = 310.2643397873016 
+            text = "" 
+        intervals [67]:
+            xmin = 310.2643397873016 
+            xmax = 310.3433492453197 
+            text = "yeah_y_eng_eng" 
+        intervals [68]:
+            xmin = 310.3433492453197 
+            xmax = 310.45233656843794 
+            text = "yeah_eah_eng_eng" 
+        intervals [69]:
+            xmin = 310.45233656843794 
+            xmax = 364.91390360944047 
+            text = "" 
+        intervals [70]:
+            xmin = 364.91390360944047 
+            xmax = 364.9712787695868 
+            text = "so-jap_s_jap_jap" 
+        intervals [71]:
+            xmin = 364.9712787695868 
+            xmax = 365.1596263935195 
+            text = "so-jap_o_jap_jap" 
+        intervals [72]:
+            xmin = 365.1596263935195 
+            xmax = 397.64399565846713 
+            text = "" 
+        intervals [73]:
+            xmin = 397.64399565846713 
+            xmax = 397.733423374123 
+            text = "yeah_y_eng_eng" 
+        intervals [74]:
+            xmin = 397.733423374123 
+            xmax = 397.9110018976216 
+            text = "yeah_eah_eng_eng" 
+        intervals [75]:
+            xmin = 397.9110018976216 
+            xmax = 398.1760337880804 
+            text = "" 
+        intervals [76]:
+            xmin = 398.1760337880804 
+            xmax = 398.30382301921793 
+            text = "so-eng_s_eng_eng" 
+        intervals [77]:
+            xmin = 398.30382301921793 
+            xmax = 398.4660722677409 
+            text = "so-eng_o_eng_eng" 
+        intervals [78]:
+            xmin = 398.4660722677409 
+            xmax = 399.87268441072194 
+            text = "" 
+        intervals [79]:
+            xmin = 399.87268441072194 
+            xmax = 400.02834447375255 
+            text = "so-eng_s_eng_eng" 
+        intervals [80]:
+            xmin = 400.02834447375255 
+            xmax = 400.3621899221098 
+            text = "so-eng_o_eng_eng" 
+        intervals [81]:
+            xmin = 400.3621899221098 
+            xmax = 402.28191257826194 
+            text = "" 
+        intervals [82]:
+            xmin = 402.28191257826194 
+            xmax = 402.46625880976933 
+            text = "so-eng_s_eng_eng" 
+        intervals [83]:
+            xmin = 402.46625880976933 
+            xmax = 403.00697616233987 
+            text = "so-eng_o_eng_eng" 
+        intervals [84]:
+            xmin = 403.00697616233987 
+            xmax = 406.478204432306 
+            text = "" 
+        intervals [85]:
+            xmin = 406.478204432306 
+            xmax = 406.60026329197524 
+            text = "so-eng_s_eng_eng" 
+        intervals [86]:
+            xmin = 406.60026329197524 
+            xmax = 406.74868686533307 
+            text = "so-eng_o_eng_eng" 
+        intervals [87]:
+            xmin = 406.74868686533307 
+            xmax = 442.69870192699295 
+            text = "" 
+        intervals [88]:
+            xmin = 442.69870192699295 
+            xmax = 442.78844063672824 
+            text = "yeah_y_eng_eng" 
+        intervals [89]:
+            xmin = 442.78844063672824 
+            xmax = 442.94377954670904 
+            text = "yeah_eah_eng_eng" 
+        intervals [90]:
+            xmin = 442.94377954670904 
+            xmax = 467.210136490426 
+            text = "" 
+        intervals [91]:
+            xmin = 467.210136490426 
+            xmax = 467.34320897903945 
+            text = "yeah_y_eng_eng" 
+        intervals [92]:
+            xmin = 467.34320897903945 
+            xmax = 467.5411116544134 
+            text = "yeah_eah_eng_eng" 
+        intervals [93]:
+            xmin = 467.5411116544134 
+            xmax = 480.66369239628256 
+            text = "" 
+        intervals [94]:
+            xmin = 480.66369239628256 
+            xmax = 480.6820600889248 
+            text = "yeah_y_eng_eng" 
+        intervals [95]:
+            xmin = 480.6820600889248 
+            xmax = 480.7916217643349 
+            text = "yeah_eah_eng_eng" 
+        intervals [96]:
+            xmin = 480.7916217643349 
+            xmax = 517.5349942716317 
+            text = "" 
+        intervals [97]:
+            xmin = 517.5349942716317 
+            xmax = 517.6080353885717 
+            text = "yeah_y_eng_eng" 
+        intervals [98]:
+            xmin = 517.6080353885717 
+            xmax = 517.8585234543132 
+            text = "yeah_eah_eng_eng" 
+        intervals [99]:
+            xmin = 517.8585234543132 
+            xmax = 531.2200989574477 
+            text = "" 
+        intervals [100]:
+            xmin = 531.2200989574477 
+            xmax = 531.3351786001531 
+            text = "yeah_y_eng_eng" 
+        intervals [101]:
+            xmin = 531.3351786001531 
+            xmax = 531.5597695157556 
+            text = "yeah_eah_eng_eng" 
+        intervals [102]:
+            xmin = 531.5597695157556 
+            xmax = 535.155889279278 
+            text = "" 
+        intervals [103]:
+            xmin = 535.155889279278 
+            xmax = 535.2216414205907 
+            text = "yeah_y_eng_eng" 
+        intervals [104]:
+            xmin = 535.2216414205907 
+            xmax = 535.4410700782272 
+            text = "yeah_eah_eng_eng" 
+        intervals [105]:
+            xmin = 535.4410700782272 
+            xmax = 548.1864487897475 
+            text = "" 
+        intervals [106]:
+            xmin = 548.1864487897475 
+            xmax = 548.287896908186 
+            text = "so-eng_s_eng_eng" 
+        intervals [107]:
+            xmin = 548.287896908186 
+            xmax = 548.5026055972099 
+            text = "so-eng_o_eng_eng" 
+        intervals [108]:
+            xmin = 548.5026055972099 
+            xmax = 601.57802523582 
+            text = "" 
+        intervals [109]:
+            xmin = 601.57802523582 
+            xmax = 601.6732642831008 
+            text = "yeah_y_jap_eng" 
+        intervals [110]:
+            xmin = 601.6732642831008 
+            xmax = 601.9966520419337 
+            text = "yeah_eah_jap_eng" 
+        intervals [111]:
+            xmin = 601.9966520419337 
+            xmax = 605.6997919554574 
+            text = "" 
+        intervals [112]:
+            xmin = 605.6997919554574 
+            xmax = 605.8560001685235 
+            text = "yeah_y_eng_eng" 
+        intervals [113]:
+            xmin = 605.8560001685235 
+            xmax = 606.0869350132454 
+            text = "yeah_eah_eng_eng" 
+        intervals [114]:
+            xmin = 606.0869350132454 
+            xmax = 614.530612244898 
+            text = "" 

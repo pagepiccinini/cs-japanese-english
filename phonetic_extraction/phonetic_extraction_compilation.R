@@ -8,10 +8,11 @@ source("phonetic_extraction/scripts/phonetic_extraction_functions.R")
 
 ## SET PARAMETERS ####
 # Set parameters for a specific speaker
-pair = "e06"
-prompt = "a00"
-speaker = "s1"
+pair = "e08"
+prompt = "b00"
+speaker = "s2"
 speaker_gender = "female"
+
 
 # Set the parameters for the formant analysis
 max_formant = if_else(speaker_gender == "female", 5500, 4000)

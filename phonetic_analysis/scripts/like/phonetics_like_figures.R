@@ -21,6 +21,11 @@ data_presence_like_kclosure_figs = data_duration_like_kburst %>%
   ungroup() %>%
   mutate(context = paste(lang_pre, lang_post))
 
+data_presence_like_kclosure_global_figs = data_duration_like_kburst %>%
+  group_by(pair, speaker, eng_percent) %>%
+  summarise(mean_presence = mean(presence, na.rm = T)) %>%
+  ungroup() 
+
 data_duration_like_kburst_figs = data_duration_like_kburst %>%
   mutate(lang_pre = factor(lang_pre,
                            levels = c("eng", "jap"),
@@ -36,6 +41,11 @@ data_presence_like_kburst_figs = data_duration_like_kburst_figs %>%
   ungroup() %>%
   mutate(context = paste(lang_pre, lang_post))
 
+data_presence_like_kburst_global_figs = data_duration_like_kburst_figs %>%
+  group_by(pair, speaker, eng_percent) %>%
+  summarise(mean_presence = mean(presence, na.rm = T)) %>%
+  ungroup() 
+
 # Formants
 data_formants_like_lai_figs = data_formants_like_lai %>%
   mutate(lang_pre = factor(lang_pre,
@@ -46,8 +56,10 @@ data_formants_like_lai_figs = data_formants_like_lai %>%
                             labels = c("English", "Japanese"))) %>%
   mutate(context = paste(lang_pre, lang_post))
 
+data_formants_like_lai_figs_global = data_formants_like_lai_global
 
-## MAKE DURATION AND PRESENCE FIGURES ####
+
+## MAKE DURATION AND PRESENCE FIGURES BY LOCAL LANGUAGE CONTEXT####
 # /lai/ duration
 duration_like_lai.plot = ggplot(data_duration_like_lai_figs,
                                 aes(x = context, y = duration_lai,
@@ -114,6 +126,85 @@ duration_like_kburst.plot
 ggsave("phonetic_analysis/figures/like/duration_like_kburst.pdf", duration_like_kburst.plot,
        height = 7, width = 7, units = "in")
 
+## MAKE PLOT ON PERCENTAGE ENGLISH
+
+perc_english.plot = ggplot(data_count,
+                                aes(x = reorder(paste(pair,prompt,speaker),eng_percent), y = eng_percent, fill=pair)) +
+  geom_bar(stat= "identity") +
+  scale_fill_brewer(palette = "PRGn") +
+  labs(x = "Conversation",
+       y = "Percentage English",
+       fill = "") +
+  theme_classic() +
+  theme(text = element_text(size = 16), legend.position = "top")
+ggsave("phonetic_analysis/figures/dperc_english.pdf", perc_english.plot,
+       height = 7, width = 7, units = "in")
+
+## MAKE DURATION AND PRESENCE FIGURES BY GLOBAL LANGUAGE CONTEXT####
+# /lai/ duration
+duration_like_lai_global.plot = ggplot(data_duration_like_lai_figs,
+                                aes(x = eng_percent, y = duration_lai)) +
+  geom_point() +
+  geom_smooth() +
+  labs(x = "Percentage English",
+       y = "[lai] duration (ms)",
+       fill = "") +
+  theme_classic() +
+  theme(text = element_text(size = 16), legend.position = "top")
+
+duration_like_lai_global.plot
+ggsave("phonetic_analysis/figures/like/duration_like_lai_global.pdf", duration_like_lai_global.plot,
+       height = 7, width = 7, units = "in")
+
+# [k]-closure presence
+presence_like_kclos_global.plot = ggplot(data_presence_like_kclosure_global_figs,
+                                  aes(x = eng_percent, y = mean_presence)) +
+  geom_point() +
+  geom_smooth() +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_brewer(palette = "PRGn") +
+  labs(x = "Percentage English",
+       y = "Percentage of time\n[k]-closure present",
+       fill = "") +
+  theme_classic() +
+  theme(text = element_text(size = 16), legend.position = "top") 
+
+presence_like_kclos_global.plot
+ggsave("phonetic_analysis/figures/like/presence_like_kclos_global.pdf", presence_like_kclos_global.plot,
+       height = 7, width = 7, units = "in")
+
+# [k]-burst presence
+presence_like_kburst_global.plot = ggplot(data_presence_like_kburst_global_global_figs,
+                                   aes(x = eng_percent, y = mean_presence)) +
+  geom_point() +
+  geom_smooth() +
+  scale_fill_brewer(palette = "PRGn") +
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = "Percentage English",
+       y = "Percentage of time\n[k]-burst present",
+       fill = "") +
+  theme_classic() +
+  theme(text = element_text(size = 16), legend.position = "top") 
+
+presence_like_kburst.plot
+ggsave("phonetic_analysis/figures/like/presence_like_kburst_global.pdf", presence_like_kburst_global.plot,
+       height = 7, width = 7, units = "in")
+
+# [k]-burst duration
+duration_like_kburst_global.plot = ggplot(data_duration_like_kburst_figs,
+                                   aes(x = eng_percent, y = duration_ms)) +
+  geom_point() +
+  geom_smooth() +
+  scale_fill_brewer(palette = "PRGn") +
+  labs(x = "Percentage English",
+       y = "[k]-burst duration (ms)",
+       fill = "") +
+  theme_classic() +
+  theme(text = element_text(size = 16), legend.position = "top")
+
+duration_like_kburst_global.plot
+ggsave("phonetic_analysis/figures/like/duration_like_kburst_global.pdf", duration_like_kburst_global.plot,
+       height = 7, width = 7, units = "in")
 
 ## MAKE FIGURE OF FORMANTS ####
 # /lai/ over time

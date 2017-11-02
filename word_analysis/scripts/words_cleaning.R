@@ -121,3 +121,24 @@ data_jap_firstphone = data_jap_clean %>%
   ungroup() %>%
   # Sory by number of tokens
   arrange(desc(tokens))
+
+## GET WORD COUNTS BY LANGUAGE
+#count words
+data_eng_count = data_eng_clean %>%
+  group_by(prompt, pair, speaker) %>%
+  summarize(eng_words = n()) %>%
+  ungroup()
+
+data_jap_count = data_jap_clean %>%
+  group_by(prompt, pair, speaker) %>%
+  summarize(jap_words = n()) %>%
+  ungroup()
+
+#bind and calculate percentage
+data_count = full_join(data_eng_count,data_jap_count, by = c("prompt","pair","speaker")) %>%
+  mutate(eng_words = replace(eng_words, is.na(eng_words), 0))%>%
+  mutate(jap_words = replace(jap_words, is.na(jap_words), 0))%>%
+  mutate(eng_percent = eng_words/(jap_words+eng_words))
+
+#save for use in phonetic analysis
+write.table(data_count,"word_analysis/data/generated/wordcounts.txt",row.names=F)

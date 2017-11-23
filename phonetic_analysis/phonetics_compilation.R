@@ -9,6 +9,8 @@ source("phonetic_analysis/scripts/phonetics_functions.R")
 ## READ IN PHONETIC DATA ####
 source("phonetic_analysis/scripts/phonetics_cleaning.R")
 
+##READ IN WORD PERCENTAGE COUNTS
+data_word_count = read.table("word_analysis/data/generated/wordcounts.txt",header = T)
 
 ## RUN WORD SPECIFIC ANALYSES ####
 # Run analysis "like"

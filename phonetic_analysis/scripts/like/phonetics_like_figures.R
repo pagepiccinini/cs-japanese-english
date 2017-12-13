@@ -9,7 +9,7 @@ data_duration_like_lai_figs = data_duration_like_lai %>%
                             labels = c("English", "Japanese"))) %>%
   mutate(context = paste(lang_pre, lang_post))
 
-data_presence_like_kclosure_figs = data_duration_like_kburst %>%
+data_presence_like_kclosure_figs = data_duration_like_kclosure %>%
   mutate(lang_pre = factor(lang_pre,
                            levels = c("eng", "jap"),
                            labels = c("English", "Japanese"))) %>%
@@ -21,7 +21,7 @@ data_presence_like_kclosure_figs = data_duration_like_kburst %>%
   ungroup() %>%
   mutate(context = paste(lang_pre, lang_post))
 
-data_presence_like_kclosure_global_figs = data_duration_like_kburst %>%
+data_presence_like_kclosure_global_figs = data_duration_like_kclosure %>%
   group_by(pair, speaker, eng_percent) %>%
   summarise(mean_presence = mean(presence, na.rm = T)) %>%
   ungroup() 
@@ -263,9 +263,9 @@ ggsave("phonetic_analysis/figures/like/formants_like_lai.pdf", formants_like_lai
 formants_like_lai_global.plot = ggplot(data_formants_like_lai_figs_global,
                                 aes(x = percentage, y = f1_norm_sum,
                                     col = factor(eng_perc_cat))) + 
-  #geom_point() +
+  geom_point() +
   geom_smooth() +
-  #geom_point(aes(y = f2_norm_sum)) +
+  geom_point(aes(y = f2_norm_sum)) +
   geom_smooth(aes(y = f2_norm_sum)) +
   scale_color_brewer(palette = "PRGn") +
   scale_x_continuous(labels = scales::percent) +
@@ -281,7 +281,7 @@ ggsave("phonetic_analysis/figures/like/formants_like_lai_global.pdf", formants_l
        width = 7, height = 7, units = "in")
 
 # /lai/ F2 x F1
-formants_like_lai_vs_global.plot = ggplot(data_formants_like_lai_figs,
+formants_like_lai_vs_global.plot = ggplot(data_formants_like_lai_figs_global,
                                    aes(x = f2_norm_sum, y = f1_norm_sum,
                                        col = factor(eng_perc_cat))) + 
   geom_point() +

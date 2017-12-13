@@ -28,3 +28,18 @@ data_formants_so_o = data_formants_clean %>%
             f2_norm_sum = mean(f2_norm_bark, na.rm = T)) %>%
   ungroup()
 
+data_formants_so_o_global = data_formants_clean %>%
+  # Focus on word "so"
+  filter(word == "so-eng" | word == "so-jap") %>%
+  # Focus on vowel
+  filter(sound == "o") %>%
+  # Add percentages
+  group_by(pair, prompt, speaker, line) %>%
+  mutate(percentage = round(time / max(time), 1)) %>%
+  ungroup() %>%
+  # Get mean of percentage
+  group_by(pair, prompt, speaker, eng_percent, line, percentage) %>%
+  summarise(f1_norm_sum = mean(f1_norm_bark, na.rm = T),
+            f2_norm_sum = mean(f2_norm_bark, na.rm = T)) %>%
+  ungroup()
+

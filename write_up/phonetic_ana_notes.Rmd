@@ -1,0 +1,15 @@
+---
+title: "Phonetic analysis notes"
+author: "Sho"
+date: "12/12/2017"
+output: html_document
+---
+
+Decisions taken through analysis:
+
+1. If a full or reduced model does not converge, we reduce random effect structure until we find a model that converges. RE structure is then matched for full & reduced model so that we can conduct model comparison. One problem with this might be that the more RE we take away, the more likely a result seems to be to get significant. Thus, it might be hard to compare results from analyses with higher or lower RE structure. Should we therefore converge all of them to lowest?
+
+2. For model reduction, take out the strongest effect first (if that's a main effect rather than an IA, start with strongest IA involving this effect). drop1 does not drop terms that are included in an IA
+```{r bla}
+source("../../phonetics_compilation.R")
+```

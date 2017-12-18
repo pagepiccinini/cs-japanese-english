@@ -8,16 +8,22 @@ output: pdf_document
 
 ```{r organize, include=FALSE}
 ## ORGANIZE DATA
-source("../../phonetics_compilation.R")
+load("../../environment.RData")
+
+# Load packages
+library(tidyverse)
+library(lme4)
 
 #Duration and presence
 data_duration_like_lai_ana = data_duration_like_lai_figs 
 contrasts(data_duration_like_lai_ana$lang_pre) = c(-1,1) 
 contrasts(data_duration_like_lai_ana$lang_post) = c(-1,1) 
 
-data_presence_like_kclosure_ana = data_duration_like_kclosure
-contrasts(data_presence_like_kburst_ana$lang_pre) = c(-1,1) 
-contrasts(data_presence_like_kburst_ana$lang_post) = c(-1,1) 
+data_presence_like_kclosure_ana = data_duration_like_kclosure %>%
+  mutate(lang_pre = factor(lang_pre)) %>%
+  mutate(lang_post = factor(lang_post))
+contrasts(data_presence_like_kclosure_ana$lang_pre) = c(-1,1) 
+contrasts(data_presence_like_kclosure_ana$lang_post) = c(-1,1) 
 
 data_presence_like_kburst_ana = data_duration_like_kburst_figs
 contrasts(data_presence_like_kburst_ana$lang_pre) = c(-1,1) 

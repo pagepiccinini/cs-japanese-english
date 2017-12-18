@@ -139,7 +139,7 @@ k_burst_duration_like.red2.lme = lmer(duration ~ 1 +( 1+ lang_pre * lang_post| p
 anova(k_burst_duration_like.full.lme,k_burst_duration_like.red1.lme,k_burst_duration_like.red2.lme)
 #no effect
 ```
-#ALTERNATIVE ANALYSIS DUE TO SMALL NUMBER OF CODE SWITCHING TOKENS
+# ALTERNATIVE ANALYSIS DUE TO SMALL NUMBER OF CODE SWITCHING TOKENS
 Here we use the global percentage of time spoken one language in a given conversation as a predictor instead.
 Specifically: percentage English by speaker/prompt/pair
 
@@ -223,4 +223,143 @@ k_burst_duration_like_global.red1.lme = lmer(duration ~ 1 +( 1+ eng_percent| pai
 anova(k_burst_duration_like_global.full.lme,k_burst_duration_like_global.red1.lme)
 #marginally significant; actually slightly longer duration for Japanese
 
+```
+
+# ALTERNATIVE ANALYSIS DUE TO SMALL NUMBER OF CODE SWITCHING TOKENS - ONLY ENGLISH-ENGLISH
+This analysis also uses percent English as the only independent variable, however focusing on English-English tokens.
+
+These analyses show some significant effects for formants; however, they do not seem very consistent wrt the speech context.
+```{r alt ana english only}
+# [lai] duration
+data_duration_like_lai_eng_eng = data_duration_like_lai %>%
+  filter(lang_pre == "eng" & lang_post == "eng")
+
+duration_like_lai_global_eng_eng.full.lme = lmer(duration_lai ~ eng_percent +
+                                                 (1 +eng_percent | pair/speaker),
+                                                 data_duration_like_lai_eng_eng, REML=FALSE)
+
+duration_like_lai_global_eng_eng.red1.lme = lmer(duration_lai ~ 1 +
+                                                (1 +eng_percent | pair/speaker),
+                                                data_duration_like_lai_eng_eng, REML=FALSE)
+
+anova(duration_like_lai_global_eng_eng.full.lme, duration_like_lai_global_eng_eng.red1.lme) 
+# Significant effect, longer duration more English
+
+
+# Formants
+data_formants_like_lai_global_eng_eng = data_formants_like %>%
+  # Filter to only English-English tokens
+  filter(lang_pre == "eng" & lang_post == "eng") %>%
+  # Focus on the phoneme /lai/
+  filter(sound == "l" | sound == "i") %>%
+  # Update line number and time
+  mutate(line_lai = ifelse(sound == "l", line, line - 1)) %>%
+  # Update time column
+  mutate(time_real = tmin + time) %>%
+  # Get percentages
+  group_by(pair, prompt, speaker, line_lai) %>%
+  mutate(percentage = round((time_real - min(time_real)) /
+                              (max(time_real) - min(time_real)), 1)) %>%
+  # Get mean of percentage
+  group_by(pair, prompt, speaker, eng_percent, line_lai, percentage) %>%
+  summarise(f1_norm_sum = mean(f1_norm_bark, na.rm = T),
+            f2_norm_sum = mean(f2_norm_bark, na.rm = T)) %>%
+  ungroup()
+
+# F1
+formants_like_f1_global_eng_eng.full.lme = lmer(f1_norm_sum ~ eng_percent * percentage +
+                                               (1 + eng_percent + percentage | pair/speaker),
+                                               data_formants_like_lai_global_eng_eng, REML=FALSE)
+summary(formants_like_f1_global_eng_eng.full.lme)
+
+formants_like_f1_global_eng_eng.red1.lme = lmer(f1_norm_sum ~ eng_percent + percentage +
+                                           (1 + eng_percent + percentage | pair/speaker),
+                                           data_formants_like_lai_global_eng_eng, REML=FALSE)
+anova(formants_like_f1_global_eng_eng.full.lme, formants_like_f1_global_eng_eng.red1.lme)
+
+formants_like_f1_global_eng_eng.red2.lme = lmer(f1_norm_sum ~ eng_percent +
+                                               (1 + eng_percent + percentage | pair/speaker),
+                                               data_formants_like_lai_global_eng_eng, REML=FALSE)
+anova(formants_like_f1_global_eng_eng.full.lme, formants_like_f1_global_eng_eng.red2.lme)
+
+formants_like_f1_global_eng_eng.red3.lme = lmer(f1_norm_sum ~ percentage +
+                                                (1 + eng_percent + percentage | pair/speaker),
+                                                data_formants_like_lai_global_eng_eng, REML=FALSE)
+anova(formants_like_f1_global_eng_eng.full.lme, formants_like_f1_global_eng_eng.red3.lme)
+# Significant effect of percentage
+# Effect of percent English trending
+
+# F2
+formants_like_f2_global_eng_eng.full.lme = lmer(f2_norm_sum ~ eng_percent * percentage +
+                                               (1 + eng_percent + percentage | pair/speaker),
+                                               data_formants_like_lai_global_eng_eng, REML=FALSE)
+summary(formants_like_f2_global_eng_eng.full.lme)
+
+formants_like_f2_global_eng_eng.red1.lme = lmer(f2_norm_sum ~ eng_percent + percentage +
+                                           (1 + eng_percent + percentage | pair/speaker),
+                                           data_formants_like_lai_global_eng_eng, REML=FALSE)
+anova(formants_like_f2_global_eng_eng.full.lme, formants_like_f2_global_eng_eng.red1.lme)
+
+formants_like_f2_global_eng_eng.red2.lme = lmer(f2_norm_sum ~ eng_percent +
+                                               (1 + eng_percent + percentage | pair/speaker),
+                                               data_formants_like_lai_global_eng_eng, REML=FALSE)
+anova(formants_like_f2_global_eng_eng.full.lme, formants_like_f2_global_eng_eng.red2.lme)
+
+formants_like_f2_global_eng_eng.red3.lme = lmer(f2_norm_sum ~ percentage +
+                                                (1 + eng_percent + percentage | pair/speaker),
+                                                data_formants_like_lai_global_eng_eng, REML=FALSE)
+anova(formants_like_f2_global_eng_eng.full.lme, formants_like_f2_global_eng_eng.red3.lme)
+# Significant interaction
+# Significant effect of percentage
+# Significant effect of percent English
+
+
+# [k]-closure presence
+data_presence_like_kclosure_ana_eng_eng = data_presence_like_kclosure_ana %>%
+  filter(lang_pre == "eng" & lang_post == "eng")
+
+k_closure_presence_like_global_eng_eng.full.lme = glmer(presence ~ eng_percent +
+                                                       (1 + eng_percent | pair/speaker),
+                                                       data_presence_like_kclosure_ana_eng_eng,
+                                                       family = binomial)
+
+k_closure_presence_like_global_eng_eng.red1.lme = glmer(presence ~ 1 +
+                                                       (1 + eng_percent | pair/speaker),
+                                                       data_presence_like_kclosure_ana_eng_eng,
+                                                       family = binomial)
+
+anova(k_closure_presence_like_global_eng_eng.full.lme, k_closure_presence_like_global_eng_eng.red1.lme)
+# No effect
+
+
+# [k]-burst presence
+data_presence_like_kburst_ana_eng_eng = data_presence_like_kburst_ana %>%
+  filter(lang_pre == "English" & lang_post == "English")
+
+k_burst_presence_like_global_eng_eng.full.lme = glmer(presence ~ eng_percent +
+                                             (1 | pair/speaker),
+                                             data_presence_like_kburst_ana_eng_eng,
+                                             family = binomial)
+
+k_burst_presence_like_global_eng_eng.red1.lme = glmer(presence ~ 1 +
+                                                     (1 | pair/speaker),
+                                                     data_presence_like_kburst_ana_eng_eng,
+                                                     family = binomial)
+
+anova(k_burst_presence_like_global_eng_eng.full.lme, k_burst_presence_like_global_eng_eng.red1.lme)
+# No effect
+
+
+# [k]-burst duration
+k_burst_duration_like_global_eng_eng.full.lme = lmer(duration ~ eng_percent +
+                                            (1+ eng_percent| pair/speaker),
+                                            data_presence_like_kburst_ana_eng_eng, REML=FALSE)
+
+k_burst_duration_like_global_eng_eng.red1.lme = lmer(duration ~ 1 +
+                                                     ( 1+ eng_percent| pair/speaker),
+                                                     data_presence_like_kburst_ana_eng_eng,
+                                                     REML=FALSE)
+
+anova(k_burst_duration_like_global_eng_eng.full.lme, k_burst_duration_like_global_eng_eng.red1.lme)
+# Marginally significant, shorter with more English in conversation
 ```

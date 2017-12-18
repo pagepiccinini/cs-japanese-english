@@ -29,3 +29,6 @@ source("phonetic_analysis/scripts/so/phonetics_so_figures.R")
 source("phonetic_analysis/scripts/nanka/phonetics_nanka_cleaning.R")
 source("phonetic_analysis/scripts/nanka/phonetics_nanka_figures.R")
 
+
+## SAVE IMAGE OF DATA ####
+save.image("phonetic_analysis/environment.RData")

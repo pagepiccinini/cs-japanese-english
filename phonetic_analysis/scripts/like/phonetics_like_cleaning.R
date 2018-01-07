@@ -62,7 +62,7 @@ data_formants_like_lai_global = data_formants_like %>%
   mutate(percentage = round((time_real - min(time_real)) /
                               (max(time_real) - min(time_real)), 1)) %>%
   # Get mean of percentage
-  group_by(pair, prompt, speaker, eng_percent, line_lai, percentage) %>%
+  group_by(pair, prompt, speaker, eng_percent, acquisition_English_pct_exposed, line_lai, percentage) %>%
   summarise(f1_norm_sum = mean(f1_norm_bark, na.rm = T),
             f2_norm_sum = mean(f2_norm_bark, na.rm = T)) %>%
   ungroup()

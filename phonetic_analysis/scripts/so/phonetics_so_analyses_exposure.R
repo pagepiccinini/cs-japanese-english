@@ -45,6 +45,29 @@ duration_so_exp.noint.lme = update(duration_so_exp.full.lme, . ~ .
 
 anova(duration_so_exp.full.lme, duration_so_exp.noint.lme)
 
+#follow up
+
+duration_so_eng_exp.full.lme = lmer(duration_so ~ eng_percent_centered +
+                                  (1 | pair/speaker),
+                                data_duration_so_ana[data_duration_so_ana$context_contrast==-0.5,],
+                                REML = F)
+summary(duration_so_eng_exp.full.lme)
+
+duration_so_eng_exp.nope.lme = update(duration_so_eng_exp.full.lme, . ~ .
+                                  - eng_percent_centered)
+
+anova(duration_so_eng_exp.full.lme, duration_so_eng_exp.nope.lme)
+
+duration_so_ja_exp.full.lme = lmer(duration_so ~ eng_percent_centered +
+                                      (1 | pair/speaker),
+                                    data_duration_so_ana[data_duration_so_ana$context_contrast==0.5,],
+                                    REML = F)
+summary(duration_so_ja_exp.full.lme)
+
+duration_so_ja_exp.nope.lme = update(duration_so_ja_exp.full.lme, . ~ .
+                                      - eng_percent_centered)
+
+anova(duration_so_ja_exp.full.lme, duration_so_ja_exp.nope.lme)
 
 ## RUN MODELS ON FORMANTS - F1 ####
 # Full model
@@ -112,3 +135,5 @@ formants_so_f2_exp.noint.lme = update(formants_so_f2_exp.full.lme, . ~ .
                                       - eng_percent_centered:context_contrast)
 
 anova(formants_so_f2_exp.full.lme, formants_so_f2_exp.noint.lme)
+
+

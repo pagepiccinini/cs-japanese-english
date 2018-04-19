@@ -6,6 +6,15 @@ data_duration_like_lai_ana = data_duration_like_lai %>%
   # Center percent exposure on 50%
   mutate(eng_percent_centered = eng_percent - 0.5)
 
+# Burst
+data_presence_like_kclosure_ana = data_duration_like_kclosure %>%
+  filter(lang_pre == "eng" & lang_post == "eng") %>%
+  # Center percent exposure on 50%
+  mutate(eng_percent_centered = eng_percent - 0.5)
+
+data_presence_like_kburst_ana = data_duration_like_kburst_figs
+
+
 # Formants
 data_formants_like_lai_ana = data_formants_like %>%
   # Filter to only English-English tokens
@@ -43,6 +52,18 @@ duration_like_lai_exp.nope.lme = update(duration_like_lai_exp.full.lme, . ~ .
                                               - eng_percent_centered)
 
 anova(duration_like_lai_exp.full.lme, duration_like_lai_exp.nope.lme)
+
+#RUN MODELS ON CLOSURE AND BURST
+
+k_closure_presence_like.full.lme = glmer(presence ~ eng_percent_centered +
+                                           (1|pair/speaker), data_presence_like_kclosure_ana, family = binomial)
+summary(k_closure_presence_like.full.lme)
+
+# Removing percent exposure questions - n.s
+k_closure_presence_like.nope.lme = update(k_closure_presence_like.full.lme, . ~ .
+                                       - eng_percent_centered)
+
+anova(k_closure_presence_like.full.lme, k_closure_presence_like.nope.lme)
 
 
 ## RUN MODELS ON FORMANTS - F1 ####

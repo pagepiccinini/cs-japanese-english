@@ -56,7 +56,7 @@ formants_yeah_f2_exp.full.lme = lmer(f2_norm_bark ~ eng_percent_centered +
 
 summary(formants_yeah_f2_exp.full.lme)
 
-# Removing percent exposure - n.s.
+# Removing percent exposure - SIGNIFICANT
 formants_yeah_f2_exp.nope.lme = update(formants_yeah_f2_exp.full.lme, . ~ .
                                        - eng_percent_centered)
 

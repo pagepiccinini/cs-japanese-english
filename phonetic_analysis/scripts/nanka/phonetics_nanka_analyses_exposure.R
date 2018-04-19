@@ -44,3 +44,4 @@ syllabic_nanka_exp.nope.lme = update(syllabic_nanka_exp.full.lme, . ~ .
                                    - eng_percent_centered)
 
 anova(syllabic_nanka_exp.full.lme, syllabic_nanka_exp.nope.lme)
+
